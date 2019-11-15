@@ -1,0 +1,233 @@
+<div class="layui-container">
+    <!-- <?php
+        dump($url);
+        dump($menu);
+    ?> -->
+    <div class="layui-row">
+        <div class="layui-col-sm12 layui-col-md12 layui-col-lg12">
+			<div class="widget-head">
+				<div class="widget-title">{if($comm=='')}新增{else}编辑{/if}课程信息</div>
+			</div>
+			<form id="myform" class="layui-form" method="post">
+				<div class="widget-body layui-col-lg12"> 
+                    <div class="layui-form-item">
+                        <label class="layui-form-label form-require">所属分类 </label>
+                        <div class="layui-col-sm5 layer-midd-left">
+                            <select id="cid" name="cid" lay-search>
+                                <option {if $comm['cid']==0} selected {/if} value="0">请选择</option>
+                                {foreach($classlist as $value)}
+                                    <option {if $value['id']==$comm['cid']} selected {/if} value="{$value['id']}">{$value['name']}</option>
+                                {/foreach}
+                            </select>
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label form-require">任课教练 </label>
+                        <div class="layui-col-sm5 layer-midd-left">
+                            <select id="coid" name="coid" lay-search>
+                                <option {if $comm['coid']==0} selected {/if} value="0">请选择</option>
+                                {foreach($coachlist as $value)}
+                                    <option {if $value['id']==$comm['coid']} selected {/if} value="{$value['id']}">{$value['name']}</option>
+                                {/foreach}
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="layui-form-item">
+                        <label class="layui-form-label form-require">课程名称 </label>
+                        <div class="layui-col-sm5 layer-midd-left">
+                            <input type="text" class="layui-input" name="name" value="{$comm['name']}" placeholder="请输入名称" required>
+                        </div>
+                        <div class="layui-form-mid layui-word-aux">{if($comm['sid'])}课程编号:{$comm['sid']}{/if}</div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label form-require">课程价格 </label>
+                        <div class="layui-col-sm2 layer-midd-left">
+                            <input type="number" class="layui-input" id="price" name="price" value="{$comm['price']}" placeholder="￥" required>
+                        </div>
+                        <label class="layui-form-label form-require">排序 </label>
+                        <div class="layui-col-sm2 layer-midd-left">
+                            <input type="number" class="layui-input" name="sort" value="{$comm['sort']==''?99:$comm['sort']}" placeholder="请输入排序" required>
+                        </div>
+                        <label class="layui-form-label">状态　</label>
+                        <div>
+                            <input type="radio" name="ishow" value="1" title="展示" {if($comm['ishow']==1)}checked{else}{/if} {if($comm=='')}checked{/if}>　
+                            <input type="radio" name="ishow" value="2" title="隐藏" {if($comm['ishow']==2)}checked{else}{/if}>
+                        </div>
+                        <div class="layui-form-mid layui-word-aux"></div>
+                    </div>
+
+                    <div class="layui-form-item">
+                        <label class="layui-form-label form-require">上课日期 </label>
+                        <div class="layui-col-sm2 layer-midd-left">
+                            <input type="text" class="layui-input" id="datestamp" name="datestamp"
+                                value="{:$comm['datestamp']==''?date('Y-m-d',strtotime('+1 day')):date('Y-m-d',$comm['datestamp'])}"
+                                placeholder="请选择上课日期" required>
+                        </div>
+                        <label class="layui-form-label form-require">上课时间 </label>
+                        <div class="layui-col-sm2 layer-midd-left">
+                            <input type="text" class="layui-input" id="times" name="times" value="{$comm==''?'':$comm['stime'].' - '.$comm['etime']}" placeholder="请选择上课时间" required>
+                        </div>
+                        <div class="layui-form-mid layui-word-aux">时间范围仅做展示用,请仔细选择</div>
+                    </div>
+                    
+                    <div class="layui-form-item">
+                        <label class="layui-form-label form-require">预约总名额 </label>
+                        <div class="layui-col-sm2 layer-midd-left">
+                            <input type="number" class="layui-input" id="totnum" name="totnum" value="{$comm['totnum']}"
+                                placeholder="请输入预约总名额" required>
+                        </div>
+                        <label class="layui-form-label form-require">已预约人数 </label>
+                        <div class="layui-col-sm2 layer-midd-left">
+                            <input type="number" class="layui-input" id="nownum" name="nownum"
+                                value="{$comm['nownum']==''?0:$comm['nownum']}" placeholder="请输入已预约人数" required>
+                        </div>
+                        <label class="layui-form-label form-require">最多容纳人数 </label>
+                        <div class="layui-col-sm2 layer-midd-left">
+                            <input type="number" class="layui-input" id="maxnum" name="maxnum"
+                                value="{$comm['maxnum']==''?999:$comm['maxnum']}" placeholder="请输入最多容纳人数" required>
+                        </div>
+                        <div class="layui-form-mid layui-word-aux"></div>
+                    </div>
+
+                    <div class="layui-form-item">
+                        <label class="layui-form-label form-require">难易程度 </label>
+                        <div class="layui-col-sm2 layer-midd-left">
+                            <input type="text" class="layui-input" name="complexity" value="{$comm['complexity']}" placeholder="请输入难易程度" required>
+                        </div>
+                        <label class="layui-form-label form-require">目标卡路里 </label>
+                        <div class="layui-col-sm2 layer-midd-left">
+                            <input type="number" class="layui-input" name="target" value="{$comm['target']}" placeholder="请输入目标卡路里" required>
+                        </div>
+                        <div class="layui-form-mid layui-word-aux">
+                            难易程度请输入:高/中/低(一至两个汉字)
+                            <br>目标卡路里请输入正整数
+                        </div>
+                    </div>
+
+                    <div class="layui-form-item">
+                        <label class="layui-form-label form-require">列表背景图 </label>
+                        <div class="layui-col-sm7 layer-midd-left ">
+                            <div class="layer-form-file">
+                                <button type="button" class="listbgimg layui-btn ">
+                                    <i class="layer-icon-cloud-upload"></i> 选择图片
+                                </button>
+                                <div class="uploader-list layer-cf">
+                                    {if($comm['listbgimg'])}
+                                        <div class="file-item">
+                                            <a href="{$comm['listbgimg']}" title="点击查看大图" target="_blank"><img src="{$comm['listbgimg']}"></a>
+                                            <i class="mdi menu-icon mdi-window-close file-item-delete layui-icon">&#x1006;</i>
+                                        </div>
+                                    {/if}
+                                    <input type="hidden" name="listbgimg" value="{$comm['listbgimg']??''}">
+                                </div>
+                            </div>
+                            <div class="help-block layer-margin-top-sm">
+                                <small>请选择宽度为640px,高度273px的图片以保证展示效果正常</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label form-require">内页背景图 </label>
+                        <div class="layui-col-sm7 layer-midd-left ">
+                            <div class="layer-form-file">
+                                <button type="button" class="insbgimg layui-btn ">
+                                    <i class="layer-icon-cloud-upload"></i> 选择图片
+                                </button>
+                                <div class="uploader-list layer-cf">
+                                    {if($comm['insbgimg'])}
+                                        <div class="file-item">
+                                            <a href="{$comm['insbgimg']}" title="点击查看大图" target="_blank"><img src="{$comm['insbgimg']}"></a>
+                                            <i class="mdi menu-icon mdi-window-close file-item-delete layui-icon">&#x1006;</i>
+                                        </div>
+                                    {/if}
+                                    <input type="hidden" name="insbgimg" value="{$comm['insbgimg']??''}">
+                                </div>
+                            </div>
+                            <div class="help-block layer-margin-top-sm">
+                                <small>请选择宽度为640px,高度273px的图片以保证展示效果正常</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="layui-form-item">
+                        <label class="layui-form-label form-require">课程介绍 </label>
+                        <div class="layui-col-sm6 layer-midd-left">
+                            <textarea name="content1" required placeholder="请输入课程介绍" class="layui-textarea">{$comm['content1']}</textarea>
+                        </div>
+                        <div class="layui-form-mid layui-word-aux"></div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label form-require">适用人群 </label>
+                        <div class="layui-col-sm6 layer-midd-left">
+                            <textarea name="content2" required placeholder="请输入适用人群" class="layui-textarea">{$comm['content2']}</textarea>
+                        </div>
+                        <div class="layui-form-mid layui-word-aux"></div>
+                    </div>
+                    
+					<div class="layui-form-item">
+						<button id="mysubmit" type="submit" class="layui-btn">提交</button>
+					</div>
+				</div>
+			</form>
+		</div>
+    </div>
+</div>
+
+<!-- 图片文件列表模板 -->
+{include file="layouts/_template/tpl_file_item" /}
+<!-- 文件库弹窗 -->
+{include file="layouts/_template/file_library" /}
+
+<script>
+$(function () {
+    // 选择图片
+    $('.listbgimg').selectImages({  name: 'listbgimg'});
+    $('.insbgimg').selectImages({  name: 'insbgimg'});
+
+    layui.use('laydate', function () {
+        var laydate = layui.laydate;
+        //常规用法
+        laydate.render({
+            elem: '#datestamp'
+            , min: "{:strtotime(date('Y- m - d', time()))}"
+        });
+
+        laydate.render({
+            elem: '#times'
+            , type: 'time'
+            , range: true
+        });
+    });
+
+    $('#myform').submit(function () {
+        var cid = $("#cid option:selected").val();
+        if (cid == 0) {     layer.msg('请选择所属分类', function () { });return false;}
+
+        var coid = $("#coid option:selected").val();
+        if (coid == 0) {    layer.msg('请选择任课教练', function () { });return false;}
+
+        var price = $("input[name='price']").val();
+        if(price <= 0){     layer.msg('课程价格请输入正整数', function () { }); return false;}
+
+        var totnum = $("input[name='totnum']").val();
+        var nownum = $("input[name='nownum']").val();
+        var maxnum = $("input[name='maxnum']").val();
+        if(totnum <= 0){    layer.msg('预约总名额请输入正整数', function () { }); return false;}
+        if(maxnum <= 0){    layer.msg('最多容纳人数请输入正整数', function () { }); return false;}
+
+        // if(maxnum <　totnum){
+        //     layer.msg('最多预约人数不可小于预约总名额', function () { }); return false;
+        // }
+
+        // 执行表单验证
+        var listbgimg = $("input[name='listbgimg']").val();
+        if(listbgimg == ''){    layer.msg('请上传列表背景图', function () { });return false;    }
+        var insbgimg = $("input[name='insbgimg']").val();
+        if(insbgimg == ''){    layer.msg('请上传内页背景图', function () { });return false;    }
+        
+        ajaxrun('myform');
+        return false;
+    });
+});
+</script>

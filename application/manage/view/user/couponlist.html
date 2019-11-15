@@ -1,0 +1,121 @@
+<div class="layui-container">
+    <div class="layui-row">
+        <div class="layui-col-md12 layui-col-xs12">
+            <div class="widget-head">
+                <!-- <div class="widget-title">课程包列表　　<a class="layui-btn-sm layui-btn-primary" href="{:url('index')}">返回列表</a></div> -->
+                <div class="widget-title">优惠券列表</div>
+            </div>
+        </div>
+        <div class="layui-col-md12 layui-col-xs12 widget-body ">
+            <div class="layui-form-item layui-col-md1">
+                <img src="{$usercomm['headimg']}" width="60" height="60" alt="">
+            </div>
+
+            <form class="layui-form layui-col-md11" method="post" action="">
+                <div class="layui-form-item">
+                    <div class="layui-inline layui-col-md4">
+                        <label class="layui-form-label">会员编号：</label>
+                        <div class="layui-input-inline" >
+                            <input name="uid" type="text" class="layui-input" placeholder="请输入会员编号" value="{$usercomm['uid']}" readonly>
+                        </div>
+                    </div>
+
+                    <div class="layui-inline layui-col-md4">
+                        <label class="layui-form-label">昵称：</label>
+                        <div class="layui-input-inline" >
+                            <input name="nickname" type="text" class="layui-input" placeholder="请输入会员昵称" value="{$usercomm['nickname']}" readonly>
+                        </div>
+                    </div>
+					<div class="layui-inline layui-col-md3">
+						<label class="layui-form-label">性别：</label>
+						<div class="layui-input-inline">
+							<select class="layui-inline " lay-search name="gender" data-layer-selected="{btnSize: 'sm', placeholder: '性别'}" disabled>
+								<option value="0" {if($usercomm["gender"]==0)}selected{/if}>全部 </option> 
+								<option value="1" {if($usercomm["gender"]==1)}selected{/if}>男 </option> 
+								<option value="2" {if($usercomm["gender"]==2)}selected{/if}>女 </option>
+							</select> 
+						</div> 
+					</div>
+                </div>
+
+                <div class="layui-form-item">
+                    <div class="layui-input-block">
+                        <!-- <a class="layui-btn" href="{:url('courserun')}">发放优惠券</a> -->
+                        <a class="layui-btn layui-btn-primary" href="javascript:;" onclick="getloglist({$usercomm.uid})">历史记录</a>
+                    </div>
+                </div>
+            </form>
+            <div class="layui-col-md12">
+                <table class="layui-table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>名称</th>
+                            <th style="width:12%;">详情描述</th>
+                            <th>使用范围</th>
+                            <th>满足金额</th>
+                            <th>减免金额</th>
+                            <th>领取日期</th>
+                            <th>有效期</th>
+                            <th>过期日期</th>
+                            <!-- <th>操作</th> -->
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {if(empty($list))}
+                            <tr>
+                                <td colspan="99" class="layer-text-center">暂无记录</td>
+                            </tr>
+                        {else}
+                            {foreach ($list as $value)}
+                                <tr>
+                                    <td>{$value['id']}</td>
+                                    <td>{$value['name']}</td>
+                                    <td title="{$value['intro']}">
+                                        {:mb_strlen($value['intro'], 'utf-8') > 6 ? mb_substr($value['intro'], 0, 6, 'utf-8').'...' : $value['intro'];}
+                                    </td>
+                                    <td>{$value['classname']}</td>
+
+                                    <td>￥{$value['manyuan']}</td>
+                                    <td>￥{$value['jianyuan']}</td>
+                                    <td>{:date("Y-m-d H:i",$value['addstamp'])}</td>
+                                    <td>{$value['validays']}天</td>
+                                    <td>{:date("Y-m-d",$value['pastamp'])}</td>
+                                    <!-- <td>
+                                        <div class="tpl-table-black-operation">
+                                            <a class="tpl-table-black-operation-primary" href="javascript:;" onclick="getloglist('{$value['id']}')">使用记录</a>
+                                            <a href="javascript:;" class="value-delete tpl-table-black-operation-warning delcomm " data-id="{$value['id']}">删除会员</a>
+                                        </div>
+                                    </td> -->
+                                </tr>
+                            {/foreach}
+                        {/if}
+                    </tbody>
+                </table>
+                <div class="layui-col-md12 layui-col-xs12">
+                    {if($data['list'])}{$data['pageshow']|raw}{/if}
+                    <div class="pagination-total">
+                        <!-- <div class="">总记录：{$data['count']} ／ 总页数：{$data['pagetotal']}</div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    // 获取核销记录
+    function getloglist(uid) {
+        $.post("{:url('couponloglist')}", { uid: uid }, function (data) {
+            if (data == '400') {
+                layer.msg('暂无记录');
+            } else {
+                layer.open({
+                    type: 1,
+                    skin: 'layui-layer-rim', //加上边框
+                    area: ['680px', '240px'], //宽高
+                    content: data
+                });
+            }
+        });
+    }
+</script>

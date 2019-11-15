@@ -1,0 +1,2317 @@
+---------------------------------------------------------------
+[2019-10-29T19:40:54+08:00] 36.102.228.3 GET www.hotyiranjianshen.com/index.php?s=/api/home/website&app_id=10001&token=28181d2f331023f8678ade6a5fb42aa3
+[运行时间：0.043958s] [吞吐率：22.75req/s] [内存消耗：2,106.99kb] [文件加载：77]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_1_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.8(0x17000820) NetType/WIFI Language/zh_CN',
+  'accept-encoding' => 'gzip, deflate, br',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'host' => 'www.hotyiranjianshen.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'app_id' => '10001',
+  'token' => '28181d2f331023f8678ade6a5fb42aa3',
+)
+---------------------------------------------------------------
+[2019-10-29T19:40:54+08:00] 36.102.228.3 GET www.hotyiranjianshen.com/index.php?s=/api/Course/coursedetail&sid=106044705&app_id=10001&token=28181d2f331023f8678ade6a5fb42aa3
+[运行时间：0.071766s] [吞吐率：13.93req/s] [内存消耗：3,488.88kb] [文件加载：86]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_1_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.8(0x17000820) NetType/WIFI Language/zh_CN',
+  'accept-encoding' => 'gzip, deflate, br',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'host' => 'www.hotyiranjianshen.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sid' => '106044705',
+  'app_id' => '10001',
+  'token' => '28181d2f331023f8678ade6a5fb42aa3',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: uid[/home/wwwroot/hotyiranjianshen.com/application/common/model/User.php:43]
+[ error ] [8]未定义数组索引: nownum[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:237]
+[ error ] [8]未定义数组索引: totnum[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:237]
+[ error ] [8]未定义数组索引: id[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:238]
+[ error ] [8]A non well formed numeric value encountered[/home/wwwroot/hotyiranjianshen.com/application/api/controller/Course.php:102]
+---------------------------------------------------------------
+[2019-10-29T19:41:12+08:00] 36.102.228.3 GET www.hotyiranjianshen.com/index.php?s=/api/home/website&app_id=10001&token=28181d2f331023f8678ade6a5fb42aa3
+[运行时间：0.047173s] [吞吐率：21.20req/s] [内存消耗：2,107.05kb] [文件加载：77]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_1_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.8(0x17000820) NetType/WIFI Language/zh_CN',
+  'accept-encoding' => 'gzip, deflate, br',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'host' => 'www.hotyiranjianshen.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'app_id' => '10001',
+  'token' => '28181d2f331023f8678ade6a5fb42aa3',
+)
+---------------------------------------------------------------
+[2019-10-29T19:41:14+08:00] 36.102.228.3 GET www.hotyiranjianshen.com/index.php?s=/api/order/orderlist&ordertype=0&app_id=10001&token=28181d2f331023f8678ade6a5fb42aa3
+[运行时间：0.073408s] [吞吐率：13.62req/s] [内存消耗：3,331.44kb] [文件加载：88]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_1_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.8(0x17000820) NetType/WIFI Language/zh_CN',
+  'accept-encoding' => 'gzip, deflate, br',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'host' => 'www.hotyiranjianshen.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'ordertype' => '0',
+  'app_id' => '10001',
+  'token' => '28181d2f331023f8678ade6a5fb42aa3',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: uid[/home/wwwroot/hotyiranjianshen.com/application/common/model/User.php:43]
+[ error ] [8]未定义数组索引: oid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:122]
+[ error ] [8]未定义数组索引: phone[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:126]
+[ error ] [8]未定义数组索引: paytype[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:130]
+[ error ] [8]未定义数组索引: course_name[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:134]
+[ error ] [8]未定义数组索引: number[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:138]
+---------------------------------------------------------------
+[2019-10-29T21:31:33+08:00] 220.181.108.106 GET hotyiranjianshen.com/
+[运行时间：0.036154s] [吞吐率：27.66req/s] [内存消耗：1,660.88kb] [文件加载：63]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+  'if-none-match' => '"@NULL@"',
+  'accept-language' => 'zh-cn,zh-tw',
+  'user-agent' => 'Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)',
+  'connection' => 'close',
+  'host' => 'hotyiranjianshen.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-10-29T21:31:33+08:00] 220.181.108.95 GET hotyiranjianshen.com/index.php?s=/manage/index/index.html
+[运行时间：0.026529s] [吞吐率：37.69req/s] [内存消耗：1,746.24kb] [文件加载：65]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+  'if-none-match' => '"@NULL@"',
+  'accept-language' => 'zh-cn,zh-tw',
+  'user-agent' => 'Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)',
+  'connection' => 'close',
+  'host' => 'hotyiranjianshen.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-10-29T21:31:33+08:00] 220.181.108.169 GET hotyiranjianshen.com/index.php?s=/manage/login/login.html
+[运行时间：0.027940s] [吞吐率：35.79req/s] [内存消耗：1,692.52kb] [文件加载：64]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=20vj7suq688cu08irkl56pf180;',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+  'if-none-match' => '"@NULL@"',
+  'accept-language' => 'zh-cn,zh-tw',
+  'user-agent' => 'Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)',
+  'connection' => 'close',
+  'host' => 'hotyiranjianshen.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /home/wwwroot/hotyiranjianshen.com/application/manage/view/login/login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-29T21:38:42+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/api/ads/adlist&app_id=10001&token=dfb93e3d5347b098121c1797a670f04e
+[运行时间：0.060655s] [吞吐率：16.49req/s] [内存消耗：3,093.07kb] [文件加载：84]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'app_id' => '10001',
+  'token' => 'dfb93e3d5347b098121c1797a670f04e',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: name[/home/wwwroot/hotyiranjianshen.com/application/common/model/Ads.php:124]
+---------------------------------------------------------------
+[2019-10-29T21:38:42+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/api/home/website&app_id=10001&token=dfb93e3d5347b098121c1797a670f04e
+[运行时间：0.043653s] [吞吐率：22.91req/s] [内存消耗：2,107.18kb] [文件加载：77]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'app_id' => '10001',
+  'token' => 'dfb93e3d5347b098121c1797a670f04e',
+)
+---------------------------------------------------------------
+[2019-10-29T21:38:42+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/api/course/classlist&app_id=10001&token=dfb93e3d5347b098121c1797a670f04e
+[运行时间：0.062283s] [吞吐率：16.06req/s] [内存消耗：3,120.52kb] [文件加载：84]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'app_id' => '10001',
+  'token' => 'dfb93e3d5347b098121c1797a670f04e',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: name[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:25]
+---------------------------------------------------------------
+[2019-10-29T21:38:42+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/api/Course/courselist&cid=undefined&datestamp=2019-10-29&app_id=10001&token=dfb93e3d5347b098121c1797a670f04e
+[运行时间：0.085925s] [吞吐率：11.64req/s] [内存消耗：4,094.27kb] [文件加载：84]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'cid' => 'undefined',
+  'datestamp' => '2019-10-29',
+  'app_id' => '10001',
+  'token' => 'dfb93e3d5347b098121c1797a670f04e',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: name[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:25]
+[ error ] [8]未定义数组索引: history[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:262]
+[ error ] [8]未定义数组索引: coid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:274]
+[ error ] [8]未定义数组索引: state[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:276]
+[ error ] [8]未定义数组索引: sid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:301]
+[ error ] [8]未定义数组索引: name[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:303]
+---------------------------------------------------------------
+[2019-10-29T21:38:46+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/api/Course/courselist&cid=1&datestamp=2019-10-29&app_id=10001&token=dfb93e3d5347b098121c1797a670f04e
+[运行时间：0.082666s] [吞吐率：12.10req/s] [内存消耗：3,473.61kb] [文件加载：84]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '1',
+  'datestamp' => '2019-10-29',
+  'app_id' => '10001',
+  'token' => 'dfb93e3d5347b098121c1797a670f04e',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: history[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:262]
+[ error ] [8]未定义数组索引: coid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:274]
+[ error ] [8]未定义数组索引: state[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:276]
+[ error ] [8]未定义数组索引: sid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:301]
+[ error ] [8]未定义数组索引: name[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:303]
+---------------------------------------------------------------
+[2019-10-29T21:38:47+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/api/Course/courselist&cid=2&datestamp=2019-10-29&app_id=10001&token=dfb93e3d5347b098121c1797a670f04e
+[运行时间：0.083650s] [吞吐率：11.95req/s] [内存消耗：4,036.54kb] [文件加载：84]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '2',
+  'datestamp' => '2019-10-29',
+  'app_id' => '10001',
+  'token' => 'dfb93e3d5347b098121c1797a670f04e',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: history[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:262]
+[ error ] [8]未定义数组索引: coid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:274]
+[ error ] [8]未定义数组索引: state[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:276]
+[ error ] [8]未定义数组索引: sid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:301]
+[ error ] [8]未定义数组索引: name[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:303]
+---------------------------------------------------------------
+[2019-10-29T21:38:49+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/api/user/userinfo&app_id=10001&token=dfb93e3d5347b098121c1797a670f04e
+[运行时间：0.070954s] [吞吐率：14.09req/s] [内存消耗：3,090.63kb] [文件加载：86]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'app_id' => '10001',
+  'token' => 'dfb93e3d5347b098121c1797a670f04e',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: uid[/home/wwwroot/hotyiranjianshen.com/application/common/model/User.php:43]
+---------------------------------------------------------------
+[2019-10-29T21:39:04+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/api/Course/courselist&cid=2&datestamp=2019-10-30&app_id=10001&token=dfb93e3d5347b098121c1797a670f04e
+[运行时间：0.074743s] [吞吐率：13.38req/s] [内存消耗：3,585.89kb] [文件加载：84]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '2',
+  'datestamp' => '2019-10-30',
+  'app_id' => '10001',
+  'token' => 'dfb93e3d5347b098121c1797a670f04e',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: history[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:262]
+[ error ] [8]未定义数组索引: coid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:274]
+[ error ] [8]未定义数组索引: state[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:276]
+[ error ] [8]未定义数组索引: sid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:301]
+[ error ] [8]未定义数组索引: name[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:303]
+---------------------------------------------------------------
+[2019-10-29T21:39:05+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/
+[运行时间：0.033634s] [吞吐率：29.73req/s] [内存消耗：1,662.06kb] [文件加载：63]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=1ncuhb07u32unq07jpf93lhp15',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept' => 'image/webp, image/wxpic, image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/67.0.3396.87 XWEB/992 MMWEBSDK/190703 Mobile Safari/537.36 MMWEBID/3427 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'host' => 'www.hotyiranjianshen.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-10-29T21:39:05+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/manage/index/index.html
+[运行时间：0.036293s] [吞吐率：27.55req/s] [内存消耗：1,747.30kb] [文件加载：65]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=1ncuhb07u32unq07jpf93lhp15',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept' => 'image/webp, image/wxpic, image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/67.0.3396.87 XWEB/992 MMWEBSDK/190703 Mobile Safari/537.36 MMWEBID/3427 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'host' => 'www.hotyiranjianshen.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-10-29T21:39:05+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/api/Course/coursedetail&sid=143812976&app_id=10001&token=dfb93e3d5347b098121c1797a670f04e
+[运行时间：0.074041s] [吞吐率：13.51req/s] [内存消耗：3,488.84kb] [文件加载：86]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sid' => '143812976',
+  'app_id' => '10001',
+  'token' => 'dfb93e3d5347b098121c1797a670f04e',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: uid[/home/wwwroot/hotyiranjianshen.com/application/common/model/User.php:43]
+[ error ] [8]未定义数组索引: nownum[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:237]
+[ error ] [8]未定义数组索引: totnum[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:237]
+[ error ] [8]未定义数组索引: id[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:238]
+[ error ] [8]A non well formed numeric value encountered[/home/wwwroot/hotyiranjianshen.com/application/api/controller/Course.php:102]
+---------------------------------------------------------------
+[2019-10-29T21:39:05+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/manage/login/login.html
+[运行时间：0.036110s] [吞吐率：27.69req/s] [内存消耗：1,693.48kb] [文件加载：64]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=1ncuhb07u32unq07jpf93lhp15',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept' => 'image/webp, image/wxpic, image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/67.0.3396.87 XWEB/992 MMWEBSDK/190703 Mobile Safari/537.36 MMWEBID/3427 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'host' => 'www.hotyiranjianshen.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /home/wwwroot/hotyiranjianshen.com/application/manage/view/login/login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-29T21:39:18+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/
+[运行时间：0.024188s] [吞吐率：41.34req/s] [内存消耗：1,662.06kb] [文件加载：63]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=1ncuhb07u32unq07jpf93lhp15',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept' => 'image/webp, image/wxpic, image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/67.0.3396.87 XWEB/992 MMWEBSDK/190703 Mobile Safari/537.36 MMWEBID/3427 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'host' => 'www.hotyiranjianshen.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-10-29T21:39:19+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/manage/index/index.html
+[运行时间：0.054007s] [吞吐率：18.52req/s] [内存消耗：1,747.30kb] [文件加载：65]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=1ncuhb07u32unq07jpf93lhp15',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept' => 'image/webp, image/wxpic, image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/67.0.3396.87 XWEB/992 MMWEBSDK/190703 Mobile Safari/537.36 MMWEBID/3427 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'host' => 'www.hotyiranjianshen.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-10-29T21:39:19+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/api/Course/coursedetail&sid=132168518&app_id=10001&token=dfb93e3d5347b098121c1797a670f04e
+[运行时间：0.086755s] [吞吐率：11.53req/s] [内存消耗：3,488.87kb] [文件加载：86]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sid' => '132168518',
+  'app_id' => '10001',
+  'token' => 'dfb93e3d5347b098121c1797a670f04e',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: uid[/home/wwwroot/hotyiranjianshen.com/application/common/model/User.php:43]
+[ error ] [8]未定义数组索引: nownum[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:237]
+[ error ] [8]未定义数组索引: totnum[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:237]
+[ error ] [8]未定义数组索引: id[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:238]
+[ error ] [8]A non well formed numeric value encountered[/home/wwwroot/hotyiranjianshen.com/application/api/controller/Course.php:102]
+---------------------------------------------------------------
+[2019-10-29T21:39:19+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/manage/login/login.html
+[运行时间：0.037952s] [吞吐率：26.35req/s] [内存消耗：1,693.48kb] [文件加载：64]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=1ncuhb07u32unq07jpf93lhp15',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept' => 'image/webp, image/wxpic, image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/67.0.3396.87 XWEB/992 MMWEBSDK/190703 Mobile Safari/537.36 MMWEBID/3427 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'host' => 'www.hotyiranjianshen.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /home/wwwroot/hotyiranjianshen.com/application/manage/view/login/login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-29T21:39:24+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/api/Course/courselist&cid=2&datestamp=2019-10-31&app_id=10001&token=dfb93e3d5347b098121c1797a670f04e
+[运行时间：0.093762s] [吞吐率：10.67req/s] [内存消耗：3,361.03kb] [文件加载：84]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '2',
+  'datestamp' => '2019-10-31',
+  'app_id' => '10001',
+  'token' => 'dfb93e3d5347b098121c1797a670f04e',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: history[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:262]
+[ error ] [8]未定义数组索引: coid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:274]
+[ error ] [8]未定义数组索引: state[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:276]
+[ error ] [8]未定义数组索引: sid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:301]
+[ error ] [8]未定义数组索引: name[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:303]
+---------------------------------------------------------------
+[2019-10-29T21:39:26+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/api/Course/courselist&cid=1&datestamp=2019-10-31&app_id=10001&token=dfb93e3d5347b098121c1797a670f04e
+[运行时间：0.070019s] [吞吐率：14.28req/s] [内存消耗：3,361.07kb] [文件加载：84]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '1',
+  'datestamp' => '2019-10-31',
+  'app_id' => '10001',
+  'token' => 'dfb93e3d5347b098121c1797a670f04e',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: history[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:262]
+[ error ] [8]未定义数组索引: coid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:274]
+[ error ] [8]未定义数组索引: state[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:276]
+[ error ] [8]未定义数组索引: sid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:301]
+[ error ] [8]未定义数组索引: name[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:303]
+---------------------------------------------------------------
+[2019-10-29T21:39:27+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/
+[运行时间：0.036247s] [吞吐率：27.59req/s] [内存消耗：1,662.06kb] [文件加载：63]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=1ncuhb07u32unq07jpf93lhp15',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept' => 'image/webp, image/wxpic, image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/67.0.3396.87 XWEB/992 MMWEBSDK/190703 Mobile Safari/537.36 MMWEBID/3427 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'host' => 'www.hotyiranjianshen.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-10-29T21:39:27+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/manage/index/index.html
+[运行时间：0.040006s] [吞吐率：25.00req/s] [内存消耗：1,747.30kb] [文件加载：65]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=1ncuhb07u32unq07jpf93lhp15',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept' => 'image/webp, image/wxpic, image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/67.0.3396.87 XWEB/992 MMWEBSDK/190703 Mobile Safari/537.36 MMWEBID/3427 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'host' => 'www.hotyiranjianshen.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-10-29T21:39:27+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/api/Course/coursedetail&sid=106044705&app_id=10001&token=dfb93e3d5347b098121c1797a670f04e
+[运行时间：0.089208s] [吞吐率：11.21req/s] [内存消耗：3,489.13kb] [文件加载：86]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sid' => '106044705',
+  'app_id' => '10001',
+  'token' => 'dfb93e3d5347b098121c1797a670f04e',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: uid[/home/wwwroot/hotyiranjianshen.com/application/common/model/User.php:43]
+[ error ] [8]未定义数组索引: nownum[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:237]
+[ error ] [8]未定义数组索引: totnum[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:237]
+[ error ] [8]未定义数组索引: id[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:238]
+[ error ] [8]A non well formed numeric value encountered[/home/wwwroot/hotyiranjianshen.com/application/api/controller/Course.php:102]
+---------------------------------------------------------------
+[2019-10-29T21:39:28+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/manage/login/login.html
+[运行时间：0.026489s] [吞吐率：37.75req/s] [内存消耗：1,693.48kb] [文件加载：64]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=1ncuhb07u32unq07jpf93lhp15',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept' => 'image/webp, image/wxpic, image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/67.0.3396.87 XWEB/992 MMWEBSDK/190703 Mobile Safari/537.36 MMWEBID/3427 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'host' => 'www.hotyiranjianshen.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /home/wwwroot/hotyiranjianshen.com/application/manage/view/login/login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-29T21:39:33+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/api/Course/courselist&cid=1&datestamp=2019-11-1&app_id=10001&token=dfb93e3d5347b098121c1797a670f04e
+[运行时间：0.066570s] [吞吐率：15.02req/s] [内存消耗：3,242.88kb] [文件加载：84]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '1',
+  'datestamp' => '2019-11-1',
+  'app_id' => '10001',
+  'token' => 'dfb93e3d5347b098121c1797a670f04e',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: history[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:262]
+[ error ] [8]未定义数组索引: coid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:274]
+[ error ] [8]未定义数组索引: state[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:276]
+[ error ] [8]未定义数组索引: sid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:301]
+[ error ] [8]未定义数组索引: name[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:303]
+---------------------------------------------------------------
+[2019-10-29T21:39:34+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/api/Course/courselist&cid=1&datestamp=2019-11-2&app_id=10001&token=dfb93e3d5347b098121c1797a670f04e
+[运行时间：0.070267s] [吞吐率：14.23req/s] [内存消耗：3,242.88kb] [文件加载：84]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '1',
+  'datestamp' => '2019-11-2',
+  'app_id' => '10001',
+  'token' => 'dfb93e3d5347b098121c1797a670f04e',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: history[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:262]
+[ error ] [8]未定义数组索引: coid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:274]
+[ error ] [8]未定义数组索引: state[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:276]
+[ error ] [8]未定义数组索引: sid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:301]
+[ error ] [8]未定义数组索引: name[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:303]
+---------------------------------------------------------------
+[2019-10-29T21:39:35+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/api/Course/courselist&cid=1&datestamp=2019-11-3&app_id=10001&token=dfb93e3d5347b098121c1797a670f04e
+[运行时间：0.070646s] [吞吐率：14.16req/s] [内存消耗：3,242.88kb] [文件加载：84]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '1',
+  'datestamp' => '2019-11-3',
+  'app_id' => '10001',
+  'token' => 'dfb93e3d5347b098121c1797a670f04e',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: history[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:262]
+[ error ] [8]未定义数组索引: coid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:274]
+[ error ] [8]未定义数组索引: state[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:276]
+[ error ] [8]未定义数组索引: sid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:301]
+[ error ] [8]未定义数组索引: name[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:303]
+---------------------------------------------------------------
+[2019-10-29T21:39:36+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/api/Course/courselist&cid=1&datestamp=2019-11-4&app_id=10001&token=dfb93e3d5347b098121c1797a670f04e
+[运行时间：0.050662s] [吞吐率：19.74req/s] [内存消耗：3,242.88kb] [文件加载：84]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '1',
+  'datestamp' => '2019-11-4',
+  'app_id' => '10001',
+  'token' => 'dfb93e3d5347b098121c1797a670f04e',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: history[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:262]
+[ error ] [8]未定义数组索引: coid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:274]
+[ error ] [8]未定义数组索引: state[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:276]
+[ error ] [8]未定义数组索引: sid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:301]
+[ error ] [8]未定义数组索引: name[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:303]
+---------------------------------------------------------------
+[2019-10-29T21:39:37+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/api/Course/courselist&cid=1&datestamp=2019-10-29&app_id=10001&token=dfb93e3d5347b098121c1797a670f04e
+[运行时间：0.082810s] [吞吐率：12.08req/s] [内存消耗：3,473.61kb] [文件加载：84]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '1',
+  'datestamp' => '2019-10-29',
+  'app_id' => '10001',
+  'token' => 'dfb93e3d5347b098121c1797a670f04e',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: history[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:262]
+[ error ] [8]未定义数组索引: coid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:274]
+[ error ] [8]未定义数组索引: state[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:276]
+[ error ] [8]未定义数组索引: sid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:301]
+[ error ] [8]未定义数组索引: name[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:303]
+---------------------------------------------------------------
+[2019-10-29T21:39:46+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/api/Course/courselist&cid=2&datestamp=2019-10-29&app_id=10001&token=dfb93e3d5347b098121c1797a670f04e
+[运行时间：0.082556s] [吞吐率：12.11req/s] [内存消耗：4,036.54kb] [文件加载：84]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '2',
+  'datestamp' => '2019-10-29',
+  'app_id' => '10001',
+  'token' => 'dfb93e3d5347b098121c1797a670f04e',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: history[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:262]
+[ error ] [8]未定义数组索引: coid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:274]
+[ error ] [8]未定义数组索引: state[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:276]
+[ error ] [8]未定义数组索引: sid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:301]
+[ error ] [8]未定义数组索引: name[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:303]
+---------------------------------------------------------------
+[2019-10-29T21:39:50+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/api/Course/courselist&cid=2&datestamp=2019-10-30&app_id=10001&token=dfb93e3d5347b098121c1797a670f04e
+[运行时间：0.074116s] [吞吐率：13.49req/s] [内存消耗：3,585.89kb] [文件加载：84]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '2',
+  'datestamp' => '2019-10-30',
+  'app_id' => '10001',
+  'token' => 'dfb93e3d5347b098121c1797a670f04e',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: history[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:262]
+[ error ] [8]未定义数组索引: coid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:274]
+[ error ] [8]未定义数组索引: state[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:276]
+[ error ] [8]未定义数组索引: sid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:301]
+[ error ] [8]未定义数组索引: name[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:303]
+---------------------------------------------------------------
+[2019-10-29T21:39:52+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/
+[运行时间：0.039628s] [吞吐率：25.23req/s] [内存消耗：1,662.06kb] [文件加载：63]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=1ncuhb07u32unq07jpf93lhp15',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept' => 'image/webp, image/wxpic, image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/67.0.3396.87 XWEB/992 MMWEBSDK/190703 Mobile Safari/537.36 MMWEBID/3427 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'host' => 'www.hotyiranjianshen.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-10-29T21:39:52+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/api/Course/coursedetail&sid=132168518&app_id=10001&token=dfb93e3d5347b098121c1797a670f04e
+[运行时间：0.060285s] [吞吐率：16.59req/s] [内存消耗：3,488.87kb] [文件加载：86]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sid' => '132168518',
+  'app_id' => '10001',
+  'token' => 'dfb93e3d5347b098121c1797a670f04e',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: uid[/home/wwwroot/hotyiranjianshen.com/application/common/model/User.php:43]
+[ error ] [8]未定义数组索引: nownum[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:237]
+[ error ] [8]未定义数组索引: totnum[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:237]
+[ error ] [8]未定义数组索引: id[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:238]
+[ error ] [8]A non well formed numeric value encountered[/home/wwwroot/hotyiranjianshen.com/application/api/controller/Course.php:102]
+---------------------------------------------------------------
+[2019-10-29T21:39:52+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/manage/index/index.html
+[运行时间：0.036344s] [吞吐率：27.51req/s] [内存消耗：1,747.30kb] [文件加载：65]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=1ncuhb07u32unq07jpf93lhp15',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept' => 'image/webp, image/wxpic, image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/67.0.3396.87 XWEB/992 MMWEBSDK/190703 Mobile Safari/537.36 MMWEBID/3427 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'host' => 'www.hotyiranjianshen.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-10-29T21:39:53+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/manage/login/login.html
+[运行时间：0.041865s] [吞吐率：23.89req/s] [内存消耗：1,693.48kb] [文件加载：64]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=1ncuhb07u32unq07jpf93lhp15',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept' => 'image/webp, image/wxpic, image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/67.0.3396.87 XWEB/992 MMWEBSDK/190703 Mobile Safari/537.36 MMWEBID/3427 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'host' => 'www.hotyiranjianshen.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /home/wwwroot/hotyiranjianshen.com/application/manage/view/login/login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-29T21:39:55+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/api/Course/courselist&cid=1&datestamp=2019-10-30&app_id=10001&token=dfb93e3d5347b098121c1797a670f04e
+[运行时间：0.060636s] [吞吐率：16.49req/s] [内存消耗：3,361.03kb] [文件加载：84]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '1',
+  'datestamp' => '2019-10-30',
+  'app_id' => '10001',
+  'token' => 'dfb93e3d5347b098121c1797a670f04e',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: history[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:262]
+[ error ] [8]未定义数组索引: coid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:274]
+[ error ] [8]未定义数组索引: state[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:276]
+[ error ] [8]未定义数组索引: sid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:301]
+[ error ] [8]未定义数组索引: name[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:303]
+---------------------------------------------------------------
+[2019-10-29T21:39:56+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/
+[运行时间：0.030764s] [吞吐率：32.51req/s] [内存消耗：1,662.06kb] [文件加载：63]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=1ncuhb07u32unq07jpf93lhp15',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept' => 'image/webp, image/wxpic, image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/67.0.3396.87 XWEB/992 MMWEBSDK/190703 Mobile Safari/537.36 MMWEBID/3427 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'host' => 'www.hotyiranjianshen.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-10-29T21:39:56+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/api/Course/coursedetail&sid=152222163&app_id=10001&token=dfb93e3d5347b098121c1797a670f04e
+[运行时间：0.064022s] [吞吐率：15.62req/s] [内存消耗：3,487.80kb] [文件加载：86]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sid' => '152222163',
+  'app_id' => '10001',
+  'token' => 'dfb93e3d5347b098121c1797a670f04e',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: uid[/home/wwwroot/hotyiranjianshen.com/application/common/model/User.php:43]
+[ error ] [8]未定义数组索引: nownum[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:237]
+[ error ] [8]未定义数组索引: totnum[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:237]
+[ error ] [8]未定义数组索引: id[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:238]
+[ error ] [8]A non well formed numeric value encountered[/home/wwwroot/hotyiranjianshen.com/application/api/controller/Course.php:102]
+---------------------------------------------------------------
+[2019-10-29T21:39:56+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/manage/index/index.html
+[运行时间：0.057070s] [吞吐率：17.52req/s] [内存消耗：1,747.30kb] [文件加载：65]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=1ncuhb07u32unq07jpf93lhp15',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept' => 'image/webp, image/wxpic, image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/67.0.3396.87 XWEB/992 MMWEBSDK/190703 Mobile Safari/537.36 MMWEBID/3427 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'host' => 'www.hotyiranjianshen.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-10-29T21:39:57+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/manage/login/login.html
+[运行时间：0.034936s] [吞吐率：28.62req/s] [内存消耗：1,693.48kb] [文件加载：64]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=1ncuhb07u32unq07jpf93lhp15',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept' => 'image/webp, image/wxpic, image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/67.0.3396.87 XWEB/992 MMWEBSDK/190703 Mobile Safari/537.36 MMWEBID/3427 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'host' => 'www.hotyiranjianshen.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /home/wwwroot/hotyiranjianshen.com/application/manage/view/login/login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-29T21:40:04+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/api/order/orderlist&ordertype=0&app_id=10001&token=dfb93e3d5347b098121c1797a670f04e
+[运行时间：0.081307s] [吞吐率：12.30req/s] [内存消耗：3,328.45kb] [文件加载：88]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'ordertype' => '0',
+  'app_id' => '10001',
+  'token' => 'dfb93e3d5347b098121c1797a670f04e',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: uid[/home/wwwroot/hotyiranjianshen.com/application/common/model/User.php:43]
+[ error ] [8]未定义数组索引: oid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:122]
+[ error ] [8]未定义数组索引: phone[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:126]
+[ error ] [8]未定义数组索引: paytype[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:130]
+[ error ] [8]未定义数组索引: course_name[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:134]
+[ error ] [8]未定义数组索引: number[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:138]
+---------------------------------------------------------------
+[2019-10-29T21:40:04+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/api/order/orderlist&ordertype=0&app_id=10001&token=dfb93e3d5347b098121c1797a670f04e
+[运行时间：0.062964s] [吞吐率：15.88req/s] [内存消耗：3,328.45kb] [文件加载：88]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'ordertype' => '0',
+  'app_id' => '10001',
+  'token' => 'dfb93e3d5347b098121c1797a670f04e',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: uid[/home/wwwroot/hotyiranjianshen.com/application/common/model/User.php:43]
+[ error ] [8]未定义数组索引: oid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:122]
+[ error ] [8]未定义数组索引: phone[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:126]
+[ error ] [8]未定义数组索引: paytype[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:130]
+[ error ] [8]未定义数组索引: course_name[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:134]
+[ error ] [8]未定义数组索引: number[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:138]
+---------------------------------------------------------------
+[2019-10-29T21:40:07+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/api/order/orderlist&ordertype=1&app_id=10001&token=dfb93e3d5347b098121c1797a670f04e
+[运行时间：0.075307s] [吞吐率：13.28req/s] [内存消耗：3,327.91kb] [文件加载：88]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'ordertype' => '1',
+  'app_id' => '10001',
+  'token' => 'dfb93e3d5347b098121c1797a670f04e',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: uid[/home/wwwroot/hotyiranjianshen.com/application/common/model/User.php:43]
+[ error ] [8]未定义数组索引: oid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:122]
+[ error ] [8]未定义数组索引: phone[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:126]
+[ error ] [8]未定义数组索引: paytype[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:130]
+[ error ] [8]未定义数组索引: course_name[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:134]
+[ error ] [8]未定义数组索引: number[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:138]
+---------------------------------------------------------------
+[2019-10-29T21:40:08+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/api/order/orderlist&ordertype=2&app_id=10001&token=dfb93e3d5347b098121c1797a670f04e
+[运行时间：0.049668s] [吞吐率：20.13req/s] [内存消耗：3,329.08kb] [文件加载：88]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'ordertype' => '2',
+  'app_id' => '10001',
+  'token' => 'dfb93e3d5347b098121c1797a670f04e',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: uid[/home/wwwroot/hotyiranjianshen.com/application/common/model/User.php:43]
+[ error ] [8]未定义数组索引: oid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:122]
+[ error ] [8]未定义数组索引: phone[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:126]
+[ error ] [8]未定义数组索引: paytype[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:130]
+[ error ] [8]未定义数组索引: course_name[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:134]
+[ error ] [8]未定义数组索引: number[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:138]
+---------------------------------------------------------------
+[2019-10-29T21:40:09+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/api/order/orderlist&ordertype=0&app_id=10001&token=dfb93e3d5347b098121c1797a670f04e
+[运行时间：0.070936s] [吞吐率：14.10req/s] [内存消耗：3,328.45kb] [文件加载：88]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'ordertype' => '0',
+  'app_id' => '10001',
+  'token' => 'dfb93e3d5347b098121c1797a670f04e',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: uid[/home/wwwroot/hotyiranjianshen.com/application/common/model/User.php:43]
+[ error ] [8]未定义数组索引: oid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:122]
+[ error ] [8]未定义数组索引: phone[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:126]
+[ error ] [8]未定义数组索引: paytype[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:130]
+[ error ] [8]未定义数组索引: course_name[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:134]
+[ error ] [8]未定义数组索引: number[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:138]
+---------------------------------------------------------------
+[2019-10-29T21:40:10+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/api/order/orderlist&ordertype=1&app_id=10001&token=dfb93e3d5347b098121c1797a670f04e
+[运行时间：0.058693s] [吞吐率：17.04req/s] [内存消耗：3,327.91kb] [文件加载：88]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'ordertype' => '1',
+  'app_id' => '10001',
+  'token' => 'dfb93e3d5347b098121c1797a670f04e',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: uid[/home/wwwroot/hotyiranjianshen.com/application/common/model/User.php:43]
+[ error ] [8]未定义数组索引: oid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:122]
+[ error ] [8]未定义数组索引: phone[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:126]
+[ error ] [8]未定义数组索引: paytype[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:130]
+[ error ] [8]未定义数组索引: course_name[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:134]
+[ error ] [8]未定义数组索引: number[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:138]
+---------------------------------------------------------------
+[2019-10-29T21:40:11+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/api/order/orderlist&ordertype=2&app_id=10001&token=dfb93e3d5347b098121c1797a670f04e
+[运行时间：0.071705s] [吞吐率：13.95req/s] [内存消耗：3,329.08kb] [文件加载：88]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'ordertype' => '2',
+  'app_id' => '10001',
+  'token' => 'dfb93e3d5347b098121c1797a670f04e',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: uid[/home/wwwroot/hotyiranjianshen.com/application/common/model/User.php:43]
+[ error ] [8]未定义数组索引: oid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:122]
+[ error ] [8]未定义数组索引: phone[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:126]
+[ error ] [8]未定义数组索引: paytype[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:130]
+[ error ] [8]未定义数组索引: course_name[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:134]
+[ error ] [8]未定义数组索引: number[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:138]
+---------------------------------------------------------------
+[2019-10-29T21:40:12+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/api/order/orderlist&ordertype=0&app_id=10001&token=dfb93e3d5347b098121c1797a670f04e
+[运行时间：0.075763s] [吞吐率：13.20req/s] [内存消耗：3,328.45kb] [文件加载：88]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'ordertype' => '0',
+  'app_id' => '10001',
+  'token' => 'dfb93e3d5347b098121c1797a670f04e',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: uid[/home/wwwroot/hotyiranjianshen.com/application/common/model/User.php:43]
+[ error ] [8]未定义数组索引: oid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:122]
+[ error ] [8]未定义数组索引: phone[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:126]
+[ error ] [8]未定义数组索引: paytype[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:130]
+[ error ] [8]未定义数组索引: course_name[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:134]
+[ error ] [8]未定义数组索引: number[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:138]
+---------------------------------------------------------------
+[2019-10-29T21:40:13+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/api/user/userinfo&app_id=10001&token=dfb93e3d5347b098121c1797a670f04e
+[运行时间：0.054257s] [吞吐率：18.43req/s] [内存消耗：3,090.63kb] [文件加载：86]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'app_id' => '10001',
+  'token' => 'dfb93e3d5347b098121c1797a670f04e',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: uid[/home/wwwroot/hotyiranjianshen.com/application/common/model/User.php:43]
+---------------------------------------------------------------
+[2019-10-29T21:40:14+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/api/order/orderlist&ordertype=0&app_id=10001&token=dfb93e3d5347b098121c1797a670f04e
+[运行时间：0.069627s] [吞吐率：14.36req/s] [内存消耗：3,328.45kb] [文件加载：88]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'ordertype' => '0',
+  'app_id' => '10001',
+  'token' => 'dfb93e3d5347b098121c1797a670f04e',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: uid[/home/wwwroot/hotyiranjianshen.com/application/common/model/User.php:43]
+[ error ] [8]未定义数组索引: oid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:122]
+[ error ] [8]未定义数组索引: phone[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:126]
+[ error ] [8]未定义数组索引: paytype[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:130]
+[ error ] [8]未定义数组索引: course_name[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:134]
+[ error ] [8]未定义数组索引: number[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:138]
+---------------------------------------------------------------
+[2019-10-29T21:40:18+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/api/Course/courselist&cid=2&datestamp=2019-10-30&app_id=10001&token=dfb93e3d5347b098121c1797a670f04e
+[运行时间：0.074293s] [吞吐率：13.46req/s] [内存消耗：3,585.89kb] [文件加载：84]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '2',
+  'datestamp' => '2019-10-30',
+  'app_id' => '10001',
+  'token' => 'dfb93e3d5347b098121c1797a670f04e',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: history[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:262]
+[ error ] [8]未定义数组索引: coid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:274]
+[ error ] [8]未定义数组索引: state[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:276]
+[ error ] [8]未定义数组索引: sid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:301]
+[ error ] [8]未定义数组索引: name[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:303]
+---------------------------------------------------------------
+[2019-10-29T21:40:20+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/api/Course/courselist&cid=1&datestamp=2019-10-30&app_id=10001&token=dfb93e3d5347b098121c1797a670f04e
+[运行时间：0.073186s] [吞吐率：13.66req/s] [内存消耗：3,361.03kb] [文件加载：84]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '1',
+  'datestamp' => '2019-10-30',
+  'app_id' => '10001',
+  'token' => 'dfb93e3d5347b098121c1797a670f04e',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: history[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:262]
+[ error ] [8]未定义数组索引: coid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:274]
+[ error ] [8]未定义数组索引: state[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:276]
+[ error ] [8]未定义数组索引: sid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:301]
+[ error ] [8]未定义数组索引: name[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:303]
+---------------------------------------------------------------
+[2019-10-29T21:40:22+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/api/Course/courselist&cid=2&datestamp=2019-10-30&app_id=10001&token=dfb93e3d5347b098121c1797a670f04e
+[运行时间：0.073453s] [吞吐率：13.61req/s] [内存消耗：3,585.89kb] [文件加载：84]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '2',
+  'datestamp' => '2019-10-30',
+  'app_id' => '10001',
+  'token' => 'dfb93e3d5347b098121c1797a670f04e',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: history[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:262]
+[ error ] [8]未定义数组索引: coid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:274]
+[ error ] [8]未定义数组索引: state[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:276]
+[ error ] [8]未定义数组索引: sid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:301]
+[ error ] [8]未定义数组索引: name[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:303]
+---------------------------------------------------------------
+[2019-10-29T21:40:24+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/
+[运行时间：0.035378s] [吞吐率：28.27req/s] [内存消耗：1,662.06kb] [文件加载：63]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=1ncuhb07u32unq07jpf93lhp15',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept' => 'image/webp, image/wxpic, image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/67.0.3396.87 XWEB/992 MMWEBSDK/190703 Mobile Safari/537.36 MMWEBID/3427 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'host' => 'www.hotyiranjianshen.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-10-29T21:40:25+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/api/Course/coursedetail&sid=132168518&app_id=10001&token=dfb93e3d5347b098121c1797a670f04e
+[运行时间：0.063310s] [吞吐率：15.80req/s] [内存消耗：3,488.87kb] [文件加载：86]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sid' => '132168518',
+  'app_id' => '10001',
+  'token' => 'dfb93e3d5347b098121c1797a670f04e',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: uid[/home/wwwroot/hotyiranjianshen.com/application/common/model/User.php:43]
+[ error ] [8]未定义数组索引: nownum[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:237]
+[ error ] [8]未定义数组索引: totnum[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:237]
+[ error ] [8]未定义数组索引: id[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:238]
+[ error ] [8]A non well formed numeric value encountered[/home/wwwroot/hotyiranjianshen.com/application/api/controller/Course.php:102]
+---------------------------------------------------------------
+[2019-10-29T21:40:25+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/manage/index/index.html
+[运行时间：0.024184s] [吞吐率：41.35req/s] [内存消耗：1,747.30kb] [文件加载：65]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=1ncuhb07u32unq07jpf93lhp15',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept' => 'image/webp, image/wxpic, image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/67.0.3396.87 XWEB/992 MMWEBSDK/190703 Mobile Safari/537.36 MMWEBID/3427 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'host' => 'www.hotyiranjianshen.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-10-29T21:40:25+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/manage/login/login.html
+[运行时间：0.038587s] [吞吐率：25.92req/s] [内存消耗：1,693.48kb] [文件加载：64]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=1ncuhb07u32unq07jpf93lhp15',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept' => 'image/webp, image/wxpic, image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/67.0.3396.87 XWEB/992 MMWEBSDK/190703 Mobile Safari/537.36 MMWEBID/3427 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'host' => 'www.hotyiranjianshen.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /home/wwwroot/hotyiranjianshen.com/application/manage/view/login/login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-29T21:40:32+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/api/home/website&app_id=10001&token=dfb93e3d5347b098121c1797a670f04e
+[运行时间：0.045318s] [吞吐率：22.07req/s] [内存消耗：2,107.18kb] [文件加载：77]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'app_id' => '10001',
+  'token' => 'dfb93e3d5347b098121c1797a670f04e',
+)
+---------------------------------------------------------------
+[2019-10-29T21:40:32+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/api/Course/coursedetail&sid=132168518&app_id=10001&token=dfb93e3d5347b098121c1797a670f04e
+[运行时间：0.069206s] [吞吐率：14.45req/s] [内存消耗：3,488.87kb] [文件加载：86]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sid' => '132168518',
+  'app_id' => '10001',
+  'token' => 'dfb93e3d5347b098121c1797a670f04e',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: uid[/home/wwwroot/hotyiranjianshen.com/application/common/model/User.php:43]
+[ error ] [8]未定义数组索引: nownum[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:237]
+[ error ] [8]未定义数组索引: totnum[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:237]
+[ error ] [8]未定义数组索引: id[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:238]
+[ error ] [8]A non well formed numeric value encountered[/home/wwwroot/hotyiranjianshen.com/application/api/controller/Course.php:102]
+---------------------------------------------------------------
+[2019-10-29T21:40:39+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/api/order/orderlist&ordertype=0&app_id=10001&token=dfb93e3d5347b098121c1797a670f04e
+[运行时间：0.068408s] [吞吐率：14.62req/s] [内存消耗：3,328.45kb] [文件加载：88]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'ordertype' => '0',
+  'app_id' => '10001',
+  'token' => 'dfb93e3d5347b098121c1797a670f04e',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: uid[/home/wwwroot/hotyiranjianshen.com/application/common/model/User.php:43]
+[ error ] [8]未定义数组索引: oid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:122]
+[ error ] [8]未定义数组索引: phone[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:126]
+[ error ] [8]未定义数组索引: paytype[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:130]
+[ error ] [8]未定义数组索引: course_name[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:134]
+[ error ] [8]未定义数组索引: number[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:138]
+---------------------------------------------------------------
+[2019-10-29T21:40:40+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/api/user/userinfo&app_id=10001&token=dfb93e3d5347b098121c1797a670f04e
+[运行时间：0.061643s] [吞吐率：16.22req/s] [内存消耗：3,090.63kb] [文件加载：86]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'app_id' => '10001',
+  'token' => 'dfb93e3d5347b098121c1797a670f04e',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: uid[/home/wwwroot/hotyiranjianshen.com/application/common/model/User.php:43]
+---------------------------------------------------------------
+[2019-10-29T21:40:41+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/api/order/orderlist&ordertype=0&app_id=10001&token=dfb93e3d5347b098121c1797a670f04e
+[运行时间：0.060361s] [吞吐率：16.57req/s] [内存消耗：3,328.45kb] [文件加载：88]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'ordertype' => '0',
+  'app_id' => '10001',
+  'token' => 'dfb93e3d5347b098121c1797a670f04e',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: uid[/home/wwwroot/hotyiranjianshen.com/application/common/model/User.php:43]
+[ error ] [8]未定义数组索引: oid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:122]
+[ error ] [8]未定义数组索引: phone[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:126]
+[ error ] [8]未定义数组索引: paytype[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:130]
+[ error ] [8]未定义数组索引: course_name[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:134]
+[ error ] [8]未定义数组索引: number[/home/wwwroot/hotyiranjianshen.com/application/common/model/Order.php:138]
+---------------------------------------------------------------
+[2019-10-29T21:40:50+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/api/Course/courselist&cid=2&datestamp=2019-10-31&app_id=10001&token=dfb93e3d5347b098121c1797a670f04e
+[运行时间：0.071989s] [吞吐率：13.89req/s] [内存消耗：3,361.03kb] [文件加载：84]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '2',
+  'datestamp' => '2019-10-31',
+  'app_id' => '10001',
+  'token' => 'dfb93e3d5347b098121c1797a670f04e',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: history[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:262]
+[ error ] [8]未定义数组索引: coid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:274]
+[ error ] [8]未定义数组索引: state[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:276]
+[ error ] [8]未定义数组索引: sid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:301]
+[ error ] [8]未定义数组索引: name[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:303]
+---------------------------------------------------------------
+[2019-10-29T21:40:52+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/api/Course/courselist&cid=1&datestamp=2019-10-31&app_id=10001&token=dfb93e3d5347b098121c1797a670f04e
+[运行时间：0.065252s] [吞吐率：15.33req/s] [内存消耗：3,361.07kb] [文件加载：84]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '1',
+  'datestamp' => '2019-10-31',
+  'app_id' => '10001',
+  'token' => 'dfb93e3d5347b098121c1797a670f04e',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: history[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:262]
+[ error ] [8]未定义数组索引: coid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:274]
+[ error ] [8]未定义数组索引: state[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:276]
+[ error ] [8]未定义数组索引: sid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:301]
+[ error ] [8]未定义数组索引: name[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:303]
+---------------------------------------------------------------
+[2019-10-29T21:40:53+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/api/Course/courselist&cid=1&datestamp=2019-11-1&app_id=10001&token=dfb93e3d5347b098121c1797a670f04e
+[运行时间：0.063849s] [吞吐率：15.66req/s] [内存消耗：3,242.88kb] [文件加载：84]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '1',
+  'datestamp' => '2019-11-1',
+  'app_id' => '10001',
+  'token' => 'dfb93e3d5347b098121c1797a670f04e',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: history[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:262]
+[ error ] [8]未定义数组索引: coid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:274]
+[ error ] [8]未定义数组索引: state[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:276]
+[ error ] [8]未定义数组索引: sid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:301]
+[ error ] [8]未定义数组索引: name[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:303]
+---------------------------------------------------------------
+[2019-10-29T21:40:54+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/api/Course/courselist&cid=1&datestamp=2019-11-1&app_id=10001&token=dfb93e3d5347b098121c1797a670f04e
+[运行时间：0.063092s] [吞吐率：15.85req/s] [内存消耗：3,242.88kb] [文件加载：84]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '1',
+  'datestamp' => '2019-11-1',
+  'app_id' => '10001',
+  'token' => 'dfb93e3d5347b098121c1797a670f04e',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: history[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:262]
+[ error ] [8]未定义数组索引: coid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:274]
+[ error ] [8]未定义数组索引: state[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:276]
+[ error ] [8]未定义数组索引: sid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:301]
+[ error ] [8]未定义数组索引: name[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:303]
+---------------------------------------------------------------
+[2019-10-29T21:40:55+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/api/Course/courselist&cid=2&datestamp=2019-11-1&app_id=10001&token=dfb93e3d5347b098121c1797a670f04e
+[运行时间：0.074710s] [吞吐率：13.39req/s] [内存消耗：3,242.88kb] [文件加载：84]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '2',
+  'datestamp' => '2019-11-1',
+  'app_id' => '10001',
+  'token' => 'dfb93e3d5347b098121c1797a670f04e',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: history[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:262]
+[ error ] [8]未定义数组索引: coid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:274]
+[ error ] [8]未定义数组索引: state[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:276]
+[ error ] [8]未定义数组索引: sid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:301]
+[ error ] [8]未定义数组索引: name[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:303]
+---------------------------------------------------------------
+[2019-10-29T21:40:56+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/api/Course/courselist&cid=1&datestamp=2019-11-1&app_id=10001&token=dfb93e3d5347b098121c1797a670f04e
+[运行时间：0.063299s] [吞吐率：15.80req/s] [内存消耗：3,242.88kb] [文件加载：84]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '1',
+  'datestamp' => '2019-11-1',
+  'app_id' => '10001',
+  'token' => 'dfb93e3d5347b098121c1797a670f04e',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: history[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:262]
+[ error ] [8]未定义数组索引: coid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:274]
+[ error ] [8]未定义数组索引: state[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:276]
+[ error ] [8]未定义数组索引: sid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:301]
+[ error ] [8]未定义数组索引: name[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:303]
+---------------------------------------------------------------
+[2019-10-29T21:40:56+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/api/Course/courselist&cid=1&datestamp=2019-11-2&app_id=10001&token=dfb93e3d5347b098121c1797a670f04e
+[运行时间：0.067838s] [吞吐率：14.74req/s] [内存消耗：3,242.88kb] [文件加载：84]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '1',
+  'datestamp' => '2019-11-2',
+  'app_id' => '10001',
+  'token' => 'dfb93e3d5347b098121c1797a670f04e',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: history[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:262]
+[ error ] [8]未定义数组索引: coid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:274]
+[ error ] [8]未定义数组索引: state[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:276]
+[ error ] [8]未定义数组索引: sid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:301]
+[ error ] [8]未定义数组索引: name[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:303]
+---------------------------------------------------------------
+[2019-10-29T21:40:57+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/api/Course/courselist&cid=1&datestamp=2019-11-3&app_id=10001&token=dfb93e3d5347b098121c1797a670f04e
+[运行时间：0.075039s] [吞吐率：13.33req/s] [内存消耗：3,242.88kb] [文件加载：84]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '1',
+  'datestamp' => '2019-11-3',
+  'app_id' => '10001',
+  'token' => 'dfb93e3d5347b098121c1797a670f04e',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: history[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:262]
+[ error ] [8]未定义数组索引: coid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:274]
+[ error ] [8]未定义数组索引: state[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:276]
+[ error ] [8]未定义数组索引: sid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:301]
+[ error ] [8]未定义数组索引: name[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:303]
+---------------------------------------------------------------
+[2019-10-29T21:40:58+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/api/Course/courselist&cid=2&datestamp=2019-11-3&app_id=10001&token=dfb93e3d5347b098121c1797a670f04e
+[运行时间：0.072717s] [吞吐率：13.75req/s] [内存消耗：3,242.88kb] [文件加载：84]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '2',
+  'datestamp' => '2019-11-3',
+  'app_id' => '10001',
+  'token' => 'dfb93e3d5347b098121c1797a670f04e',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: history[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:262]
+[ error ] [8]未定义数组索引: coid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:274]
+[ error ] [8]未定义数组索引: state[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:276]
+[ error ] [8]未定义数组索引: sid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:301]
+[ error ] [8]未定义数组索引: name[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:303]
+---------------------------------------------------------------
+[2019-10-29T21:40:58+08:00] 124.64.17.114 GET www.hotyiranjianshen.com/index.php?s=/api/Course/courselist&cid=2&datestamp=2019-10-29&app_id=10001&token=dfb93e3d5347b098121c1797a670f04e
+[运行时间：0.075085s] [吞吐率：13.32req/s] [内存消耗：4,036.54kb] [文件加载：84]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1809A Build/PKQ1.181030.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.7.1521(0x2700073A) Process/appbrand1 NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wx5bed7b9605a6c832/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '2',
+  'datestamp' => '2019-10-29',
+  'app_id' => '10001',
+  'token' => 'dfb93e3d5347b098121c1797a670f04e',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: history[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:262]
+[ error ] [8]未定义数组索引: coid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:274]
+[ error ] [8]未定义数组索引: state[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:276]
+[ error ] [8]未定义数组索引: sid[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:301]
+[ error ] [8]未定义数组索引: name[/home/wwwroot/hotyiranjianshen.com/application/common/model/Course.php:303]
+---------------------------------------------------------------
+[2019-10-29T22:39:10+08:00] 119.28.149.239 GET /
+[运行时间：0.044670s] [吞吐率：22.39req/s] [内存消耗：1,659.26kb] [文件加载：63]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-10-29T23:51:14+08:00] 185.53.88.92 GET 122.114.0.88/
+[运行时间：0.035164s] [吞吐率：28.44req/s] [内存消耗：1,660.15kb] [文件加载：63]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.6.0 CPython/2.7.5 Linux/3.10.0-1062.1.2.el7.x86_64',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'host' => '122.114.0.88',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-10-29T23:51:15+08:00] 185.53.88.92 GET 122.114.0.88/index.php?s=/manage/index/index.html
+[运行时间：0.039155s] [吞吐率：25.54req/s] [内存消耗：1,745.52kb] [文件加载：65]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.6.0 CPython/2.7.5 Linux/3.10.0-1062.1.2.el7.x86_64',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'host' => '122.114.0.88',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-10-29T23:51:15+08:00] 185.53.88.92 GET 122.114.0.88/index.php?s=/manage/login/login.html
+[运行时间：0.041271s] [吞吐率：24.23req/s] [内存消耗：1,691.85kb] [文件加载：64]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.6.0 CPython/2.7.5 Linux/3.10.0-1062.1.2.el7.x86_64',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=rnc729rkjcn753uv6i1gnm91a2',
+  'connection' => 'keep-alive',
+  'host' => '122.114.0.88',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /home/wwwroot/hotyiranjianshen.com/application/manage/view/login/login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-29T23:51:16+08:00] 185.53.88.92 GET 122.114.0.88/
+[运行时间：0.037432s] [吞吐率：26.72req/s] [内存消耗：1,660.15kb] [文件加载：63]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.6.0 CPython/2.7.5 Linux/3.10.0-1062.1.2.el7.x86_64',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'host' => '122.114.0.88',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-10-29T23:51:17+08:00] 185.53.88.92 GET 122.114.0.88/index.php?s=/manage/index/index.html
+[运行时间：0.037651s] [吞吐率：26.56req/s] [内存消耗：1,745.52kb] [文件加载：65]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.6.0 CPython/2.7.5 Linux/3.10.0-1062.1.2.el7.x86_64',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'host' => '122.114.0.88',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-10-29T23:51:17+08:00] 185.53.88.92 GET 122.114.0.88/index.php?s=/manage/login/login.html
+[运行时间：0.032904s] [吞吐率：30.39req/s] [内存消耗：1,691.85kb] [文件加载：64]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.6.0 CPython/2.7.5 Linux/3.10.0-1062.1.2.el7.x86_64',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=ckph1vtgtlpt23l265qenga641',
+  'connection' => 'keep-alive',
+  'host' => '122.114.0.88',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /home/wwwroot/hotyiranjianshen.com/application/manage/view/login/login.html [ array (
+) ]

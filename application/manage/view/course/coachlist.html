@@ -1,0 +1,69 @@
+<div class="layui-container">
+    <div class="layui-row">
+        <div class="layui-col-md12 layui-col-xs12">
+            <div class="widget-head">
+                <div class="widget-title">教练列表</div>
+            </div>
+        </div>
+        <div class="layui-col-md12 layui-col-xs12 widget-body ">
+            <form class="layui-form" method="post" action="{:url('index')}">
+                <div class="layui-u-sm-12 layui-u-md-12 layui-col-lg12">
+                    <div class="layui-form-item ">
+                        <div class="layui-col-md1"><a class="layui-btn" href="{:url('coachrun')}">新增</a></div>
+                    </div>
+                </div>
+            </form>
+            <div class="layui-col-md12">
+                <table class="layui-table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>头像</th>
+                            <th>名称</th>
+                            <!-- <th style="width:10%;">排序</th> -->
+                            <!-- <th>展示/隐藏</th> -->
+                            <th>更新时间</th>
+                            <th>操作</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {if(empty($data['list']))}
+                            <tr>
+                                <td colspan="12" class="layer-text-center">暂无数据</td>
+                            </tr>
+                        {else}
+                            {foreach ($data['list'] as $value)}
+                                <tr>
+                                    <td>{$value['id']}</td>
+
+                                    <td><a href="{$value['headpath']}" title="点击查看大图" target="_blank"><img src="{$value['headpath']}" width="60" height="60" alt=""></a></td>
+                                    <td>{$value['name']}</td>
+                                    
+                                    <td>{:date("Y-m-d H:i",$value['modstamp'])}</td>
+                                    <td>
+                                        <div class="tpl-table-black-operation">
+                                            <a class="tpl-table-black-operation" href="{:url('coachrun',['id' => $value['id']])}">编辑</a>
+                                            <a href="javascript:void(0);" class="value-delete tpl-table-black-operation-del delcomm" data-id="{$value['id']}"><i class="mdi menu-icon mdi-pencil-lock"></i> 删除</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            {/foreach}
+                        {/if}
+                    </tbody>
+                </table>
+                <div class="layui-col-md12 layui-col-xs12">
+                    {if($data['list'])}{$data['pageshow']|raw}{/if}
+                    <div class="pagination-total">
+                        <div class="">总记录：{$data['count']} ／ 总页数：{$data['pagetotal']}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(function () {
+        // 删除
+        $('.delcomm').delete('id', "{:url('coachdel')}", '数据删除后无法恢复,确认删除？');
+    });
+</script>

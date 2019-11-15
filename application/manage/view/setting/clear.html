@@ -1,0 +1,41 @@
+<div class="layui-container">
+    <div class="layui-row">
+        <div class="layui-col-sm12 layui-col-md12 layui-col-lg12">
+			<div class="widget-head">
+				<div class="widget-title">清理缓存</div>
+			</div>
+			<form id="myform" class="layui-form " enctype="multipart/form-data" method="post">
+			
+				<div class="widget-body layui-col-sm12 layui-col-md12 layui-col-lg12">
+					<div class="layui-form-item" pane="">
+						<label class="layui-form-label form-require">
+							数据缓存
+						</label>
+						<div class="layui-col-sm10">
+								{foreach $cacheList as $key => $item}
+								<div class="layui-input-block layui-col-sm1">
+									<input type="checkbox" name="cache[keys][]"  value="{$key}" lay-skin="primary" title="{$item['name']}" checked="">
+								</div>
+							{/foreach}
+						</div>
+					</div>
+					
+					<div class="layui-form-item">
+						<button type="submit" class="j-submit layui-btn">提交</button>
+					</div>
+				</div>
+			</form>
+        </div>
+    </div>
+</div>
+<script>
+    $(function () {
+
+        /**
+         * 表单验证提交
+         * @type {*}
+         */
+        $('#myform').superForm();
+
+    });
+</script>

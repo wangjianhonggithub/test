@@ -1,0 +1,1708 @@
+---------------------------------------------------------------
+[2019-11-07T16:21:46+08:00] 127.0.0.1 GET dzc.cc/
+[运行时间：0.049461s] [吞吐率：20.22req/s] [内存消耗：1,411.84kb] [文件加载：63]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\dzcyiranjianshen\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'purpose' => 'prefetch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'dzc.cc',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-11-07T16:21:46+08:00] 127.0.0.1 GET dzc.cc/index.php?s=/manage/index/index.html
+[运行时间：0.019387s] [吞吐率：51.58req/s] [内存消耗：1,480.78kb] [文件加载：65]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\dzcyiranjianshen\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'purpose' => 'prefetch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'dzc.cc',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-11-07T16:21:46+08:00] 127.0.0.1 GET dzc.cc/index.php?s=/manage/login/login.html
+[运行时间：0.046207s] [吞吐率：21.64req/s] [内存消耗：1,438.94kb] [文件加载：64]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\dzcyiranjianshen\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=or3e7pm95j0rbg28dkl8460231',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'purpose' => 'prefetch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'dzc.cc',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\PHPTutorial\WWW\dzcyiranjianshen\application\manage\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-11-07T16:21:46+08:00] 127.0.0.1 GET dzc.cc/index.php?s=/manage/login/login.html
+[运行时间：0.018222s] [吞吐率：54.88req/s] [内存消耗：1,438.66kb] [文件加载：64]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\dzcyiranjianshen\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=or3e7pm95j0rbg28dkl8460231',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'dzc.cc',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\PHPTutorial\WWW\dzcyiranjianshen\application\manage\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-11-07T16:22:11+08:00] 127.0.0.1 POST dzc.cc/index.php?s=/manage/login/login.html
+[运行时间：0.088129s] [吞吐率：11.35req/s] [内存消耗：2,669.50kb] [文件加载：89]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\dzcyiranjianshen\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=or3e7pm95j0rbg28dkl8460231',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dzc.cc/index.php?s=/manage/login/login.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://dzc.cc',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '80',
+  'connection' => 'close',
+  'host' => 'dzc.cc',
+)
+[ info ] [ PARAM ] array (
+  'login' => 
+  array (
+    'user_name' => 'dzcadmin',
+    'password' => 'dzcadmin',
+    'type' => 'login',
+  ),
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-11-07T16:22:13+08:00] 127.0.0.1 GET dzc.cc/index.php?s=/manage/index/index.html
+[运行时间：0.166810s] [吞吐率：5.99req/s] [内存消耗：3,653.64kb] [文件加载：102]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\dzcyiranjianshen\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=or3e7pm95j0rbg28dkl8460231',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dzc.cc/index.php?s=/manage/login/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'dzc.cc',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\PHPTutorial\WWW\dzcyiranjianshen\application\manage\view\index\index.html [ array (
+  0 => 'base_url',
+  1 => 'dzcmanageurl',
+  2 => 'group',
+  3 => 'url',
+  4 => 'menu',
+  5 => 'dzcadmin',
+  6 => 'request',
+  7 => 'action',
+  8 => 'numbers',
+  9 => 'statusClass',
+  10 => 'server',
+  11 => 'phpinfo',
+  12 => 'writeable',
+  13 => 'version',
+  14 => 'log',
+) ]
+[ error ] [8]Use of undefined constant APP_PATH - assumed 'APP_PATH'[E:\PHPTutorial\WWW\dzcyiranjianshen\application\manage\controller\Index.php:145]
+[ error ] [8]Use of undefined constant APP_PATH - assumed 'APP_PATH'[E:\PHPTutorial\WWW\dzcyiranjianshen\application\manage\controller\Index.php:146]
+[ error ] [8]未定义变量: data[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\49e51d5d6745c5db59c42331024cdf7f.php:146]
+[ error ] [8]未定义变量: data[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\49e51d5d6745c5db59c42331024cdf7f.php:159]
+[ error ] [8]未定义变量: data[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\49e51d5d6745c5db59c42331024cdf7f.php:172]
+[ error ] [8]未定义变量: data[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\49e51d5d6745c5db59c42331024cdf7f.php:185]
+[ error ] [8]未定义变量: data[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\49e51d5d6745c5db59c42331024cdf7f.php:394]
+[ error ] [8]未定义变量: data[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\49e51d5d6745c5db59c42331024cdf7f.php:398]
+[ error ] [8]未定义变量: data[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\49e51d5d6745c5db59c42331024cdf7f.php:402]
+[ error ] [8]未定义变量: data[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\49e51d5d6745c5db59c42331024cdf7f.php:406]
+[ error ] [8]未定义变量: data[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\49e51d5d6745c5db59c42331024cdf7f.php:410]
+[ error ] [8]未定义变量: data[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\49e51d5d6745c5db59c42331024cdf7f.php:414]
+[ error ] [8]未定义变量: data[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\49e51d5d6745c5db59c42331024cdf7f.php:418]
+[ error ] [8]未定义变量: data[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\49e51d5d6745c5db59c42331024cdf7f.php:422]
+[ error ] [8]未定义变量: data[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\49e51d5d6745c5db59c42331024cdf7f.php:459]
+[ error ] [8]未定义变量: data[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\49e51d5d6745c5db59c42331024cdf7f.php:468]
+[ error ] [8]未定义变量: data[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\49e51d5d6745c5db59c42331024cdf7f.php:473]
+---------------------------------------------------------------
+[2019-11-07T16:22:18+08:00] 127.0.0.1 GET dzc.cc/index.php?s=/manage/user/index.html
+[运行时间：0.328572s] [吞吐率：3.04req/s] [内存消耗：4,365.58kb] [文件加载：95]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\dzcyiranjianshen\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=or3e7pm95j0rbg28dkl8460231',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dzc.cc/index.php?s=/manage/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'dzc.cc',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\PHPTutorial\WWW\dzcyiranjianshen\application\manage\view\user\index.html [ array (
+  0 => 'base_url',
+  1 => 'dzcmanageurl',
+  2 => 'group',
+  3 => 'url',
+  4 => 'menu',
+  5 => 'dzcadmin',
+  6 => 'request',
+  7 => 'action',
+  8 => 'para',
+  9 => 'data',
+) ]
+[ error ] [8]未定义数组索引: uid[E:\PHPTutorial\WWW\dzcyiranjianshen\application\common\model\User.php:77]
+[ error ] [8]未定义数组索引: phone[E:\PHPTutorial\WWW\dzcyiranjianshen\application\common\model\User.php:81]
+[ error ] [8]未定义数组索引: nickname[E:\PHPTutorial\WWW\dzcyiranjianshen\application\common\model\User.php:85]
+[ error ] [8]未定义数组索引: gender[E:\PHPTutorial\WWW\dzcyiranjianshen\application\common\model\User.php:89]
+[ error ] [8]未定义数组索引: pastamp[E:\PHPTutorial\WWW\dzcyiranjianshen\application\common\model\Coupon.php:285]
+[ error ] [8]未定义数组索引: pastamp[E:\PHPTutorial\WWW\dzcyiranjianshen\application\common\model\Coupon.php:285]
+[ error ] [8]未定义数组索引: pastamp[E:\PHPTutorial\WWW\dzcyiranjianshen\application\common\model\Coupon.php:285]
+[ error ] [8]未定义数组索引: pastamp[E:\PHPTutorial\WWW\dzcyiranjianshen\application\common\model\Coupon.php:285]
+[ error ] [8]未定义数组索引: pastamp[E:\PHPTutorial\WWW\dzcyiranjianshen\application\common\model\Coupon.php:285]
+[ error ] [8]未定义数组索引: pastamp[E:\PHPTutorial\WWW\dzcyiranjianshen\application\common\model\Coupon.php:285]
+[ error ] [8]未定义变量: islock[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\ac2a4e58317f40d3ea8841fbef781af2.php:134]
+[ error ] [2]Illegal string offset 'uid'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\ac2a4e58317f40d3ea8841fbef781af2.php:146]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\ac2a4e58317f40d3ea8841fbef781af2.php:146]
+[ error ] [2]Illegal string offset 'nickname'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\ac2a4e58317f40d3ea8841fbef781af2.php:153]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\ac2a4e58317f40d3ea8841fbef781af2.php:153]
+[ error ] [2]Illegal string offset 'gender'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\ac2a4e58317f40d3ea8841fbef781af2.php:160]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\ac2a4e58317f40d3ea8841fbef781af2.php:160]
+[ error ] [2]Illegal string offset 'gender'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\ac2a4e58317f40d3ea8841fbef781af2.php:161]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\ac2a4e58317f40d3ea8841fbef781af2.php:161]
+[ error ] [2]Illegal string offset 'gender'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\ac2a4e58317f40d3ea8841fbef781af2.php:162]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\ac2a4e58317f40d3ea8841fbef781af2.php:162]
+[ error ] [8]未定义变量: islock[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\ac2a4e58317f40d3ea8841fbef781af2.php:171]
+[ error ] [8]未定义变量: islock[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\ac2a4e58317f40d3ea8841fbef781af2.php:211]
+[ error ] [8]未定义变量: islock[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\ac2a4e58317f40d3ea8841fbef781af2.php:217]
+[ error ] [8]未定义变量: islock[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\ac2a4e58317f40d3ea8841fbef781af2.php:211]
+[ error ] [8]未定义变量: islock[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\ac2a4e58317f40d3ea8841fbef781af2.php:217]
+[ error ] [8]未定义变量: islock[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\ac2a4e58317f40d3ea8841fbef781af2.php:211]
+[ error ] [8]未定义变量: islock[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\ac2a4e58317f40d3ea8841fbef781af2.php:217]
+[ error ] [8]未定义变量: islock[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\ac2a4e58317f40d3ea8841fbef781af2.php:211]
+[ error ] [8]未定义变量: islock[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\ac2a4e58317f40d3ea8841fbef781af2.php:217]
+[ error ] [8]未定义变量: islock[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\ac2a4e58317f40d3ea8841fbef781af2.php:211]
+[ error ] [8]未定义变量: islock[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\ac2a4e58317f40d3ea8841fbef781af2.php:217]
+[ error ] [8]未定义变量: islock[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\ac2a4e58317f40d3ea8841fbef781af2.php:237]
+---------------------------------------------------------------
+[2019-11-07T16:22:19+08:00] 127.0.0.1 GET dzc.cc/index.php?s=/manage/course/index.html
+[运行时间：0.153705s] [吞吐率：6.51req/s] [内存消耗：3,526.56kb] [文件加载：93]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\dzcyiranjianshen\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=or3e7pm95j0rbg28dkl8460231',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dzc.cc/index.php?s=/manage/user/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'dzc.cc',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\PHPTutorial\WWW\dzcyiranjianshen\application\manage\view\course\courselist.html [ array (
+  0 => 'base_url',
+  1 => 'dzcmanageurl',
+  2 => 'group',
+  3 => 'url',
+  4 => 'menu',
+  5 => 'dzcadmin',
+  6 => 'request',
+  7 => 'action',
+  8 => 'para',
+  9 => 'classlist',
+  10 => 'coachlist',
+  11 => 'data',
+) ]
+[ error ] [2]Illegal string offset 'history'[E:\PHPTutorial\WWW\dzcyiranjianshen\application\common\model\Course.php:262]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\application\common\model\Course.php:262]
+[ error ] [8]未定义变量: history[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:134]
+[ error ] [8]未定义变量: history[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:138]
+[ error ] [2]Illegal string offset 'cid'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:147]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:147]
+[ error ] [2]Illegal string offset 'cid'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:149]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:149]
+[ error ] [2]Illegal string offset 'cid'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:149]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:149]
+[ error ] [2]Illegal string offset 'coid'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:159]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:159]
+[ error ] [2]Illegal string offset 'coid'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:161]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:161]
+[ error ] [2]Illegal string offset 'coid'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:161]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:161]
+[ error ] [2]Illegal string offset 'coid'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:161]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:161]
+[ error ] [2]Illegal string offset 'state'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:170]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:170]
+[ error ] [2]Illegal string offset 'state'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:171]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:171]
+[ error ] [2]Illegal string offset 'state'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:172]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:172]
+[ error ] [2]Illegal string offset 'state'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:173]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:173]
+[ error ] [2]Illegal string offset 'state'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:174]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:174]
+[ error ] [2]Illegal string offset 'sid'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:184]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:184]
+[ error ] [2]Illegal string offset 'name'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:191]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:191]
+[ error ] [2]Illegal string offset 'datestamp'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:197]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:197]
+[ error ] [8]未定义变量: history[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:222]
+[ error ] [8]未定义变量: history[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:252]
+[ error ] [8]未定义变量: history[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:261]
+---------------------------------------------------------------
+[2019-11-07T16:22:21+08:00] 127.0.0.1 GET dzc.cc/index.php?s=/manage/ordercourse/index.html
+[运行时间：0.077815s] [吞吐率：12.85req/s] [内存消耗：3,192.98kb] [文件加载：94]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\dzcyiranjianshen\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=or3e7pm95j0rbg28dkl8460231',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dzc.cc/index.php?s=/manage/course/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'dzc.cc',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\PHPTutorial\WWW\dzcyiranjianshen\application\manage\view\ordercourse\index.html [ array (
+  0 => 'base_url',
+  1 => 'dzcmanageurl',
+  2 => 'group',
+  3 => 'url',
+  4 => 'menu',
+  5 => 'dzcadmin',
+  6 => 'request',
+  7 => 'action',
+  8 => 'para',
+  9 => 'data',
+) ]
+[ error ] [2]Illegal string offset 'oid'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:146]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:146]
+[ error ] [2]Illegal string offset 'phone'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:153]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:153]
+[ error ] [2]Illegal string offset 'paytype'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:161]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:161]
+[ error ] [2]Illegal string offset 'paytype'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:162]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:162]
+[ error ] [2]Illegal string offset 'paytype'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:163]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:163]
+[ error ] [2]Illegal string offset 'paytype'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:164]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:164]
+[ error ] [2]Illegal string offset 'course_name'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:174]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:174]
+[ error ] [2]Illegal string offset 'number'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:182]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:182]
+[ error ] [2]Illegal string offset 'number'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:183]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:183]
+[ error ] [2]Illegal string offset 'number'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:184]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:184]
+[ error ] [2]Illegal string offset 'stype'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:193]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:193]
+[ error ] [2]Illegal string offset 'stype'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:194]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:194]
+[ error ] [2]Illegal string offset 'stype'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:195]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:195]
+---------------------------------------------------------------
+[2019-11-07T16:22:22+08:00] 127.0.0.1 GET dzc.cc/index.php?s=/manage/course/index.html
+[运行时间：0.114307s] [吞吐率：8.75req/s] [内存消耗：3,526.56kb] [文件加载：93]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\dzcyiranjianshen\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=or3e7pm95j0rbg28dkl8460231',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dzc.cc/index.php?s=/manage/ordercourse/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'dzc.cc',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\PHPTutorial\WWW\dzcyiranjianshen\application\manage\view\course\courselist.html [ array (
+  0 => 'base_url',
+  1 => 'dzcmanageurl',
+  2 => 'group',
+  3 => 'url',
+  4 => 'menu',
+  5 => 'dzcadmin',
+  6 => 'request',
+  7 => 'action',
+  8 => 'para',
+  9 => 'classlist',
+  10 => 'coachlist',
+  11 => 'data',
+) ]
+[ error ] [2]Illegal string offset 'history'[E:\PHPTutorial\WWW\dzcyiranjianshen\application\common\model\Course.php:262]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\application\common\model\Course.php:262]
+[ error ] [8]未定义变量: history[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:134]
+[ error ] [8]未定义变量: history[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:138]
+[ error ] [2]Illegal string offset 'cid'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:147]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:147]
+[ error ] [2]Illegal string offset 'cid'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:149]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:149]
+[ error ] [2]Illegal string offset 'cid'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:149]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:149]
+[ error ] [2]Illegal string offset 'coid'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:159]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:159]
+[ error ] [2]Illegal string offset 'coid'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:161]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:161]
+[ error ] [2]Illegal string offset 'coid'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:161]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:161]
+[ error ] [2]Illegal string offset 'coid'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:161]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:161]
+[ error ] [2]Illegal string offset 'state'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:170]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:170]
+[ error ] [2]Illegal string offset 'state'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:171]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:171]
+[ error ] [2]Illegal string offset 'state'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:172]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:172]
+[ error ] [2]Illegal string offset 'state'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:173]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:173]
+[ error ] [2]Illegal string offset 'state'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:174]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:174]
+[ error ] [2]Illegal string offset 'sid'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:184]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:184]
+[ error ] [2]Illegal string offset 'name'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:191]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:191]
+[ error ] [2]Illegal string offset 'datestamp'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:197]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:197]
+[ error ] [8]未定义变量: history[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:222]
+[ error ] [8]未定义变量: history[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:252]
+[ error ] [8]未定义变量: history[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:261]
+---------------------------------------------------------------
+[2019-11-07T16:25:04+08:00] 127.0.0.1 GET dzc.cc/index.php?s=/manage/ordercourse/index.html
+[运行时间：0.079562s] [吞吐率：12.57req/s] [内存消耗：3,192.98kb] [文件加载：94]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\dzcyiranjianshen\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=or3e7pm95j0rbg28dkl8460231',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dzc.cc/index.php?s=/manage/course/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'dzc.cc',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\PHPTutorial\WWW\dzcyiranjianshen\application\manage\view\ordercourse\index.html [ array (
+  0 => 'base_url',
+  1 => 'dzcmanageurl',
+  2 => 'group',
+  3 => 'url',
+  4 => 'menu',
+  5 => 'dzcadmin',
+  6 => 'request',
+  7 => 'action',
+  8 => 'para',
+  9 => 'data',
+) ]
+[ error ] [2]Illegal string offset 'oid'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:146]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:146]
+[ error ] [2]Illegal string offset 'phone'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:153]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:153]
+[ error ] [2]Illegal string offset 'paytype'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:161]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:161]
+[ error ] [2]Illegal string offset 'paytype'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:162]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:162]
+[ error ] [2]Illegal string offset 'paytype'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:163]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:163]
+[ error ] [2]Illegal string offset 'paytype'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:164]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:164]
+[ error ] [2]Illegal string offset 'course_name'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:174]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:174]
+[ error ] [2]Illegal string offset 'number'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:182]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:182]
+[ error ] [2]Illegal string offset 'number'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:183]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:183]
+[ error ] [2]Illegal string offset 'number'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:184]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:184]
+[ error ] [2]Illegal string offset 'stype'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:193]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:193]
+[ error ] [2]Illegal string offset 'stype'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:194]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:194]
+[ error ] [2]Illegal string offset 'stype'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:195]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:195]
+---------------------------------------------------------------
+[2019-11-07T16:25:06+08:00] 127.0.0.1 GET dzc.cc/index.php?s=/manage/ordercourse/index.html
+[运行时间：0.061141s] [吞吐率：16.36req/s] [内存消耗：3,192.98kb] [文件加载：94]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\dzcyiranjianshen\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=or3e7pm95j0rbg28dkl8460231',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dzc.cc/index.php?s=/manage/ordercourse/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'dzc.cc',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\PHPTutorial\WWW\dzcyiranjianshen\application\manage\view\ordercourse\index.html [ array (
+  0 => 'base_url',
+  1 => 'dzcmanageurl',
+  2 => 'group',
+  3 => 'url',
+  4 => 'menu',
+  5 => 'dzcadmin',
+  6 => 'request',
+  7 => 'action',
+  8 => 'para',
+  9 => 'data',
+) ]
+[ error ] [2]Illegal string offset 'oid'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:146]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:146]
+[ error ] [2]Illegal string offset 'phone'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:153]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:153]
+[ error ] [2]Illegal string offset 'paytype'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:161]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:161]
+[ error ] [2]Illegal string offset 'paytype'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:162]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:162]
+[ error ] [2]Illegal string offset 'paytype'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:163]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:163]
+[ error ] [2]Illegal string offset 'paytype'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:164]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:164]
+[ error ] [2]Illegal string offset 'course_name'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:174]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:174]
+[ error ] [2]Illegal string offset 'number'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:182]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:182]
+[ error ] [2]Illegal string offset 'number'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:183]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:183]
+[ error ] [2]Illegal string offset 'number'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:184]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:184]
+[ error ] [2]Illegal string offset 'stype'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:193]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:193]
+[ error ] [2]Illegal string offset 'stype'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:194]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:194]
+[ error ] [2]Illegal string offset 'stype'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:195]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:195]
+---------------------------------------------------------------
+[2019-11-07T16:25:07+08:00] 127.0.0.1 GET dzc.cc/index.php?s=/manage/ordercourse/index.html
+[运行时间：0.079126s] [吞吐率：12.64req/s] [内存消耗：3,192.98kb] [文件加载：94]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\dzcyiranjianshen\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=or3e7pm95j0rbg28dkl8460231',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dzc.cc/index.php?s=/manage/ordercourse/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'dzc.cc',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\PHPTutorial\WWW\dzcyiranjianshen\application\manage\view\ordercourse\index.html [ array (
+  0 => 'base_url',
+  1 => 'dzcmanageurl',
+  2 => 'group',
+  3 => 'url',
+  4 => 'menu',
+  5 => 'dzcadmin',
+  6 => 'request',
+  7 => 'action',
+  8 => 'para',
+  9 => 'data',
+) ]
+[ error ] [2]Illegal string offset 'oid'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:146]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:146]
+[ error ] [2]Illegal string offset 'phone'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:153]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:153]
+[ error ] [2]Illegal string offset 'paytype'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:161]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:161]
+[ error ] [2]Illegal string offset 'paytype'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:162]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:162]
+[ error ] [2]Illegal string offset 'paytype'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:163]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:163]
+[ error ] [2]Illegal string offset 'paytype'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:164]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:164]
+[ error ] [2]Illegal string offset 'course_name'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:174]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:174]
+[ error ] [2]Illegal string offset 'number'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:182]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:182]
+[ error ] [2]Illegal string offset 'number'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:183]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:183]
+[ error ] [2]Illegal string offset 'number'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:184]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:184]
+[ error ] [2]Illegal string offset 'stype'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:193]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:193]
+[ error ] [2]Illegal string offset 'stype'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:194]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:194]
+[ error ] [2]Illegal string offset 'stype'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:195]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:195]
+---------------------------------------------------------------
+[2019-11-07T16:25:08+08:00] 127.0.0.1 GET dzc.cc/index.php?s=/manage/ordercourse/index.html
+[运行时间：0.072136s] [吞吐率：13.86req/s] [内存消耗：3,192.98kb] [文件加载：94]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\dzcyiranjianshen\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=or3e7pm95j0rbg28dkl8460231',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dzc.cc/index.php?s=/manage/ordercourse/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'dzc.cc',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\PHPTutorial\WWW\dzcyiranjianshen\application\manage\view\ordercourse\index.html [ array (
+  0 => 'base_url',
+  1 => 'dzcmanageurl',
+  2 => 'group',
+  3 => 'url',
+  4 => 'menu',
+  5 => 'dzcadmin',
+  6 => 'request',
+  7 => 'action',
+  8 => 'para',
+  9 => 'data',
+) ]
+[ error ] [2]Illegal string offset 'oid'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:146]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:146]
+[ error ] [2]Illegal string offset 'phone'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:153]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:153]
+[ error ] [2]Illegal string offset 'paytype'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:161]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:161]
+[ error ] [2]Illegal string offset 'paytype'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:162]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:162]
+[ error ] [2]Illegal string offset 'paytype'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:163]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:163]
+[ error ] [2]Illegal string offset 'paytype'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:164]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:164]
+[ error ] [2]Illegal string offset 'course_name'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:174]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:174]
+[ error ] [2]Illegal string offset 'number'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:182]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:182]
+[ error ] [2]Illegal string offset 'number'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:183]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:183]
+[ error ] [2]Illegal string offset 'number'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:184]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:184]
+[ error ] [2]Illegal string offset 'stype'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:193]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:193]
+[ error ] [2]Illegal string offset 'stype'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:194]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:194]
+[ error ] [2]Illegal string offset 'stype'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:195]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:195]
+---------------------------------------------------------------
+[2019-11-07T16:25:10+08:00] 127.0.0.1 GET dzc.cc/index.php?s=/manage/user/index.html
+[运行时间：0.304546s] [吞吐率：3.28req/s] [内存消耗：4,365.58kb] [文件加载：95]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\dzcyiranjianshen\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=or3e7pm95j0rbg28dkl8460231',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dzc.cc/index.php?s=/manage/ordercourse/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'dzc.cc',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\PHPTutorial\WWW\dzcyiranjianshen\application\manage\view\user\index.html [ array (
+  0 => 'base_url',
+  1 => 'dzcmanageurl',
+  2 => 'group',
+  3 => 'url',
+  4 => 'menu',
+  5 => 'dzcadmin',
+  6 => 'request',
+  7 => 'action',
+  8 => 'para',
+  9 => 'data',
+) ]
+[ error ] [8]未定义数组索引: uid[E:\PHPTutorial\WWW\dzcyiranjianshen\application\common\model\User.php:77]
+[ error ] [8]未定义数组索引: phone[E:\PHPTutorial\WWW\dzcyiranjianshen\application\common\model\User.php:81]
+[ error ] [8]未定义数组索引: nickname[E:\PHPTutorial\WWW\dzcyiranjianshen\application\common\model\User.php:85]
+[ error ] [8]未定义数组索引: gender[E:\PHPTutorial\WWW\dzcyiranjianshen\application\common\model\User.php:89]
+[ error ] [8]未定义数组索引: pastamp[E:\PHPTutorial\WWW\dzcyiranjianshen\application\common\model\Coupon.php:285]
+[ error ] [8]未定义数组索引: pastamp[E:\PHPTutorial\WWW\dzcyiranjianshen\application\common\model\Coupon.php:285]
+[ error ] [8]未定义数组索引: pastamp[E:\PHPTutorial\WWW\dzcyiranjianshen\application\common\model\Coupon.php:285]
+[ error ] [8]未定义数组索引: pastamp[E:\PHPTutorial\WWW\dzcyiranjianshen\application\common\model\Coupon.php:285]
+[ error ] [8]未定义数组索引: pastamp[E:\PHPTutorial\WWW\dzcyiranjianshen\application\common\model\Coupon.php:285]
+[ error ] [8]未定义数组索引: pastamp[E:\PHPTutorial\WWW\dzcyiranjianshen\application\common\model\Coupon.php:285]
+[ error ] [8]未定义变量: islock[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\ac2a4e58317f40d3ea8841fbef781af2.php:134]
+[ error ] [2]Illegal string offset 'uid'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\ac2a4e58317f40d3ea8841fbef781af2.php:146]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\ac2a4e58317f40d3ea8841fbef781af2.php:146]
+[ error ] [2]Illegal string offset 'nickname'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\ac2a4e58317f40d3ea8841fbef781af2.php:153]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\ac2a4e58317f40d3ea8841fbef781af2.php:153]
+[ error ] [2]Illegal string offset 'gender'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\ac2a4e58317f40d3ea8841fbef781af2.php:160]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\ac2a4e58317f40d3ea8841fbef781af2.php:160]
+[ error ] [2]Illegal string offset 'gender'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\ac2a4e58317f40d3ea8841fbef781af2.php:161]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\ac2a4e58317f40d3ea8841fbef781af2.php:161]
+[ error ] [2]Illegal string offset 'gender'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\ac2a4e58317f40d3ea8841fbef781af2.php:162]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\ac2a4e58317f40d3ea8841fbef781af2.php:162]
+[ error ] [8]未定义变量: islock[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\ac2a4e58317f40d3ea8841fbef781af2.php:171]
+[ error ] [8]未定义变量: islock[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\ac2a4e58317f40d3ea8841fbef781af2.php:211]
+[ error ] [8]未定义变量: islock[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\ac2a4e58317f40d3ea8841fbef781af2.php:217]
+[ error ] [8]未定义变量: islock[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\ac2a4e58317f40d3ea8841fbef781af2.php:211]
+[ error ] [8]未定义变量: islock[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\ac2a4e58317f40d3ea8841fbef781af2.php:217]
+[ error ] [8]未定义变量: islock[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\ac2a4e58317f40d3ea8841fbef781af2.php:211]
+[ error ] [8]未定义变量: islock[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\ac2a4e58317f40d3ea8841fbef781af2.php:217]
+[ error ] [8]未定义变量: islock[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\ac2a4e58317f40d3ea8841fbef781af2.php:211]
+[ error ] [8]未定义变量: islock[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\ac2a4e58317f40d3ea8841fbef781af2.php:217]
+[ error ] [8]未定义变量: islock[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\ac2a4e58317f40d3ea8841fbef781af2.php:211]
+[ error ] [8]未定义变量: islock[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\ac2a4e58317f40d3ea8841fbef781af2.php:217]
+[ error ] [8]未定义变量: islock[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\ac2a4e58317f40d3ea8841fbef781af2.php:237]
+---------------------------------------------------------------
+[2019-11-07T16:25:12+08:00] 127.0.0.1 GET dzc.cc/index.php?s=/manage/course/index.html
+[运行时间：0.143240s] [吞吐率：6.98req/s] [内存消耗：3,526.56kb] [文件加载：93]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\dzcyiranjianshen\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=or3e7pm95j0rbg28dkl8460231',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dzc.cc/index.php?s=/manage/user/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'dzc.cc',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\PHPTutorial\WWW\dzcyiranjianshen\application\manage\view\course\courselist.html [ array (
+  0 => 'base_url',
+  1 => 'dzcmanageurl',
+  2 => 'group',
+  3 => 'url',
+  4 => 'menu',
+  5 => 'dzcadmin',
+  6 => 'request',
+  7 => 'action',
+  8 => 'para',
+  9 => 'classlist',
+  10 => 'coachlist',
+  11 => 'data',
+) ]
+[ error ] [2]Illegal string offset 'history'[E:\PHPTutorial\WWW\dzcyiranjianshen\application\common\model\Course.php:262]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\application\common\model\Course.php:262]
+[ error ] [8]未定义变量: history[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:134]
+[ error ] [8]未定义变量: history[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:138]
+[ error ] [2]Illegal string offset 'cid'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:147]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:147]
+[ error ] [2]Illegal string offset 'cid'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:149]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:149]
+[ error ] [2]Illegal string offset 'cid'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:149]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:149]
+[ error ] [2]Illegal string offset 'coid'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:159]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:159]
+[ error ] [2]Illegal string offset 'coid'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:161]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:161]
+[ error ] [2]Illegal string offset 'coid'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:161]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:161]
+[ error ] [2]Illegal string offset 'coid'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:161]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:161]
+[ error ] [2]Illegal string offset 'state'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:170]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:170]
+[ error ] [2]Illegal string offset 'state'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:171]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:171]
+[ error ] [2]Illegal string offset 'state'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:172]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:172]
+[ error ] [2]Illegal string offset 'state'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:173]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:173]
+[ error ] [2]Illegal string offset 'state'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:174]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:174]
+[ error ] [2]Illegal string offset 'sid'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:184]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:184]
+[ error ] [2]Illegal string offset 'name'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:191]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:191]
+[ error ] [2]Illegal string offset 'datestamp'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:197]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:197]
+[ error ] [8]未定义变量: history[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:222]
+[ error ] [8]未定义变量: history[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:252]
+[ error ] [8]未定义变量: history[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:261]
+---------------------------------------------------------------
+[2019-11-07T16:25:17+08:00] 127.0.0.1 GET dzc.cc/index.php?s=/manage/ordercourse/index.html
+[运行时间：0.075328s] [吞吐率：13.28req/s] [内存消耗：3,192.98kb] [文件加载：94]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\dzcyiranjianshen\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=or3e7pm95j0rbg28dkl8460231',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dzc.cc/index.php?s=/manage/course/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'dzc.cc',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\PHPTutorial\WWW\dzcyiranjianshen\application\manage\view\ordercourse\index.html [ array (
+  0 => 'base_url',
+  1 => 'dzcmanageurl',
+  2 => 'group',
+  3 => 'url',
+  4 => 'menu',
+  5 => 'dzcadmin',
+  6 => 'request',
+  7 => 'action',
+  8 => 'para',
+  9 => 'data',
+) ]
+[ error ] [2]Illegal string offset 'oid'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:146]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:146]
+[ error ] [2]Illegal string offset 'phone'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:153]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:153]
+[ error ] [2]Illegal string offset 'paytype'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:161]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:161]
+[ error ] [2]Illegal string offset 'paytype'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:162]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:162]
+[ error ] [2]Illegal string offset 'paytype'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:163]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:163]
+[ error ] [2]Illegal string offset 'paytype'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:164]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:164]
+[ error ] [2]Illegal string offset 'course_name'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:174]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:174]
+[ error ] [2]Illegal string offset 'number'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:182]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:182]
+[ error ] [2]Illegal string offset 'number'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:183]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:183]
+[ error ] [2]Illegal string offset 'number'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:184]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:184]
+[ error ] [2]Illegal string offset 'stype'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:193]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:193]
+[ error ] [2]Illegal string offset 'stype'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:194]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:194]
+[ error ] [2]Illegal string offset 'stype'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:195]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\aa4cba2e707240ef8aa071047e91a80b.php:195]
+---------------------------------------------------------------
+[2019-11-07T16:25:20+08:00] 127.0.0.1 GET dzc.cc/index.php?s=/manage/setting/index.html
+[运行时间：0.117956s] [吞吐率：8.48req/s] [内存消耗：2,936.90kb] [文件加载：88]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\dzcyiranjianshen\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=or3e7pm95j0rbg28dkl8460231',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dzc.cc/index.php?s=/manage/ordercourse/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'dzc.cc',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\PHPTutorial\WWW\dzcyiranjianshen\application\manage\view\setting\index.html [ array (
+  0 => 'base_url',
+  1 => 'dzcmanageurl',
+  2 => 'group',
+  3 => 'url',
+  4 => 'menu',
+  5 => 'dzcadmin',
+  6 => 'request',
+  7 => 'action',
+  8 => 'values',
+) ]
+---------------------------------------------------------------
+[2019-11-07T16:25:21+08:00] 127.0.0.1 GET dzc.cc/index.php?s=/manage/auth/userindex.html
+[运行时间：0.050976s] [吞吐率：19.62req/s] [内存消耗：2,930.36kb] [文件加载：91]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\dzcyiranjianshen\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=or3e7pm95j0rbg28dkl8460231',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dzc.cc/index.php?s=/manage/setting/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'dzc.cc',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\PHPTutorial\WWW\dzcyiranjianshen\application\manage\view\auth\user\index.html [ array (
+  0 => 'base_url',
+  1 => 'dzcmanageurl',
+  2 => 'group',
+  3 => 'url',
+  4 => 'menu',
+  5 => 'dzcadmin',
+  6 => 'request',
+  7 => 'action',
+  8 => 'list',
+  9 => 'page',
+  10 => 'tatal',
+) ]
+---------------------------------------------------------------
+[2019-11-07T16:25:23+08:00] 127.0.0.1 GET dzc.cc/index.php?s=/manage/market/adlist.html
+[运行时间：0.078282s] [吞吐率：12.77req/s] [内存消耗：3,186.80kb] [文件加载：93]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\dzcyiranjianshen\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=or3e7pm95j0rbg28dkl8460231',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dzc.cc/index.php?s=/manage/auth/userindex.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'dzc.cc',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\PHPTutorial\WWW\dzcyiranjianshen\application\manage\view\market\ad\list.html [ array (
+  0 => 'base_url',
+  1 => 'dzcmanageurl',
+  2 => 'group',
+  3 => 'url',
+  4 => 'menu',
+  5 => 'dzcadmin',
+  6 => 'request',
+  7 => 'action',
+  8 => 'para',
+  9 => 'grouplist',
+  10 => 'data',
+) ]
+[ error ] [2]Illegal string offset 'gid'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\3004e1b9c54818495ecc86d9e391d820.php:146]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\3004e1b9c54818495ecc86d9e391d820.php:146]
+[ error ] [2]Illegal string offset 'gid'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\3004e1b9c54818495ecc86d9e391d820.php:148]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\3004e1b9c54818495ecc86d9e391d820.php:148]
+[ error ] [2]Illegal string offset 'name'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\3004e1b9c54818495ecc86d9e391d820.php:157]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\3004e1b9c54818495ecc86d9e391d820.php:157]
+---------------------------------------------------------------
+[2019-11-07T16:25:26+08:00] 127.0.0.1 GET dzc.cc/index.php?s=/manage/setting/index.html
+[运行时间：0.041903s] [吞吐率：23.86req/s] [内存消耗：2,936.90kb] [文件加载：88]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\dzcyiranjianshen\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=or3e7pm95j0rbg28dkl8460231',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dzc.cc/index.php?s=/manage/market/adlist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'dzc.cc',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\PHPTutorial\WWW\dzcyiranjianshen\application\manage\view\setting\index.html [ array (
+  0 => 'base_url',
+  1 => 'dzcmanageurl',
+  2 => 'group',
+  3 => 'url',
+  4 => 'menu',
+  5 => 'dzcadmin',
+  6 => 'request',
+  7 => 'action',
+  8 => 'values',
+) ]
+---------------------------------------------------------------
+[2019-11-07T16:25:29+08:00] 127.0.0.1 GET dzc.cc/index.php?s=/manage/sys/menulist.html
+[运行时间：0.092562s] [吞吐率：10.80req/s] [内存消耗：3,435.01kb] [文件加载：93]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\dzcyiranjianshen\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=or3e7pm95j0rbg28dkl8460231',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dzc.cc/index.php?s=/manage/setting/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'dzc.cc',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\PHPTutorial\WWW\dzcyiranjianshen\application\manage\view\sys\menulist.html [ array (
+  0 => 'base_url',
+  1 => 'dzcmanageurl',
+  2 => 'group',
+  3 => 'url',
+  4 => 'menu',
+  5 => 'dzcadmin',
+  6 => 'request',
+  7 => 'action',
+  8 => 'lists',
+) ]
+[ error ] [8]未定义数组索引: url[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\ce27582c16d6abc11bf3d76d342a3d98.php:103]
+[ error ] [8]未定义变量: page[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\ce27582c16d6abc11bf3d76d342a3d98.php:265]
+---------------------------------------------------------------
+[2019-11-07T16:25:40+08:00] 127.0.0.1 GET dzc.cc/index.php?s=/manage/sys/menurun.html
+[运行时间：0.071600s] [吞吐率：13.97req/s] [内存消耗：3,328.09kb] [文件加载：96]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\dzcyiranjianshen\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=or3e7pm95j0rbg28dkl8460231',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dzc.cc/index.php?s=/manage/sys/menulist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'dzc.cc',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\PHPTutorial\WWW\dzcyiranjianshen\application\manage\view\sys\menurun.html [ array (
+  0 => 'base_url',
+  1 => 'dzcmanageurl',
+  2 => 'group',
+  3 => 'url',
+  4 => 'menu',
+  5 => 'dzcadmin',
+  6 => 'request',
+  7 => 'action',
+  8 => 'lists',
+) ]
+[ error ] [8]未定义数组索引: url[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:103]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:138]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:146]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:148]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:148]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:150]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:152]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:152]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:148]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:150]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:152]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:152]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:152]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:152]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:148]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:150]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:152]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:148]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:150]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:152]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:152]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:150]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:152]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:152]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:152]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:152]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:148]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:150]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:152]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:152]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:148]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:150]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:152]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:152]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:152]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:169]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:176]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:184]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:192]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:196]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:196]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:197]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:229]
+---------------------------------------------------------------
+[2019-11-07T16:42:57+08:00] 127.0.0.1 GET dzc.cc/index.php?s=/manage/sys/menurun.html
+[运行时间：0.095457s] [吞吐率：10.48req/s] [内存消耗：3,123.47kb] [文件加载：94]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\dzcyiranjianshen\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=or3e7pm95j0rbg28dkl8460231',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dzc.cc/index.php?s=/manage/sys/menulist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'dzc.cc',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\PHPTutorial\WWW\dzcyiranjianshen\application\manage\view\sys\menurun.html [ array (
+  0 => 'base_url',
+  1 => 'dzcmanageurl',
+  2 => 'group',
+  3 => 'url',
+  4 => 'menu',
+  5 => 'dzcadmin',
+  6 => 'request',
+  7 => 'action',
+  8 => 'lists',
+) ]
+[ error ] [8]未定义数组索引: url[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:103]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:138]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:146]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:148]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:148]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:150]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:152]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:152]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:148]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:150]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:152]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:152]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:152]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:152]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:148]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:150]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:152]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:148]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:150]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:152]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:152]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:150]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:152]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:152]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:152]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:152]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:148]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:150]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:152]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:152]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:148]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:150]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:152]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:152]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:152]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:169]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:176]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:184]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:192]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:196]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:196]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:197]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\8125a7e850beb9ba31c8f0eadccc942f.php:229]
+---------------------------------------------------------------
+[2019-11-07T16:43:16+08:00] 127.0.0.1 GET dzc.cc/index.php?s=/manage/course/index.html
+[运行时间：0.150849s] [吞吐率：6.63req/s] [内存消耗：3,526.56kb] [文件加载：93]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\dzcyiranjianshen\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=or3e7pm95j0rbg28dkl8460231',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dzc.cc/index.php?s=/manage/sys/menurun.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'dzc.cc',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\PHPTutorial\WWW\dzcyiranjianshen\application\manage\view\course\courselist.html [ array (
+  0 => 'base_url',
+  1 => 'dzcmanageurl',
+  2 => 'group',
+  3 => 'url',
+  4 => 'menu',
+  5 => 'dzcadmin',
+  6 => 'request',
+  7 => 'action',
+  8 => 'para',
+  9 => 'classlist',
+  10 => 'coachlist',
+  11 => 'data',
+) ]
+[ error ] [2]Illegal string offset 'history'[E:\PHPTutorial\WWW\dzcyiranjianshen\application\common\model\Course.php:262]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\application\common\model\Course.php:262]
+[ error ] [8]未定义变量: history[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:134]
+[ error ] [8]未定义变量: history[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:138]
+[ error ] [2]Illegal string offset 'cid'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:147]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:147]
+[ error ] [2]Illegal string offset 'cid'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:149]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:149]
+[ error ] [2]Illegal string offset 'cid'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:149]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:149]
+[ error ] [2]Illegal string offset 'coid'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:159]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:159]
+[ error ] [2]Illegal string offset 'coid'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:161]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:161]
+[ error ] [2]Illegal string offset 'coid'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:161]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:161]
+[ error ] [2]Illegal string offset 'coid'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:161]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:161]
+[ error ] [2]Illegal string offset 'state'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:170]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:170]
+[ error ] [2]Illegal string offset 'state'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:171]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:171]
+[ error ] [2]Illegal string offset 'state'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:172]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:172]
+[ error ] [2]Illegal string offset 'state'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:173]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:173]
+[ error ] [2]Illegal string offset 'state'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:174]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:174]
+[ error ] [2]Illegal string offset 'sid'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:184]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:184]
+[ error ] [2]Illegal string offset 'name'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:191]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:191]
+[ error ] [2]Illegal string offset 'datestamp'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:197]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:197]
+[ error ] [8]未定义变量: history[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:222]
+[ error ] [8]未定义变量: history[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:252]
+[ error ] [8]未定义变量: history[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:261]
+---------------------------------------------------------------
+[2019-11-07T16:43:47+08:00] 127.0.0.1 GET dzc.cc/index.php?s=/manage/course/coachlist.html
+[运行时间：0.073056s] [吞吐率：13.69req/s] [内存消耗：3,012.86kb] [文件加载：89]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\dzcyiranjianshen\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=or3e7pm95j0rbg28dkl8460231',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dzc.cc/index.php?s=/manage/course/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'dzc.cc',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\PHPTutorial\WWW\dzcyiranjianshen\application\manage\view\course\coachlist.html [ array (
+  0 => 'base_url',
+  1 => 'dzcmanageurl',
+  2 => 'group',
+  3 => 'url',
+  4 => 'menu',
+  5 => 'dzcadmin',
+  6 => 'request',
+  7 => 'action',
+  8 => 'para',
+  9 => 'data',
+) ]
+---------------------------------------------------------------
+[2019-11-07T16:43:50+08:00] 127.0.0.1 GET dzc.cc/index.php?s=/manage/course/classlist.html
+[运行时间：0.072126s] [吞吐率：13.86req/s] [内存消耗：3,010.47kb] [文件加载：89]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\dzcyiranjianshen\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=or3e7pm95j0rbg28dkl8460231',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dzc.cc/index.php?s=/manage/course/coachlist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'dzc.cc',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\PHPTutorial\WWW\dzcyiranjianshen\application\manage\view\course\classlist.html [ array (
+  0 => 'base_url',
+  1 => 'dzcmanageurl',
+  2 => 'group',
+  3 => 'url',
+  4 => 'menu',
+  5 => 'dzcadmin',
+  6 => 'request',
+  7 => 'action',
+  8 => 'para',
+  9 => 'data',
+) ]
+---------------------------------------------------------------
+[2019-11-07T16:47:58+08:00] 127.0.0.1 GET dzc.cc/index.php?s=/manage/course/index.html
+[运行时间：0.120902s] [吞吐率：8.27req/s] [内存消耗：3,526.56kb] [文件加载：93]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\dzcyiranjianshen\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=or3e7pm95j0rbg28dkl8460231',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dzc.cc/index.php?s=/manage/course/classlist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'dzc.cc',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\PHPTutorial\WWW\dzcyiranjianshen\application\manage\view\course\courselist.html [ array (
+  0 => 'base_url',
+  1 => 'dzcmanageurl',
+  2 => 'group',
+  3 => 'url',
+  4 => 'menu',
+  5 => 'dzcadmin',
+  6 => 'request',
+  7 => 'action',
+  8 => 'para',
+  9 => 'classlist',
+  10 => 'coachlist',
+  11 => 'data',
+) ]
+[ error ] [2]Illegal string offset 'history'[E:\PHPTutorial\WWW\dzcyiranjianshen\application\common\model\Course.php:262]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\application\common\model\Course.php:262]
+[ error ] [8]未定义变量: history[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:134]
+[ error ] [8]未定义变量: history[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:138]
+[ error ] [2]Illegal string offset 'cid'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:147]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:147]
+[ error ] [2]Illegal string offset 'cid'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:149]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:149]
+[ error ] [2]Illegal string offset 'cid'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:149]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:149]
+[ error ] [2]Illegal string offset 'coid'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:159]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:159]
+[ error ] [2]Illegal string offset 'coid'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:161]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:161]
+[ error ] [2]Illegal string offset 'coid'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:161]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:161]
+[ error ] [2]Illegal string offset 'coid'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:161]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:161]
+[ error ] [2]Illegal string offset 'state'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:170]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:170]
+[ error ] [2]Illegal string offset 'state'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:171]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:171]
+[ error ] [2]Illegal string offset 'state'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:172]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:172]
+[ error ] [2]Illegal string offset 'state'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:173]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:173]
+[ error ] [2]Illegal string offset 'state'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:174]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:174]
+[ error ] [2]Illegal string offset 'sid'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:184]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:184]
+[ error ] [2]Illegal string offset 'name'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:191]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:191]
+[ error ] [2]Illegal string offset 'datestamp'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:197]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:197]
+[ error ] [8]未定义变量: history[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:222]
+[ error ] [8]未定义变量: history[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:252]
+[ error ] [8]未定义变量: history[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\23b8bf264b14c0714b882d70078c41da.php:261]
+---------------------------------------------------------------
+[2019-11-07T16:48:00+08:00] 127.0.0.1 GET dzc.cc/index.php?s=/manage/course/courserun.html
+[运行时间：0.088354s] [吞吐率：11.32req/s] [内存消耗：3,186.44kb] [文件加载：93]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\dzcyiranjianshen\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=or3e7pm95j0rbg28dkl8460231',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dzc.cc/index.php?s=/manage/course/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'dzc.cc',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\PHPTutorial\WWW\dzcyiranjianshen\application\manage\view\course\courserun.html [ array (
+  0 => 'base_url',
+  1 => 'dzcmanageurl',
+  2 => 'group',
+  3 => 'url',
+  4 => 'menu',
+  5 => 'dzcadmin',
+  6 => 'request',
+  7 => 'action',
+  8 => 'para',
+  9 => 'classlist',
+  10 => 'coachlist',
+) ]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\75cbbf19b44d57a425ff67c1993625f1.php:138]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\75cbbf19b44d57a425ff67c1993625f1.php:146]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\75cbbf19b44d57a425ff67c1993625f1.php:148]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\75cbbf19b44d57a425ff67c1993625f1.php:148]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\75cbbf19b44d57a425ff67c1993625f1.php:157]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\75cbbf19b44d57a425ff67c1993625f1.php:159]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\75cbbf19b44d57a425ff67c1993625f1.php:159]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\75cbbf19b44d57a425ff67c1993625f1.php:159]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\75cbbf19b44d57a425ff67c1993625f1.php:168]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\75cbbf19b44d57a425ff67c1993625f1.php:170]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\75cbbf19b44d57a425ff67c1993625f1.php:175]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\75cbbf19b44d57a425ff67c1993625f1.php:179]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\75cbbf19b44d57a425ff67c1993625f1.php:183]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\75cbbf19b44d57a425ff67c1993625f1.php:183]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\75cbbf19b44d57a425ff67c1993625f1.php:184]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\75cbbf19b44d57a425ff67c1993625f1.php:193]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\75cbbf19b44d57a425ff67c1993625f1.php:198]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\75cbbf19b44d57a425ff67c1993625f1.php:206]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\75cbbf19b44d57a425ff67c1993625f1.php:212]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\75cbbf19b44d57a425ff67c1993625f1.php:217]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\75cbbf19b44d57a425ff67c1993625f1.php:225]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\75cbbf19b44d57a425ff67c1993625f1.php:229]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\75cbbf19b44d57a425ff67c1993625f1.php:245]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\75cbbf19b44d57a425ff67c1993625f1.php:267]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\75cbbf19b44d57a425ff67c1993625f1.php:285]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\75cbbf19b44d57a425ff67c1993625f1.php:292]
+---------------------------------------------------------------
+[2019-11-07T17:00:48+08:00] 127.0.0.1 GET dzc.cc/index.php?s=/manage/market/adlist.html
+[运行时间：0.074254s] [吞吐率：13.47req/s] [内存消耗：3,187.34kb] [文件加载：93]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\dzcyiranjianshen\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=or3e7pm95j0rbg28dkl8460231',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dzc.cc/index.php?s=/manage/course/courserun.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'dzc.cc',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\PHPTutorial\WWW\dzcyiranjianshen\application\manage\view\market\ad\list.html [ array (
+  0 => 'base_url',
+  1 => 'dzcmanageurl',
+  2 => 'group',
+  3 => 'url',
+  4 => 'menu',
+  5 => 'dzcadmin',
+  6 => 'request',
+  7 => 'action',
+  8 => 'para',
+  9 => 'grouplist',
+  10 => 'data',
+) ]
+[ error ] [2]Illegal string offset 'gid'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\3004e1b9c54818495ecc86d9e391d820.php:146]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\3004e1b9c54818495ecc86d9e391d820.php:146]
+[ error ] [2]Illegal string offset 'gid'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\3004e1b9c54818495ecc86d9e391d820.php:148]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\3004e1b9c54818495ecc86d9e391d820.php:148]
+[ error ] [2]Illegal string offset 'name'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\3004e1b9c54818495ecc86d9e391d820.php:157]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\3004e1b9c54818495ecc86d9e391d820.php:157]
+---------------------------------------------------------------
+[2019-11-07T17:00:49+08:00] 127.0.0.1 GET dzc.cc/index.php?s=/manage/market/couponlist.html
+[运行时间：0.058132s] [吞吐率：17.20req/s] [内存消耗：3,284.83kb] [文件加载：94]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\dzcyiranjianshen\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=or3e7pm95j0rbg28dkl8460231',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dzc.cc/index.php?s=/manage/market/adlist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'dzc.cc',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\PHPTutorial\WWW\dzcyiranjianshen\application\manage\view\market\coupon\list.html [ array (
+  0 => 'base_url',
+  1 => 'dzcmanageurl',
+  2 => 'group',
+  3 => 'url',
+  4 => 'menu',
+  5 => 'dzcadmin',
+  6 => 'request',
+  7 => 'action',
+  8 => 'para',
+  9 => 'classlist',
+  10 => 'data',
+) ]
+[ error ] [2]Illegal string offset 'cid'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\9063cd2e15d9eca5f9bfe54e8ea723b7.php:146]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\9063cd2e15d9eca5f9bfe54e8ea723b7.php:146]
+[ error ] [2]Illegal string offset 'cid'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\9063cd2e15d9eca5f9bfe54e8ea723b7.php:148]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\9063cd2e15d9eca5f9bfe54e8ea723b7.php:148]
+[ error ] [2]Illegal string offset 'cid'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\9063cd2e15d9eca5f9bfe54e8ea723b7.php:148]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\9063cd2e15d9eca5f9bfe54e8ea723b7.php:148]
+[ error ] [2]Illegal string offset 'cid'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\9063cd2e15d9eca5f9bfe54e8ea723b7.php:150]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\9063cd2e15d9eca5f9bfe54e8ea723b7.php:150]
+[ error ] [2]Illegal string offset 'sid'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\9063cd2e15d9eca5f9bfe54e8ea723b7.php:158]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\9063cd2e15d9eca5f9bfe54e8ea723b7.php:158]
+[ error ] [2]Illegal string offset 'name'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\9063cd2e15d9eca5f9bfe54e8ea723b7.php:164]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\9063cd2e15d9eca5f9bfe54e8ea723b7.php:164]
+[ error ] [2]Illegal string offset 'isreget'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\9063cd2e15d9eca5f9bfe54e8ea723b7.php:173]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\9063cd2e15d9eca5f9bfe54e8ea723b7.php:173]
+[ error ] [2]Illegal string offset 'isreget'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\9063cd2e15d9eca5f9bfe54e8ea723b7.php:174]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\9063cd2e15d9eca5f9bfe54e8ea723b7.php:174]
+[ error ] [2]Illegal string offset 'isreget'[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\9063cd2e15d9eca5f9bfe54e8ea723b7.php:175]
+[ error ] [8]Uninitialized string offset: 0[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\9063cd2e15d9eca5f9bfe54e8ea723b7.php:175]
+---------------------------------------------------------------
+[2019-11-07T17:00:50+08:00] 127.0.0.1 GET dzc.cc/index.php?s=/manage/market/couponrun.html
+[运行时间：0.061914s] [吞吐率：16.15req/s] [内存消耗：3,206.98kb] [文件加载：93]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\dzcyiranjianshen\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=or3e7pm95j0rbg28dkl8460231',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dzc.cc/index.php?s=/manage/market/couponlist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'dzc.cc',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\PHPTutorial\WWW\dzcyiranjianshen\application\manage\view\market\coupon\run.html [ array (
+  0 => 'base_url',
+  1 => 'dzcmanageurl',
+  2 => 'group',
+  3 => 'url',
+  4 => 'menu',
+  5 => 'dzcadmin',
+  6 => 'request',
+  7 => 'action',
+  8 => 'classlist',
+) ]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\226c82cfa5a325b0a5921a0025f8b24e.php:134]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\226c82cfa5a325b0a5921a0025f8b24e.php:142]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\226c82cfa5a325b0a5921a0025f8b24e.php:143]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\226c82cfa5a325b0a5921a0025f8b24e.php:145]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\226c82cfa5a325b0a5921a0025f8b24e.php:145]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\226c82cfa5a325b0a5921a0025f8b24e.php:154]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\226c82cfa5a325b0a5921a0025f8b24e.php:156]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\226c82cfa5a325b0a5921a0025f8b24e.php:162]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\226c82cfa5a325b0a5921a0025f8b24e.php:166]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\226c82cfa5a325b0a5921a0025f8b24e.php:166]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\226c82cfa5a325b0a5921a0025f8b24e.php:167]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\226c82cfa5a325b0a5921a0025f8b24e.php:174]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\226c82cfa5a325b0a5921a0025f8b24e.php:178]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\226c82cfa5a325b0a5921a0025f8b24e.php:188]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\226c82cfa5a325b0a5921a0025f8b24e.php:189]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\226c82cfa5a325b0a5921a0025f8b24e.php:193]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\226c82cfa5a325b0a5921a0025f8b24e.php:197]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\226c82cfa5a325b0a5921a0025f8b24e.php:202]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\226c82cfa5a325b0a5921a0025f8b24e.php:206]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\226c82cfa5a325b0a5921a0025f8b24e.php:209]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\226c82cfa5a325b0a5921a0025f8b24e.php:219]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\226c82cfa5a325b0a5921a0025f8b24e.php:219]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\226c82cfa5a325b0a5921a0025f8b24e.php:219]
+[ error ] [8]未定义变量: comm[E:\PHPTutorial\WWW\dzcyiranjianshen\runtime\temp\226c82cfa5a325b0a5921a0025f8b24e.php:231]

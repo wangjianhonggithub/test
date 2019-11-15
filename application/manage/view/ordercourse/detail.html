@@ -1,0 +1,316 @@
+<div class="layui-container">
+    <div class="layui-row">
+        <div class="layui-col-md12 layui-col-xs12">
+            <div class="widget-head">
+                <div class="widget-title">订单详情</div>
+            </div>
+        </div>
+        <div class="layui-col-md12 layui-col-xs12 widget-body ">
+            
+            <!-- <div class="layui-col-sm12">
+                <?php
+                    // 计算当前步骤位置
+                    $progress = 1;
+                    $detail['pay_status']['value'] === 20 && $progress += 1;
+                    $detail['delivery_status']['value'] === 20 && $progress += 1;
+                    $detail['receipt_status']['value'] === 20 && $progress += 1;
+                ?>
+                <ul class="order-detail-progress progress-{$progress} ">
+                    <li>
+                        <span>下单时间</span>
+                        <div class="tip">
+                            {$detail['create_time']}
+                        </div>
+                    </li>
+                    <li>
+                        <span>付款</span>
+                        {if $detail['pay_status']['value'] heq 20}
+                        <div class="tip">
+                            {$detail['pay_time']|date='Y-m-d H:i:s'}
+                        </div>
+                        {/if}
+                    </li>
+                    <li>
+                        <span>发货</span>
+                        {if $detail['delivery_status']['value'] heq 20}
+                        <div class="tip">
+                            {$detail['order_delivery'][count($detail['order_delivery'])-1]['create_time']}
+                        </div>
+                        {/if}
+                    </li>
+                    <li>
+                        <span>收货</span>
+                        {if $detail['receipt_status']['value'] heq 20}
+                        <div class="tip">
+                            {$detail['order_delivery'][0]['receipt_time']|date='Y-m-d H:i'}
+                        </div>
+                        {/if}
+                    </li>
+                    <li>
+                        <span>完成</span>
+                        {if $detail['order_status']['value'] heq 30}
+                        <div class="tip">
+                            {$detail['end_time']|date='Y-m-d H:i'}
+                        </div>
+                        {/if}
+                    </li>
+                </ul>
+            </div> -->
+
+            <div class="widget-head layui-col-sm12 layui-col-md12 layui-col-lg12">
+                <div class="widget-title">基本信息</div>
+            </div>
+            <div class="layui-col-md12">
+                <table width="100%" class="layui-table">
+                    <thead>
+                    <tr>
+                        <th>订单编号</th>
+                        <th>联系电话</th>
+                        <th>参课人数</th>
+                        <th>订单金额</th>
+                        <th>时间</th>
+                        <th>状态</th>
+                    </tr>
+                    </thead>
+                    <tr>
+                        <td>{$comm['oid']}</td>
+                        <td>{$comm['phone']}</td>
+                        <td>{$comm['number']}</td>
+                        <td>
+                            订单金额：￥{$comm['course_price']*$comm['number']}
+                            <hr>
+                            支付方式：
+                            <?php
+                                switch ($comm['paytype']) {
+                                    case 1:
+                                        echo '全款支付';
+                                        break;
+                                    case 2:
+                                        echo '优惠券满减　-￥'.$comm['cprice'];
+                                        break;
+                                    case 3:
+                                        echo '课程包抵扣';
+                                        break;
+                                    default:
+                                        # code...
+                                        break;
+                                }
+                            ?>
+                            <hr>
+                            实际付款：￥{$comm['price']}
+                        </td>
+                        <td>
+                            提交时间：{:date("Y-m-d H:i",$comm['addstamp'])}
+                            <hr>
+                            开课时间：{:date("Y-m-d H:i",$comm['pastamp'])}
+                        </td>
+                        <td>{$comm['stype']==1?'预约中':'已结束'}</td>
+
+                    </tr>
+                    
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="widget-head layui-col-sm12 layui-col-md12 layui-col-lg12">
+                <div class="widget-title">支付信息</div>
+            </div>
+            {switch $comm.paytype}
+                {case 1}
+                    <!-- 全款 -->
+                    <div class="layui-col-md12">
+                        <table width="100%" class="layui-table">
+                            <thead>
+                                <tr>
+                                    <th>订单编号</th>
+                                    <th>支付金额</th>
+                                    <th>微信支付流水单号</th>
+                                    <th>支付时间</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>{$comm['logpay']['oid']}</td>
+                                    <td>{$comm['logpay']['price']/100}</td>
+                                    <td>{$comm['logpay']['flowcode']}</td>
+                                    <td>{:date("Y-m-d H:i",$comm['logpay']['addstamp'])}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                {/case}
+                {case 2}
+                    <!-- 优惠券 -->
+                    <div class="layui-col-md12">
+                        <table width="100%" class="layui-table">
+                            <thead>
+                                <tr>
+                                    <th>订单编号</th>
+                                    <th>支付金额</th>
+                                    <th>微信支付流水单号</th>
+                                    <th>支付时间</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>{$comm['logpay']['oid']}</td>
+                                    <td>{$comm['logpay']['price']/100}</td>
+                                    <td>{$comm['logpay']['flowcode']}</td>
+                                    <td>{:date("Y-m-d H:i",$comm['logpay']['addstamp'])}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="layui-col-md12">
+                        <table width="100%" class="layui-table">
+                            <thead>
+                                <tr>
+                                    <th>订单编号</th>
+                                    <th>优惠券名称</th>
+                                    <th>备注</th>
+                                    <th>使用时间</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>{$comm['logcoupon']['oid']}</td>
+                                    <td>{$comm['logcoupon']['name']}</td>
+                                    <td>{$comm['logcoupon']['content']}</td>
+                                    <td>{:date("Y-m-d H:i",$comm['logcoupon']['addstamp'])}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                {/case}
+                {case 3}
+                    <!-- 课程包 -->
+                    <div class="layui-col-md12">
+                        <table width="100%" class="layui-table">
+                            <thead>
+                            <tr>
+                                <th>课程包编号</th>
+                                <th>名称</th>
+                                <th>总课时</th>
+                                <th>使用课时</th>
+                                <th>使用时间</th>
+                            </tr>
+                            </thead>
+                            <tr>
+                                <td>{$comm['logpacks']['sid']}</td>
+                                <td>{$comm['logpacks']['name']}</td>
+                                <td>{$comm['logpacks']['tothour']}</td>
+                                <td>{$comm['logpacks']['hashour']}</td>
+                                <td>{:date("Y-m-d H:i",$comm['logpacks']['addstamp'])}</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                {/case}
+                {default /}
+                <!-- 默认 -->
+            {/switch}
+
+            <div class="widget-head layui-col-sm12 layui-col-md12 layui-col-lg12">
+                <div class="widget-title ">会员信息</div>
+            </div>
+            <div class="layui-col-md12">
+                <table width="100%" class="layui-table">
+                    <thead>
+                        <tr>
+                            <th>编号</th>
+                            <th>头像</th>
+                            <th>昵称</th>
+                            <th>性别</th>
+                            <th>地区</th>
+                            <th>注册时间</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>{$usercomm['uid']}</td>
+                            <td><a href="{$usercomm['headimg']}" title="点击查看大图" target="_blank"><img src="{$usercomm['headimg']}" width="60" height="60"alt=""></a></td>
+                            <td>{$usercomm['nickname']}</td>
+                            <td>{$usercomm['gender']==1?'男':'女'}</td>
+                            <td>{$usercomm['country']} {$usercomm['province']} {$usercomm['city']}</td>
+                            <td>{:date("Y-m-d H:i",$usercomm['addstamp'])}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="widget-head layui-col-sm12 layui-col-md12 layui-col-lg12">
+                <div class="widget-title ">课程信息</div>
+            </div>
+            <div class="layui-col-md12">
+                <table width="100%" class="layui-table">
+                    <thead>
+                        <tr>
+                            <th>编号</th>
+                            <th>课程分类</th>
+                            <th>名称</th>
+                            <th>任课教练</th>
+                            <th>价格</th>
+                            <th>课程时间</th>
+                            <th>总名额/已预约</th>
+                            <th>更新时间</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>{$coucomm['sid']}</td>
+                            <td>{$coucomm['classname']}</td>
+                            <td>{$coucomm['name']}</td>
+                            <td>{$coucomm['coname']}</td>
+                            <td>￥{$coucomm['price']}</td>
+                            <td>
+                                {:date("Y-m-d H:i",$coucomm['datestamp'])}
+                                <br>{$coucomm['stime']}-{$coucomm['etime']}
+                            </td>
+                            <td>
+                                {$coucomm['totnum']}/{$coucomm['nownum']}
+                                {if($coucomm['ispast']==2)}
+                                    <a class="layui-btn layui-btn-sm layui-btn-radius layui-btn-normal layui-btn-disabled">已结束</a>
+                                {elseif($coucomm['isfull']==2)}
+                                    <a class="layui-btn layui-btn-sm layui-btn-radius layui-btn-danger">已满员</a>
+                                {else}
+                                    <span class="layui-btn layui-btn-sm layui-btn-radius layui-btn-normal">可预约</span>
+                                {/if}
+                            </td>
+                            <td>{:date("Y-m-d H:i",$coucomm['modstamp'])}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+</div>
+<script>
+    var thiswin = parent.layer.getFrameIndex(window.name); //获取窗口索引
+</script>
+
+{if($oid == '')}
+<script>
+    //关闭iframe
+    $(function () {
+        parent.layer.close(thiswin);
+    });
+</script>
+{/if}
+<script>
+    $(function () {
+        $('.tpl-header').remove();
+        $('.left-oidebar').remove();
+        $('.left-sidebar').remove();
+        $('.tpl-content-wrapper ').css({ "margin-left": "0px", "margin-top": "0px" });
+
+
+        $('#myform').submit(function () {
+            
+            ajaxrun('myform');
+            return false;
+        });
+    });
+
+</script>

@@ -1,0 +1,150 @@
+<div class="layui-container">
+    <div class="layui-row">
+        <div class="layui-col-sm12 layui-col-md12 layui-col-lg12">
+            <div class="widget-head">
+                <div class="widget-title">{if($comm=='')}新增{else}编辑{/if}分销商等级</div>
+            </div>
+            <form id="myform" class="layui-form" method="post">
+
+
+
+                <div class="widget-body layui-col-lg12">
+
+                    <div class="layui-form-item">
+                        <label class="layui-form-label form-require">等级名称 </label>
+                        <div class="layui-col-sm5 layer-midd-left">
+                            <input type="text" class="layui-input" name="level_name" value="{$comm['level_name']}" placeholder="请输入等级名称">
+                        </div>
+                        <div class="layui-form-mid layui-word-aux"></div>
+                    </div>
+
+
+                    <div class="layui-form-item">
+                        <label class="layui-form-label form-require">分销等级 </label>
+                        <div class="layui-col-sm5 layer-midd-left">
+                            <input type="text" class="layui-input" name="level_type" value="{$comm['level_type']}" placeholder="请输入分销等级">
+                        </div>
+                        <div class="layui-form-mid layui-word-aux">数值与等级成正比关系</div>
+                    </div>
+
+                    <div class="layui-form-item">
+                        <label class="layui-form-label form-require">简介 </label>
+                        <div class="layui-col-sm5 layer-midd-left">
+                            <input type="text" class="layui-input" name="introduction" value="{$comm['introduction']}" placeholder="请输入加盟商简介" >
+                        </div>
+                        <div class="layui-form-mid layui-word-aux">加盟商简介</div>
+                    </div>
+
+                    <div class="layui-form-item">
+                        <label class="layui-form-label form-require">一级佣金比例 </label>
+                        <div class="layui-col-sm5 layer-midd-left">
+                            <input type="text" class="layui-input" name="rate1" value="{$comm['rate1']}" placeholder="请输入一级佣金比例" >
+                        </div>
+                        <div class="layui-form-mid layui-word-aux">处于一级上线时获得的佣金比例%</div>
+                    </div>
+
+                    <div class="layui-form-item">
+                        <label class="layui-form-label form-require">二级佣金比例 </label>
+                        <div class="layui-col-sm5 layer-midd-left">
+                            <input type="text" class="layui-input" name="rate2" value="{$comm['rate2']}" placeholder="请输入二级佣金比例" >
+                        </div>
+                        <div class="layui-form-mid layui-word-aux">处于二级上线时获得的佣金比例%</div>
+                    </div>
+
+                    <div class="layui-form-item">
+                        <label class="layui-form-label form-require">三级佣金比例 </label>
+                        <div class="layui-col-sm5 layer-midd-left">
+                            <input type="text" class="layui-input" name="rate3" value="{$comm['rate3']}" placeholder="请输入三级佣金比例" >
+                        </div>
+                        <div class="layui-form-mid layui-word-aux">处于三级上线时获得的佣金比例%</div>
+                    </div>
+
+                    <div class="layui-form-item">
+                        <label class="layui-form-label form-require">加盟价格 </label>
+                        <div class="layui-col-sm5 layer-midd-left">
+                            <input type="text" class="layui-input" name="join_price" value="{$comm['join_price']}" placeholder="请输入加盟价格(元)" >
+                        </div>
+                        <div class="layui-form-mid layui-word-aux">分销商加盟条件，支付该金额即可享受对应的分佣规则</div>
+                    </div>
+
+                    <div class="layui-form-item">
+                        <label class="layui-form-label form-require">推荐奖励 </label>
+                        <div class="layui-col-sm5 layer-midd-left">
+                            <input type="text" class="layui-input" name="reward" value="{$comm['reward']}" placeholder="请输入推荐奖励(元)" >
+                        </div>
+                        <div class="layui-form-mid layui-word-aux">推荐人发展一个该级别的分销商获得奖励金额</div>
+                    </div>
+
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">升级条件 </label>
+                        <div class="layui-col-sm5 layer-midd-left">
+                            <input type="text" class="layui-input" name="order_money" value="{$comm['order_money']}" placeholder="请输入升级条件(元)" >
+                        </div>
+                        <div class="layui-form-mid layui-word-aux">分销商升级条件，不填写默认为不自动升级</div>
+                    </div>
+
+
+
+
+
+
+                    <div class="layui-form-item">
+                        <label class="layui-form-label form-require">等级说明 </label>
+                        <div class="layui-col-sm6 layer-midd-left">
+                            <textarea name="level_intro" placeholder="请输入介绍" class="layui-textarea">{$comm['level_intro']}</textarea>
+                        </div>
+                        <div class="layui-form-mid layui-word-aux"></div>
+                    </div>
+
+                    <div class="layui-form-item">
+                        <button id="mysubmit" type="submit" class="layui-btn">提交</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+
+
+
+        $('#myform').submit(function () {
+            var level_name = $("input[name='level_name']").val();
+            if(!level_name){     layer.msg('请输入等级名称', function () { }); return false;}
+
+            var level_type = $("input[name='level_type']").val();
+            if(!level_type){    layer.msg('请输入分销等级', function () { }); return false;}
+
+            var introduction = $("input[name='introduction']").val();
+            if(!introduction){    layer.msg('请输入简介', function () { }); return false;}
+
+            var rate1 = $("input[name='rate1']").val();
+            if(!rate1){    layer.msg('请输入一级佣金比例', function () { }); return false;}
+
+            var rate2 = $("input[name='rate2']").val();
+            if(!rate2){    layer.msg('请输入二级佣金比例', function () { }); return false;}
+
+            var rate3 = $("input[name='rate3']").val();
+            if(!rate3){    layer.msg('请输入三级佣金比例', function () { }); return false;}
+
+            var join_price = $("input[name='join_price']").val();
+            if(!join_price){    layer.msg('请输入加盟价格', function () { }); return false;}
+
+            var reward = $("input[name='reward']").val();
+            if(!reward){    layer.msg('请输入推荐奖励', function () { }); return false;}
+
+            var level_intro = $("textarea[name='level_intro']").val();
+            if(!level_intro){    layer.msg('请输入等级说明', function () { }); return false;}
+
+
+
+            ajaxrun('myform');
+            return false;
+        });
+
+
+
+    });
+</script>

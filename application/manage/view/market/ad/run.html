@@ -1,0 +1,94 @@
+<div class="layui-container">
+    <div class="layui-row">
+        <div class="layui-col-sm12 layui-col-md12 layui-col-lg12">
+			<div class="widget-head">
+				<div class="widget-title">{if($comm=='')}新增{else}编辑{/if}广告</div>
+			</div>
+			<form id="myform" class="layui-form" method="post">
+				<div class="widget-body layui-col-lg12"> 
+                    <div class="layui-form-item">
+                        <label class="layui-form-label form-require">广告分组 </label>
+                        <div class="layui-col-sm5 layer-midd-left">
+                            <select id="gid" name="gid" lay-search>
+                                <option {if $comm['gid']==0} selected {/if} value="">请选择</option>
+                                {foreach($grouplist as $value)}
+                                    <option {if $value['id']==$comm['gid']} selected {/if} value="{$value['id']}">{$value['name']}</option>
+                                {/foreach}
+                            </select>
+                        </div>
+                    </div>
+                   
+                    <div class="layui-form-item">
+                        <label class="layui-form-label form-require">名称 </label>
+                        <div class="layui-col-sm5 layer-midd-left">
+                            <input type="text" class="layui-input" name="name" value="{$comm['name']}" placeholder="请输入名称" required>
+                        </div>
+                        <div class="layui-form-mid layui-word-aux"></div>
+                    </div>
+
+                    <div class="layui-form-item">
+                        <label class="layui-form-label form-require">排序 </label>
+                        <div class="layui-col-sm2 layer-midd-left">
+                            <input type="number" class="layui-input" name="sort" value="{$comm['sort']==''?99:$comm['sort']}" placeholder="请输入排序" required>
+                        </div>
+                        <label class="layui-form-label">状态　</label>
+                        <div>
+                            <input type="radio" name="ishow" value="1" title="展示" {if($comm['ishow']==1)}checked{else}{/if} {if($comm=='')}checked{/if}>　
+                            <input type="radio" name="ishow" value="2" title="隐藏" {if($comm['ishow']==2)}checked{else}{/if}>
+                        </div>
+                        <div class="layui-form-mid layui-word-aux"></div>
+                    </div>
+
+                    <div class="layui-form-item">
+                        <label class="layui-form-label form-require">展示图片 </label>
+                        <div class="layui-col-sm7 layer-midd-left ">
+                            <div class="layer-form-file">
+                                <button type="button" class="imgpath layui-btn ">
+                                    <i class="layer-icon-cloud-upload"></i> 选择图片
+                                </button>
+                                <div class="uploader-list layer-cf">
+                                    {if($comm['imgpath'])}
+                                    <div class="file-item">
+                                        <a href="{$comm['imgpath']}" title="点击查看大图" target="_blank"><img src="{$comm['imgpath']}"></a>
+                                        <i class="mdi menu-icon mdi-window-close file-item-delete layui-icon">&#x1006;</i>
+                                    </div>
+                                    {/if}
+                                    <input type="hidden" name="imgpath" value="{$comm['imgpath']??''}">
+                                </div>
+                            </div>
+                            <div class="help-block layer-margin-top-sm">
+                                <small>请选择宽度为690px,高度250px的图片以保证展示效果正常</small>
+                            </div>
+                        </div>
+                    </div>
+                    
+					<div class="layui-form-item">
+						<button id="mysubmit1" type="submit" class="layui-btn">提交</button>
+					</div>
+				</div>
+			</form>
+		</div>
+    </div>
+</div>
+<!-- 图片文件列表模板 -->
+{include file="layouts/_template/tpl_file_item" /}
+<!-- 文件库弹窗 -->
+{include file="layouts/_template/file_library" /}
+
+<script>
+$(function () {
+    // 选择图片
+    $('.imgpath').selectImages({ name: 'imgpath' });
+
+    $('#myform').submit(function () {
+        var gid = $("#gid option:selected").val();
+        if (gid == 0) { layer.msg('请选择广告分组', function () { }); return false;}
+
+        var imgpath = $("input[name='imgpath']").val();
+        if (imgpath == '') { layer.msg('请上传展示图片', function () { }); return false; }
+        
+        ajaxrun('myform');
+        return false;
+    });
+});
+</script>

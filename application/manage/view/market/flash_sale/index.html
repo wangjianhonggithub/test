@@ -1,0 +1,154 @@
+<div class="layui-container">
+    <div class="layui-row">
+        <div class="layui-col-md12 layui-col-xs12">
+            <div class="widget-head">
+                <div class="widget-title">抢购管理列表</div>
+            </div>
+        </div>
+        <div class="layui-col-md12 layui-col-xs12 widget-body ">
+            <div class="layui-form-item layui-col-md1"><div class="layui-col-md1"><a class="layui-btn" href="{:url('manage/Market/addflashsale')}">新增活动</a></div></div>
+
+            <form class="layui-form layui-col-md11" method="post" action="">
+                <div class="layui-form-item">
+
+                    <div class="layui-inline layui-col-md4">
+                        <label class="layui-form-label">活动名称：</label>
+                        <div class="layui-input-inline">
+                            <input name="title" type="text" class="layui-input" placeholder="请输入活动名称" value="{$para['title']}">
+                        </div>
+                    </div>
+
+                    <div class="layui-inline layui-col-md4">
+                        <label class="layui-form-label">商品名称：</label>
+                        <div class="layui-input-inline">
+                            <input name="goods_name" type="text" class="layui-input" placeholder="请输入活动名称" value="{$para['goods_name']}">
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <div class="layui-form-item">
+                    <div class="layui-inline layui-col-md4">
+                        <label class="layui-form-label">活动状态：</label>
+                        <div class="layui-input-inline">
+                            <select class="layui-inline " lay-search name="status" data-layer-selected="{btnSize: 'sm', placeholder: '注册赠送'}">
+                                <option value="0" {if($para["status"]==0)}selected{/if}>全部 </option>
+                                <option value="1" {if($para["status"]==1)}selected{/if}>未开始 </option>
+                                <option value="2" {if($para["status"]==2)}selected{/if}>进行中 </option>
+                                <option value="3" {if($para["status"]==3)}selected{/if}>已结束 </option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="layui-inline layui-col-md1"></div>
+                    <div class="layui-inline">
+                        <button class="layui-btn" lay-submit lay-filter="formDemo">查询</button>
+                        <a class="layui-btn layui-btn-primary" href="{:url('qbgoods')}">重置</a>
+                    </div>
+                </div>
+
+            </form>
+            <div class="layui-col-md12">
+                <table class="layui-table">
+                    <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>活动名称</th>
+                        <th>活动商品</th>
+                        <th>抢购总量</th>
+                        <th>抢购价格</th>
+                        <th>限购数量</th>
+                        <th>开始时间</th>
+                        <th>结束时间</th>
+                        <th>已购买</th>
+                        <th>订单数量</th>
+                        <th>活动状态</th>
+                        <th>操作</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {if(empty($data['list']))}
+                    <tr>
+                        <td colspan="99" class="layer-text-center">暂无记录</td>
+                    </tr>
+                    {else}
+                    {foreach ($data['list'] as $value)}
+                    <tr>
+                        <td>{$value['id']}</td>
+                        <td>{$value['title']}</td>
+                        <td>{$value['goods_name']}</td>
+                        <td>{$value['goods_num']}</td>
+                        <td>￥{$value['price']}</td>
+                        <td>{$value['buy_limit']}</td>
+                        <td>{:date("Y-m-d H:i:s",$value['startstamp'])}</td>
+                        <td>
+                            {:date("Y-m-d H:i:s",$value['endstamp'])}
+                        </td>
+                        <td>
+                            {$value['buy_num']}
+                        </td>
+
+                        <td>
+                            {$value['order_num']}
+                        </td>
+
+                        <td>
+
+                            {if condition="time() lt $value['startstamp']"}未开始
+                                {elseif condition="time() elt $value['startstamp']"/}未开始
+                                {elseif condition="time() egt $value['startstamp'] and time() elt $value['endstamp']"/}进行中
+                                {elseif condition="time() gt $list['end_time']"/}已结束
+                            {/if}
+                        </td>
+                        <td>
+                            <div class="tpl-table-black-operation">
+
+                                {if condition="time() egt $value['startstamp'] and time() elt $value['endstamp']" and $value['is_end'] eq 0/}
+                                <a href="javascript:void(0);" class="value-delete tpl-table-black-operation-del endcomm" data-id="{$value['id']}"><i class="mdi menu-icon mdi-pencil-lock"></i> 结束</a>
+                                {else/}
+                                <a class="tpl-table-black-operation" href="{:url('addflashsale',['id' => $value['id']])}">编辑</a>
+
+                                <a href="javascript:void(0);" class="value-delete tpl-table-black-operation-del delcomm" data-id="{$value['id']}"><i class="mdi menu-icon mdi-pencil-lock"></i> 删除</a>
+                                {/if}
+
+
+                            </div>
+                        </td>
+                    </tr>
+                    {/foreach}
+                    {/if}
+                    </tbody>
+                </table>
+                <div class="layui-col-md12 layui-col-xs12">
+                    {if($data['list'])}{$data['pageshow']|raw}{/if}
+                    <div class="pagination-total">
+                        <div class="">总记录：{$data['count']} ／ 总页数：{$data['pagetotal']}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(function () {
+        // 删除
+        $('.delcomm').delete('id', "{:url('flashsaledel')}", '数据删除后无法恢复,确认删除？');
+        $('.endcomm').delete('id', "{:url('flashsaleend')}", '确认提前结束该活动？');
+        $('.isregetcomm').delete('id', "{:url('couponisreget')}", '确认操作？');
+    });
+
+    // 发送优惠券
+    function sendcoupon(sid){
+        layer.open({
+            type: 2,
+            title: '发放优惠券',
+            shadeClose: false,
+            scrollbar: false,
+            resize: true,
+            shade: 0.8,
+            maxmin: true, //开启最大化最小化按钮
+            area: ['1200px', '80%'],
+            content: "{:url('sendcoupon','','')}&sid=" + sid, //iframe的url
+        });
+    }
+</script>

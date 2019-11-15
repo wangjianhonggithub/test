@@ -1,0 +1,183 @@
+<div class="layui-container">
+    <div class="layui-row">
+        <div class="layui-col-md12 layui-col-xs12">
+            <div class="widget-head">
+                <div class="widget-title">订单列表</div>
+            </div>
+        </div>
+        <div class="layui-col-md12 layui-col-xs12 widget-body ">
+            <!-- <div class="layui-form-item layui-col-md1"><div class="layui-col-md1"><a class="layui-btn" href="{:url('courserun')}">新增</a></div></div> -->
+
+            <form class="layui-form layui-col-md11" method="post" action="">
+
+                <div class="layui-form-item">
+                    <div class="layui-inline layui-col-md4">
+                        <label class="layui-form-label">订单编号：</label>
+                        <div class="layui-input-inline" >
+                            <input name="oid" type="text" class="layui-input" placeholder="请输入订单编号" value="{$para['oid']}">
+                        </div>
+                    </div>
+
+                    <div class="layui-inline layui-col-md4">
+                        <label class="layui-form-label">联系电话：</label>
+                        <div class="layui-input-inline" >
+                            <input name="phone" type="text" class="layui-input" placeholder="请输入联系电话" value="{$para['phone']}">
+                        </div>
+                    </div>
+
+					<div class="layui-inline layui-col-md3">
+						<label class="layui-form-label">支付方式：</label>
+						<div class="layui-input-inline">
+							<select class="layui-inline " lay-search data-layer-selected="{btnSize: 'sm', placeholder: '支付方式'}" name="paytype" >
+								<option value="0" {if($para["paytype"]==0)}selected{/if}>全部 </option> 
+								<option value="1" {if($para["paytype"]==1)}selected{/if}>全款支付</option> 
+								<option value="2" {if($para["paytype"]==2)}selected{/if}>优惠券满减</option>
+								<option value="3" {if($para["paytype"]==3)}selected{/if}>课程包抵扣</option>
+							</select> 
+						</div> 
+					</div>
+                </div>
+
+                <div class="layui-form-item">
+                    <div class="layui-inline layui-col-md4">
+                        <label class="layui-form-label">课程名称：</label>
+                        <div class="layui-input-inline" >
+                            <input name="course_name" type="text" class="layui-input" placeholder="请输入课程名称" value="{$para['course_name']}">
+                        </div>
+                    </div>
+
+                    <div class="layui-inline layui-col-md4">
+                        <label class="layui-form-label">参课人数：</label>
+                        <div class="layui-input-inline" >
+                            <select class="layui-inline " lay-search data-layer-selected="{btnSize: 'sm', placeholder: '人数'}" name="number" >
+								<option value="0" {if($para["number"]==0)}selected{/if}>全部 </option> 
+								<option value="1" {if($para["number"]==1)}selected{/if}>1人</option> 
+								<option value="2" {if($para["number"]==2)}selected{/if}>2人</option>
+							</select> 
+                        </div>
+                    </div>
+
+					<div class="layui-inline layui-col-md3">
+						<label class="layui-form-label">订单状态：</label>
+						<div class="layui-input-inline">
+							<select class="layui-inline " lay-search data-layer-selected="{btnSize: 'sm', placeholder: '状态'}" name="stype" >
+								<option value="0" {if($para["stype"]==0)}selected{/if}>全部 </option> 
+								<option value="1" {if($para["stype"]==1)}selected{/if}>预约中</option> 
+								<option value="2" {if($para["stype"]==2)}selected{/if}>已结束</option>
+							</select> 
+						</div> 
+					</div>
+                </div>
+
+                <div class="layui-form-item">
+                    <div class="layui-input-block">
+                        <button class="layui-btn" lay-submit lay-filter="formDemo">查询</button>
+                        <a class="layui-btn layui-btn-primary" href="{:url('index')}">重置</a>
+                    </div>
+                </div>
+            </form>
+
+            <div class="layui-col-md12">
+                <table class="layui-table">
+                    <thead>
+                        <tr>
+                            <th>订单编号</th>
+                            <th style="width:8%;">会员信息</th>
+                            <th>联系电话</th>
+                            <th style="width:5%;">参课<br>人数</th>
+                            <th style="width:15%;">课程信息</th>
+                            <th>订单金额</th>
+                            <th>提交时间</th>
+                            <th style="width:7%;">状态</th>
+                            <th>操作</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {if(empty($data['list']))}
+                            <tr>
+                                <td colspan="99" class="layer-text-center">暂无记录</td>
+                            </tr>
+                        {else}
+                            {foreach ($data['list'] as $value)}
+                                <tr>
+                                    <td>{$value['oid']}</td>
+									<td>
+                                        <a href="{$value['userinfo']['headimg']}" title="点击查看大图" target="_blank"><img src="{$value['userinfo']['headimg']}" width="60" height="60" alt=""></a>
+                                        {$value['userinfo']['nickname']}
+                                    </td>
+                                    <td>{$value['phone']}</td>
+                                    <td>{$value['number']}</td>
+                                    <td>
+                                        {$value['classname']}
+                                        <br>{$value['course_name']}
+                                        <br>{$value['course_date']} {$value['course_stime']}-{$value['course_etime']}
+                                    </td>
+                                    <td>
+                                        订单金额：￥{$value['course_price']*$value['number']}
+                                        <hr>
+                                        支付方式：
+                                        <?php
+                                            switch ($value['paytype']) {
+                                                case 1:
+                                                    echo '全款支付';
+                                                    break;
+                                                case 2:
+                                                    echo '优惠券满减　-￥'.$value['cprice'];
+                                                    break;
+                                                case 3:
+                                                    echo '课程包抵扣';
+                                                    break;
+                                                default:
+                                                    # code...
+                                                    break;
+                                            }
+                                        ?>
+                                        <hr>
+                                        实际付款：￥{$value['price']}
+                                    </td>
+                                    <td>{:date("Y-m-d H:i",$value['addstamp'])}</td>
+                                    <td>{$value['stype']==1?'预约中':'已结束'}</td>
+                                    <td>
+                                        <div class="tpl-table-black-operation">
+											<a href="javascript:;" onclick="orderdetail('{$value.oid}')">详情</a>
+                                            <a href="javascript:;" class="value-delete tpl-table-black-operation-del delcomm " data-id="{$value['id']}">删除</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            {/foreach}
+                        {/if}
+                    </tbody>
+                </table>
+                <div class="layui-col-md12 layui-col-xs12">
+                    {if($data['list'])}{$data['pageshow']|raw}{/if}
+                    <div class="pagination-total">
+                        <div class="">总记录：{$data['count']} ／ 总页数：{$data['pagetotal']}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('.delcomm').delete('id', "{:url('orderdel')}", '数据删除后无法恢复,确认删除？');
+    });
+
+    function orderdetail(oid){
+        layer.open({
+            type: 2,
+            title: '订单详情',
+            shadeClose: false,
+            scrollbar: false,
+            resize: true,
+            shade: 0.8,
+            maxmin: true, //开启最大化最小化按钮
+            area: ['1200px', '80%'],
+            content: "{:url('detail','','')}&oid=" + oid, //iframe的url    
+            end: function () {
+                // location.reload();
+            }
+        });
+    }
+</script>

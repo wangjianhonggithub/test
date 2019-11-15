@@ -1,0 +1,118 @@
+<div class="layui-container">
+    <div class="layui-row">
+        <div class="layui-col-sm12 layui-col-md12 layui-col-lg12">
+            <div class="widget-head">
+                <div class="widget-title layer-cf">分销商列表</div>
+            </div>
+            <div class="layui-col-md12 layui-col-xs12 widget-body">
+                <form class="layui-form layui-col-md11" method="post" action="">
+                    <div class="layui-form-item">
+
+                        <div class="layui-inline layui-col-md4">
+                            <label class="layui-form-label">微信昵称：</label>
+                            <div class="layui-input-inline">
+                                <input name="nickname" type="text" class="layui-input" placeholder="请输入微信昵称" value="{$para['nickname']}">
+                            </div>
+                        </div>
+                        <div class="layui-inline layui-col-md4">
+                            <label class="layui-form-label">分销商等级：</label>
+                            <div class="layui-input-inline">
+                                <select class="layui-inline " lay-search name="level" data-layer-selected="{btnSize: 'sm', placeholder: '注册赠送'}">
+                                    <option value="0" {if($para["level"]==0)}selected{/if}>全部 </option>
+                                    {foreach $level as $v}
+                                    <option value="{$v['id']}" {if($para["level"]==$v['id'])}selected{/if}>{$v['level_name']} </option>
+
+                                    {/foreach}
+                                </select>
+                            </div>
+                        </div>
+                        <div class="layui-inline layui-col-md1"></div>
+                        <div class="layui-inline">
+                            <button class="layui-btn" lay-submit lay-filter="formDemo">查询</button>
+                            <a class="layui-btn layui-btn-primary" href="{:url('distributor_list')}">重置</a>
+                        </div>
+
+
+                    </div>
+
+
+                </form>
+
+                <div class="layui-col-md12" >
+                    <table width="100%" class="layui-table">
+                        <thead>
+                        <tr>
+                            <th>编号</th>
+                            <th>微信昵称</th>
+                            <th>直属上线</th>
+                            <th>分销商等级</th>
+                            <th>佣金</th>
+                            <th>下线会员总数</th>
+                            <th>一级会员数</th>
+                            <th>二级会员数</th>
+                            <th>三级会员数</th>
+                            <th>加入时间</th>
+                            <th>操作</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {if(empty($data['list']))}
+                        <tr>
+                            <td colspan="99" class="layer-text-center">暂无记录</td>
+                        </tr>
+                        {else}
+                        {foreach $data['list'] as $item}
+
+                        <tr>
+                            <td>{$item['uid']}</td>
+                            <td>{$item['nickname']}</td>
+                            <td>{$item['directly_online']}</td>
+                            <td>{$item['level_name']}</td>
+                            <td>{$item['commission']}</td>
+                            <td>{$item['user']}</td>
+                            <td>{$item['user1']}</td>
+                            <td>{$item['user2']}</td>
+                            <td>{$item['user3']}</td>
+
+                            <td>{:date("Y-m-d H:i:s",$item['become_time'])}</td>
+                            <td>
+                                <div class="tpl-table-black-operation">
+                                    <a href="{:url('detail', ['id' => $item['id']])}">
+                                        <i class="layer-icon-pencil"></i> 查看
+                                    </a>
+                                    <a href="{:url('commission_list', ['uid' => $item['id']])}">
+                                        <i class="layer-icon-pencil"></i> 获佣记录
+                                    </a>
+
+
+                                </div>
+                            </td>
+                        </tr>
+                        {/foreach}
+                        {/if}
+
+
+
+                        </tbody>
+                    </table>
+                    <div class="layui-col-md12 layui-col-xs12">
+                        {if($data['list'])}{$data['pageshow']|raw}{/if}
+                        <div class="pagination-total">
+                            <div class="">总记录：{$data['count']} ／ 总页数：{$data['pagetotal']}</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(function () {
+        // 删除元素
+        var url = "<?= url('distribution/grade_del') ?>";
+        $('.item-delete').delete('id', url,'','Comment');
+
+    });
+</script>
+

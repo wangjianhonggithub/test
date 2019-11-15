@@ -1,0 +1,159 @@
+<div class="layui-container">
+    <div class="layui-row">
+        <div class="layui-col-sm12 layui-col-md12 layui-col-lg12">
+            <div class="widget-head">
+                <div class="widget-title layer-cf">分成记录列表</div>
+            </div>
+            <div class="layui-col-md12 layui-col-xs12 widget-body">
+                <form class="layui-form layui-col-md11" id="myform" method="post" action="">
+
+                    <div class="layui-form-item">
+                        <div class="layui-inline layui-col-md4">
+                            <label class="layui-form-label">获佣用户id：</label>
+                            <div class="layui-input-inline" >
+                                <input name="uid" type="text" class="layui-input" placeholder="请输入获佣用户id" value="{$para['uid']}">
+                            </div>
+                        </div>
+
+                        <div class="layui-inline layui-col-md4">
+                            <label class="layui-form-label">订单编号：</label>
+                            <div class="layui-input-inline" >
+                                <input name="oid" type="text" class="layui-input" placeholder="请输入订单编号" value="{$para['oid']}">
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="layui-form-item">
+                        <div class="layui-inline layui-col-md4">
+                            <label class="layui-form-label">生成日志开始时间：</label>
+                            <div class="layui-input-inline" >
+                                <input name="startstamp" id="startstamp" autocomplete="off" type="text" class="layui-input" placeholder="请输入生成日志开始时间" value="{:$para['startstamp']==''? '':date('Y-m-d',$para['startstamp'])}">
+                            </div>
+                        </div>
+                        <div class="layui-inline layui-col-md4">
+                            <label class="layui-form-label">生成日志结束时间：</label>
+                            <div class="layui-input-inline" >
+                                <input name="endstamp" id="endstamp" type="text" autocomplete="off" class="layui-input" placeholder="请输入生成日志结束时间" value="{:$para['endstamp']==''? '':date('Y-m-d',$para['endstamp'])}">
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="layui-form-item">
+                        <div class="layui-input-block">
+                            <button class="layui-btn" lay-submit lay-filter="formDemo">查询</button>
+                            <a class="layui-btn layui-btn-primary" href="{:url('commission_list')}">重置</a>
+                        </div>
+                    </div>
+                </form>
+
+                <div class="layui-col-md12" >
+                    <table width="100%" class="layui-table">
+                        <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>下单会员</th>
+                            <th>获佣用户</th>
+                            <th>订单编号</th>
+                            <th>获佣金额</th>
+                            <th>订单金额</th>
+                            <th>获佣用户级别</th>
+                            <th>记录生成时间</th>
+                            <th>状态</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {if(empty($data['list']))}
+                        <tr>
+                            <td colspan="99" class="layer-text-center">暂无记录</td>
+                        </tr>
+                        {else}
+                        {foreach $data['list'] as $item}
+
+                        <tr>
+                            <td>{$item['id']}</td>
+                            <td>{$item['order_nickname']}</td>
+                            <td>{$item['fnickname']}</td>
+                            <td>{$item['oid']}</td>
+                            <td>{$item['commission_money']}</td>
+                            <td>{$item['order_money']}</td>
+                            <td>{$item['user_level']}</td>
+
+                            <td>{:date("Y-m-d H:i:s",$item['addstamp'])}</td>
+                            <td>
+                                {if $item['status'] == 0}
+                                    未分成
+                                {elseif $item['status'] == 1}
+                                    已分成
+                                {else}
+                                    未知状态
+                                {/if}
+
+                            </td>
+                        </tr>
+                        {/foreach}
+                        {/if}
+
+
+
+                        </tbody>
+                    </table>
+                    <div class="layui-col-md12 layui-col-xs12">
+                        {if($data['list'])}{$data['pageshow']|raw}{/if}
+                        <div class="pagination-total">
+                            <div class="">总记录：{$data['count']} ／ 总页数：{$data['pagetotal']}</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(function () {
+        $('#myform').submit(function () {
+
+            var startstamp = $("input[name='startstamp']").val();
+            if(!startstamp){    layer.msg('筛选时间不能为空', function () { }); return false;}
+
+            var endstamp = $("input[name='endstamp']").val();
+            if(!endstamp){    layer.msg('筛选时间不能为空', function () { }); return false;}
+
+
+        });
+
+        layui.use(['form', 'element', 'laydate'],  function () {
+            var laydate = layui.laydate;
+
+            //常规用法
+            laydate.render({
+                elem: '#startstamp',
+                type:'date', // 可选择：年、月、日、时、分、秒
+                format: 'yyyy-MM-dd', //指定时间格式
+                istime: true, //必须填入时间
+            });
+
+            laydate.render({
+                elem: '#endstamp',
+                type:'date', // 可选择：年、月、日、时、分、秒
+                format: 'yyyy-MM-dd', //指定时间格式
+                istime: true, //必须填入时间
+            });
+
+
+
+            var jQuery = layui.jquery
+                ,layer = layui.layer
+                ,form = layui.form
+                ,element = layui.element;
+
+
+        });
+
+    });
+</script>
+

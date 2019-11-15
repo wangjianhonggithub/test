@@ -1,0 +1,91 @@
+<div class="layui-container">
+    <div class="layui-row">
+        <div class="layui-col-sm12 layui-col-md12 layui-col-lg12">
+            <div class="widget-head">
+                <div class="widget-title layer-cf">分销商等级</div>
+            </div>
+            <div class="layui-col-md12 layui-col-xs12 widget-body">
+                <div class="layui-form-item layui-col-md1"><div class="layui-col-md1"><a class="layui-btn" href="{:url('grade_run')}">添加新等级</a></div></div>
+
+                <div class="layui-col-md12" >
+                    <table width="100%" class="layui-table">
+                        <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th class="layer-text-center">等级名称</th>
+                            <th>分销等级</th>
+                            <th>加盟价格</th>
+                            <th>推荐奖励</th>
+                            <th>一级佣金比例</th>
+                            <th>二级佣金比例</th>
+                            <th>三级佣金比例</th>
+                            <th>升级条件</th>
+                            <th>添加时间</th>
+                            <th>操作</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {if(empty($data['list']))}
+                        <tr>
+                            <td colspan="99" class="layer-text-center">暂无记录</td>
+                        </tr>
+                        {else}
+                        {foreach $data['list'] as $item}
+
+                        <tr>
+                            <td>{$item['id']}</td>
+                            <td>{$item['level_name']}</td>
+                            <td>{$item['level_type']}</td>
+                            <td>{$item['join_price']}</td>
+                            <td>{$item['reward']}</td>
+                            <td>{$item['rate1']}%</td>
+                            <td>{$item['rate2']}%</td>
+                            <td>{$item['rate3']}%</td>
+                            <td>
+                                {if $item['order_money'] == 0}不自动升级
+                                {else}
+                                    {$item['order_money']}
+                                {/if}
+                            </td>
+                            <td>{:date("Y-m-d H:i:s",$item['addstamp'])}</td>
+                            <td>
+                                <div class="tpl-table-black-operation">
+                                    <a href="{:url('grade_run', ['id' => $item['id']])}">
+                                        <i class="layer-icon-pencil"></i> 编辑
+                                    </a>
+                                    <a href="javascript:void();"
+                                       class="item-delete tpl-table-black-operation-del"
+                                       data-id="{$item['id']}">
+                                        <i class="layer-icon-trash"></i> 删除
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                        {/foreach}
+                        {/if}
+
+
+
+                        </tbody>
+                    </table>
+                    <div class="layui-col-md12 layui-col-xs12">
+                        {if($data['list'])}{$data['pageshow']|raw}{/if}
+                        <div class="pagination-total">
+                            <div class="">总记录：{$data['count']} ／ 总页数：{$data['pagetotal']}</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(function () {
+        // 删除元素
+        var url = "<?= url('distribution/grade_del') ?>";
+        $('.item-delete').delete('id', url,'','Comment');
+
+    });
+</script>
+

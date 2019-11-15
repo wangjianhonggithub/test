@@ -1,0 +1,111 @@
+<div class="layui-container">
+    <!-- <?php
+        dump($url);
+        dump($menu);
+    ?> -->
+    <div class="layui-row">
+        <div class="layui-col-sm12 layui-col-md12 layui-col-lg12">
+			<div class="widget-head">
+				<div class="widget-title">{if($comm=='')}新增{else}编辑{/if}教练信息</div>
+			</div>
+			<form id="myform" class="layui-form" method="post">
+				<div class="widget-body layui-col-lg12"> 
+                    
+                    <div class="layui-form-item">
+                        <label class="layui-form-label form-require">名称 </label>
+                        <div class="layui-col-sm4 layer-midd-left">
+                            <input type="text" class="layui-input" name="name" value="{$comm['name']}" placeholder="请输入名称" required>
+                        </div>
+                        <div class="layui-form-mid layui-word-aux"></div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label form-require">教练头像 </label>
+                        <div class="layui-col-sm7 layer-midd-left ">
+                            <div class="layer-form-file">
+                                <button type="button" class="headpath layui-btn ">
+                                    <i class="layer-icon-cloud-upload"></i> 选择图片
+                                </button>
+                                <div class="uploader-list layer-cf">
+                                    {if($comm['headpath'])}
+                                        <div class="file-item">
+                                            <a href="{$comm['headpath']}" title="点击查看大图" target="_blank"><img src="{$comm['headpath']}"></a>
+                                            <i class="mdi menu-icon mdi-window-close file-item-delete layui-icon">&#x1006;</i>
+                                        </div>
+                                    {/if}
+                                    <input type="hidden" name="headpath" value="{$comm['headpath']??''}">
+                                </div>
+                            </div>
+                            <div class="help-block layer-margin-top-sm">
+                                <small>请选择正方形的图片以保证展示效果正常</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="layui-form-item">
+                        <label class="layui-form-label form-require">教练title1 </label>
+                        <div class="layui-col-sm4 layer-midd-left">
+                            <input type="text" class="layui-input" name="title1" value="{$comm['title1']}" placeholder="请输入教练title1" required>
+                        </div>
+                        <div class="layui-form-mid layui-word-aux">此字段可输入 资深教练/专业教练/新手教练</div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label form-require">教练title2 </label>
+                        <div class="layui-col-sm4 layer-midd-left">
+                            <input type="text" class="layui-input" name="title2" value="{$comm['title2']}" placeholder="请输入教练title2" required>
+                        </div>
+                        <div class="layui-form-mid layui-word-aux">此字段可输入 5年经验/十年经验</div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label form-require">介绍 </label>
+                        <div class="layui-col-sm4 layer-midd-left">
+                            <textarea name="content" required lay-verify="required" placeholder="请输入介绍" class="layui-textarea">{$comm['content']}</textarea>
+                        </div>
+                        <div class="layui-form-mid layui-word-aux"></div>
+                    </div>
+                    
+                    <!-- <div class="layui-form-item">
+                        <label class="layui-form-label form-require">排序 </label>
+                        <div class="layui-col-sm2 layer-midd-left">
+                            <input type="number" class="layui-input" name="sort" value="{$comm['sort']==''?100:$comm['sort']}" placeholder="请输入排序" required>
+                        </div>
+                        <label class="layui-form-label">状态　</label>
+                        <div>
+                            <input type="radio" name="ishow" value="1" title="展示" {if($comm['ishow']==1)}checked{else}{/if} {if($comm=='')}checked{/if}>　
+                            <input type="radio" name="ishow" value="2" title="隐藏" {if($comm['ishow']==2)}checked{else}{/if}>
+                        </div>
+                        <div class="layui-form-mid layui-word-aux"></div>
+                    </div> -->
+
+					<div class="layui-form-item">
+						<button id="mysubmit" type="submit" class="j-submit layui-btn">提交</button>
+					</div>
+				</div>
+			</form>
+		</div>
+    </div>
+</div>
+
+<!-- 图片文件列表模板 -->
+{include file="layouts/_template/tpl_file_item" /}
+<!-- 文件库弹窗 -->
+{include file="layouts/_template/file_library" /}
+
+<script>
+$(function () {
+    // 选择图片
+    $('.headpath').selectImages({
+        name: 'headpath'
+    });
+
+
+    $('#myform').submit(function () {
+        // 执行表单验证
+        var headpath = $("input[name='headpath']").val();
+        if(headpath == ''){
+            layer.msg('请上传教练头像', function () { });return false;
+        }
+        ajaxrun('myform');
+        return false;
+    });
+});
+</script>

@@ -1,0 +1,162 @@
+<div class="layui-container">
+    <div class="layui-row">
+        <div class="layui-col-sm12 layui-col-md12 layui-col-lg12">
+			<div class="widget-head">
+				<div class="widget-title">{if($comm=='')}新增{else}编辑{/if}抢购活动</div>
+			</div>
+			<form id="myform" class="layui-form" method="post">
+
+
+
+				<div class="widget-body layui-col-lg12">
+
+                    <div class="layui-form-item">
+                        <label class="layui-form-label form-require">抢购标题 </label>
+                        <div class="layui-col-sm5 layer-midd-left">
+                            <input type="text" class="layui-input" name="title" value="{$comm['title']}" placeholder="请输入抢购标题" required>
+                        </div>
+                        <div class="layui-form-mid layui-word-aux"></div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label form-require">选择抢购商品 </label>
+                        <div class="layui-col-sm5 layer-midd-left">
+                            <select id="goods_id" name="goods_id" lay-search>
+                                <option {if $comm['cid']==0} selected {/if} value="">请选择</option>
+
+                                {foreach($sale_goods as $value)}
+                                    <option {if $value['goods_id']==$comm['goods_id']} selected {/if} value="{$value['goods_id']}">{$value['goods_name']}(库存:{$value['store_count']})</option>
+                                {/foreach}
+                            </select>
+                        </div>
+                    </div>
+
+
+                   
+
+
+                    <div class="layui-form-item">
+                        <label class="layui-form-label form-require">限时抢购价格 </label>
+                        <div class="layui-col-sm5 layer-midd-left">
+                            <input type="text" class="layui-input" name="price" value="{$comm['price']}" placeholder="请输入限时抢购价格" required>
+                        </div>
+                        <div class="layui-form-mid layui-word-aux">商品抢购价格,单位：元</div>
+                    </div>
+
+                    <div class="layui-form-item">
+                        <label class="layui-form-label form-require">参加抢购数量 </label>
+                        <div class="layui-col-sm5 layer-midd-left">
+                            <input type="text" class="layui-input" name="goods_num" value="{$comm['goods_num']}" placeholder="请输入参加抢购数量" required>
+                        </div>
+                        <div class="layui-form-mid layui-word-aux">此抢购活动最多允许抢购的商品数量</div>
+                    </div>
+
+                    <div class="layui-form-item">
+                        <label class="layui-form-label form-require">限购数量 </label>
+                        <div class="layui-col-sm5 layer-midd-left">
+                            <input type="text" class="layui-input" name="buy_limit" value="{$comm['buy_limit']}" placeholder="请输入限购数量" required>
+                        </div>
+                        <div class="layui-form-mid layui-word-aux">限时抢购每个人能购买的数量</div>
+                    </div>
+
+
+
+                    <div class="layui-form-item" id="is_multiple" >
+                        <label class="layui-form-label form-require">开始时间 </label>
+                        <div class="layui-col-sm2 layer-midd-left">
+                            <input type="text" class="layui-input" id="startstamp" autocomplete="off" name="startstamp"
+                                   value="{:$comm['startstamp']==''?'':date('Y-m-d H:i:s',$comm['startstamp'])}"
+                                   placeholder="请选择开始时间" readonly="readonly" >
+                        </div>
+                        <label class="layui-form-label form-require">结束时间 </label>
+                        <div class="layui-col-sm2 layer-midd-left">
+                            <input type="text" class="layui-input" autocomplete="off" id="endstamp" name="endstamp" value="{:$comm['endstamp']==''?'':date('Y-m-d H:i:s',$comm['endstamp'])}" placeholder="请选择结束时间" readonly="readonly" >
+                        </div>
+                    </div>
+
+
+                    <div class="layui-form-item">
+                        <label class="layui-form-label form-require">抢购介绍 </label>
+                        <div class="layui-col-sm6 layer-midd-left">
+                            <textarea name="description" required placeholder="请输入介绍" class="layui-textarea">{$comm['description']}</textarea>
+                        </div>
+                        <div class="layui-form-mid layui-word-aux"></div>
+                    </div>
+                    
+					<div class="layui-form-item">
+						<button id="mysubmit" type="submit" class="layui-btn">提交</button>
+					</div>
+				</div>
+			</form>
+		</div>
+    </div>
+</div>
+
+<script>
+$(function () {
+
+    //日期转时间戳
+    function transdate(Time){
+        var date = new Date();
+        date.setFullYear(Time.substring(0, 4));
+        date.setMonth(Time.substring(5, 7) - 1);
+        date.setDate(Time.substring(8, 10));
+        date.setHours(Time.substring(11, 13));
+        date.setMinutes(Time.substring(14, 16));
+        date.setSeconds(Time.substring(17, 19));
+        return Date.parse(date) / 1000;
+    }
+
+    $('#myform').submit(function () {
+        var buy_limit = $("input[name='buy_limit']").val();
+        if(buy_limit <= 0){     layer.msg('限购数量请输入正整数', function () { }); return false;}
+
+        var goods_num = $("input[name='goods_num']").val();
+        if(goods_num <= 0){    layer.msg('参加抢购数量请输入正整数', function () { }); return false;}
+
+        var startstamp = $("input[name='startstamp']").val();
+        if(!startstamp){    layer.msg('请选择活动开始时间', function () { }); return false;}
+
+        var endstamp = $("input[name='endstamp']").val();
+        if(!endstamp){    layer.msg('请选择活动结束时间', function () { }); return false;}
+        
+        if (transdate(startstamp) >= transdate(endstamp)){
+            layer.msg('开始时间不得小于结束时间', function () { }); return false;
+        }
+
+   
+        ajaxrun('myform');
+        return false;
+    });
+
+
+    layui.use(['form', 'element', 'laydate'],  function () {
+        var laydate = layui.laydate;
+        var myDate = new Date();  //获取当前时间
+        //常规用法
+        laydate.render({
+            elem: '#startstamp',
+            type:'datetime', // 可选择：年、月、日、时、分、秒
+            format: 'yyyy-MM-dd HH:mm:ss', //指定时间格式
+            istime: true, //必须填入时间
+            min:myDate.toLocaleString() //最小时间
+        });
+
+        laydate.render({
+            elem: '#endstamp',
+            type:'datetime', // 可选择：年、月、日、时、分、秒
+            format: 'yyyy-MM-dd HH:mm:ss', //指定时间格式
+            istime: true, //必须填入时间
+            min:myDate.toLocaleString()  //最小时间
+        });
+
+
+
+        var jQuery = layui.jquery
+            ,layer = layui.layer
+            ,form = layui.form
+            ,element = layui.element;
+
+
+    });
+});
+</script>

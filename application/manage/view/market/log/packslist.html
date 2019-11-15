@@ -1,0 +1,122 @@
+<div class="layui-container">
+    <div class="layui-row">
+        <div class="layui-col-md12 layui-col-xs12">
+            <div class="widget-head">
+                <div class="widget-title">课程包 购买/抵扣记录</div>
+            </div>
+        </div>
+        <div class="layui-col-md12 layui-col-xs12 widget-body ">
+            <!-- <div class="layui-form-item layui-col-md1"><div class="layui-col-md1"><a class="layui-btn" href="{:url('couponrun')}">新增</a></div></div> -->
+
+            <form class="layui-form layui-col-md11" method="post" action="">
+                <div class="layui-form-item">
+                    <div class="layui-inline layui-col-md4">
+                        <label class="layui-form-label">类型：</label>
+                        <div class="layui-input-inline" >
+                            <select class="layui-inline " lay-search name="stype" data-layer-selected="{btnSize: 'sm', placeholder: '类型'}">
+                                <option value="0" {if($para["stype"]==0)}selected{/if}>全部</option>
+                                <option value="1" {if($para['stype']==1)}selected{/if}>购买</option>
+                                <option value="2" {if($para['stype']==2)}selected{/if}>抵扣</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="layui-inline layui-col-md4">
+                        <label class="layui-form-label">课程包名称：</label>
+                        <div class="layui-input-inline">
+                            <input name="name" type="text" class="layui-input" placeholder="请输入课程包名称" value="{$para['name']}">
+                        </div>
+                    </div>
+                    <div class="layui-inline layui-col-md3">
+                        <label class="layui-form-label">会员编号：</label>
+                        <div class="layui-input-inline">
+                            <input name="uid" type="text" class="layui-input" placeholder="请输入会员编号" value="{$para['uid']}">
+                        </div>
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <div class="layui-inline layui-col-md1"></div>
+                    <div class="layui-inline">
+                        <button class="layui-btn" lay-submit lay-filter="formDemo">查询</button>
+                        <a class="layui-btn layui-btn-primary" href="{:url('packsloglist')}">重置</a>
+                    </div>
+                </div>
+            </form>
+            <div class="layui-col-md12">
+                <table class="layui-table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>会员编号/昵称</th>
+                            <th>课程包编号</th>
+                            <th>课程包名称</th>
+                            <!-- <th>剩余/使用课时</th> -->
+                            <th>操作时间</th>
+                            <th>类型</th>
+                            <th>详情</th>
+                            <!-- <th>操作</th> -->
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {if(empty($data['list']))}
+                            <tr>
+                                <td colspan="99" class="layer-text-center">暂无记录</td>
+                            </tr>
+                        {else}
+                            {foreach ($data['list'] as $value)}
+                                <tr>
+                                    <td>{$value['id']}</td>
+                                    <td>{$value['uid']}/{$value['nickname']}</td>
+                                    <td>{$value['sid']}</td>
+                                    <td>{$value['name']}</td>
+                                    <td>{:date("Y-m-d H:i",$value['addstamp'])}</td>
+                                    <td>{$value['stype']==1?'购买':'抵扣'}</td>
+                                    <td>
+                                        {if($value['stype'] == 1)}
+                                            用户购买课程包 课程包总课时为{$value['tothour']}
+                                        {else}
+                                            用户使用课程包抵扣课程{$value['coname']}(编号:{$value['cosid']})
+                                            <br>当前课程包剩余课时为 {$value['tothour']} 使用课时 {$value['hashour']}
+                                        {/if}
+                                    </td>
+                                    <!-- <td>
+                                        <div class="tpl-table-black-operation">
+                                            <a href="javascript:void(0);" class="value-delete tpl-table-black-operation-del delcomm" data-id="{$value['id']}"><i class="mdi menu-icon mdi-pencil-lock"></i> 删除</a>
+                                        </div>
+                                    </td> -->
+                                </tr>
+                            {/foreach}
+                        {/if}
+                    </tbody>
+                </table>
+                <div class="layui-col-md12 layui-col-xs12">
+                    {if($data['list'])}{$data['pageshow']|raw}{/if}
+                    <div class="pagination-total">
+                        <div class="">总记录：{$data['count']} ／ 总页数：{$data['pagetotal']}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(function () {
+        // 删除
+        $('.delcomm').delete('id', "{:url('couponlogdel')}", '数据删除后无法恢复,确认删除？');
+    });
+    
+    // 发送优惠券
+    function sendcoupon(sid){
+        layer.open({
+            type: 2,
+            title: '发放优惠券',
+            shadeClose: false,
+            scrollbar: false,
+            resize: true,
+            shade: 0.8,
+            maxmin: true, //开启最大化最小化按钮
+            area: ['1200px', '80%'],
+            content: "{:url('sendcoupon','','')}&sid=" + sid, //iframe的url        
+        }); 
+    }
+</script>

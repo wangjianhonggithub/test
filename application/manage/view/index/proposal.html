@@ -1,0 +1,89 @@
+<div class="layui-container">
+    <div class="layui-row">
+        <div class="layui-col-sm12 layui-col-md12 layui-col-lg12">
+			<form id="my-form" class="layui-form" action="{:url('Cross')}" method="post" enctype="multipart/form-data">
+				<div class="widget-head">
+					  <div class="widget-title">建议信息
+					  </div>
+				</div>
+				<div class="widget-body layui-col-lg12">
+						<div class="tips layui-margin-bottom layui-col-md6">
+							<div class="pre">
+								<p>这里收集大家使用中遇到的问题、BUG和建议,只要发现不合理或者需要优化的地方</p>
+								<p>请您提交给我们,我们将对大家的意见和建议及时测试与修复.再次感谢您的使用!!</p>
+							</div>
+						</div>
+				        <div class="layui-form-item layui-col-md8">
+							<label class="layui-form-label form-require">标题</label>
+							<div class="layui-col-sm6 layer-midd-left">
+								<input type="text" class="layui-input" name="proposal[title]" 
+									   value="" required>
+							</div>
+						</div>
+						<div class="layui-form-item layui-col-md8">
+							<label class="layui-form-label form-require">联系人</label>
+							<div class="layui-col-sm6 layer-midd-left">
+								<input type="text" class="layui-input" name="proposal[name]" 
+									   value="" required>
+							</div>
+						</div>
+						<div class="layui-form-item layui-col-md8">
+							<label class="layui-form-label form-require">电话:</label>
+							<div class="layui-col-sm6 layer-midd-left">
+								<input type="text" class="layui-input" name="proposal[phone]" 
+									   value="" required>
+							</div>
+						</div>
+						<div class="layui-form-item layui-col-md8">
+							<label class="layui-form-label form-require">QQ:</label>
+							<div class="layui-col-sm6 layer-midd-left">
+								<input type="text" class="layui-input" name="proposal[qq]" 
+									   value="" required>
+							</div>
+						</div>
+						<div class="layui-form-item">
+							<label class="layui-form-label form-require">建议内容 </label>
+							<div class="layui-col-sm6 layer-midd-left">
+								<textarea id="container" name="proposal[conter]" type="text/plain">
+										
+								</textarea>
+							</div>
+						</div>
+						
+						
+			   
+					
+				  
+						<div class="layui-input-block">                            
+								<button type="submit" class="j-submit layui-btn ">提交
+						</div>		
+				</div>
+					
+			</form>
+				
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        	  // 富文本编辑器
+		layui.use('layedit', function(){
+		var layedit = layui.layedit;
+		layedit.build('container', {
+		height: 350, //设置编辑器高度
+		uploadImage: {
+                    url: '/index.php?s=/manage/upload/upload' //接口url
+                  , type: 'post' //默认post
+                }
+		});	
+		});
+        /**
+         * 表单验证提交
+         * @type {*}
+         */
+        $('#my-form').superForm();
+
+    });
+</script>
+

@@ -1,0 +1,209 @@
+<div class="layui-container">
+    <div class="layui-row">
+        <div class="layui-col-sm12 layui-col-md12 layui-col-lg12">
+			<div class="widget-head">
+				<div class="widget-title">店铺色系自定义</div>
+			</div>
+			<form id="my-form" class="layui-form"  enctype="multipart/form-data" method="post">
+			
+				<div class="widget-head layui-col-sm12">
+				    <div class="layui-form-item">
+							<label class="layui-form-label form-require ron-wide"> 小程序标题 </label>
+							<div class="layui-col-sm6 layer-midd-left">
+								<input type="text" class="layui-input" name="tabbar[app_title]"
+									   value="{$model1['app_title']??''}">
+							</div>
+						</div>
+						<div class="layui-form-item">
+							<label class="layui-form-label form-require ron-wide">顶部导航文字颜色 </label>
+							<div class="layui-col-sm6 layer-midd-left">
+								<label class="layui-inline">
+									<input type="radio" name="tabbar[top_text_color]" value="10" data-am-ucheck
+										{$model1['top_text_color']['value'] === 10 ? 'checked' : ''}> 黑色
+								</label>
+								<label class="layui-inline">
+									<input type="radio" name="tabbar[top_text_color]" value="20" data-am-ucheck
+										{$model1['top_text_color']['value'] === 20 ? 'checked' : ''}> 白色
+								</label>
+							</div>
+						</div>
+						<div class="layui-form-item">
+							<label class="layui-form-label form-require ron-wide">顶部导航背景色 </label>
+							<div class="layui-col-sm6 layer-midd-left layer-padding-top-xs">
+								<input type="color" class="layui-input" name="tabbar[top_background_color]"
+									   value="{$model1['top_background_color']??''}" required>
+							</div>
+						</div>
+				
+					
+				</div>
+				<div class="widget-body layui-col-sm12 layui-col-md12 layui-col-lg12">
+				
+				<div class="layui-box">
+					<div class="layui-col-sm2 laui-col-width selectStyleBox">				
+						<!-- <div class="layui-form-item ">
+							<div class="layui-col-sm5">自定义</div>
+							<div class="layui-col-sm7">
+								<div class="layui-col-sm6">
+									<input type="color" style="width:28px;height:28px;" class="layui-input" name="tabbar[color1]" value="{$model['color1']??''}" data-color1="{$model['color1']??''}" required>
+								</div>
+								<div class="layui-col-sm6">
+									<input type="color" style="width:28px;height:28px;" class="layui-input" name="tabbar[color1]"  value="{$model['color1']??''}" data-color2="{$model['color1']??''}" required>
+								</div>
+							</div>
+						</div>	 -->
+						<div class="layui-form-item color">
+							<div class="layui-col-sm7 ">自定义<span class="enter"></span></div>
+							<div class="layui-col-sm5 ">
+								<input type="color" class="layui-sexi color_diy" style="color:{$model['color1']??'#ff495e'}"  data-color1="{$model['color1']??'#ff495e'}" >
+								<input type="color" class="layui-sexi color_diy" style="color:{$model['color1']??'#555'}"  data-color2="{$model['color1']??'#555'}" >
+							</div>
+						</div>							
+						<div class="layui-form-item color">
+							<div class="layui-col-sm7">风格一<span class="enter"></span></div>
+							<div class="layui-col-sm5 ">
+								<li class="layui-sexi" style="background-color:#FA6868" data-color1="#FA6868"></li>
+								<li class="layui-sexi" style="background-color:#FFB56C" data-color2="#FFB56C"></li>
+							</div>
+						</div>		
+						<div class="layui-form-item color">
+							<div class="layui-col-sm7">风格二<span class="enter"></span></div>
+							<div class="layui-col-sm5">
+						
+								<li class="layui-sexi" style="background-color:#F56FA6" data-color1="#F56FA6"></li>
+								<li class="layui-sexi " style="background-color:#454552" data-color2="#454552"></li>
+								
+							</div>
+						</div>
+						
+                        <div class="layui-form-item color">
+							<div class="layui-col-sm7">风格三<span class="enter"></span></div>
+							<div class="layui-col-sm5">
+							
+								<li class="layui-sexi" style="background-color:#E85A71" data-color1="#E85A71"></li>
+								<li class="layui-sexi " style="background-color:#fad400" data-color2="#fad400"></li>
+							
+							</div>
+						</div>	
+						<div class="layui-form-item color">
+							<div class="layui-col-sm7">风格四<span class="enter"></span></div>
+							<div class="layui-col-sm5">
+							
+								<li class="layui-sexi " style="background-color:#86B902" data-color1="#86B902"></li>
+								<li class="layui-sexi " style="background-color:#c71585" data-color2="#c71585"></li>
+								
+							</div>
+						</div>
+						<div class="layui-form-item color">
+							<div class="layui-col-sm7">风格五<span class="enter"></span></div>
+							<div class="layui-col-sm5">
+							
+								<li class="layui-sexi" style="background-color:#40BAFF" data-color1="#40BAFF"></li>
+								<li class="layui-sexi" style="background-color:#5fb878" data-color2="#5fb878"></li>
+								
+							</div>
+						</div>
+
+					</div>
+					<div class="layui-col-sm2 laui-col-width ">
+						<div class="sebox-s">
+							<div class="simtpic">
+								<img class="" src="assets/user/img/1.png"/>
+								<div class="poster poster-pay border" >
+									¥<span>800</span>.00
+								</div>
+								<div class="poster poster-ye border" style="border-color:red; color:red;" >
+									黄
+								</div>
+								<div class="poster poster-size border" style="border-color:red; color:red;">
+									M
+								</div>
+								<div class="poster pos-box-fot">
+									<div class="background background2" style="background:blue">加入购物车</div>
+									<div class="background background1" style="background:red">立即购买</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="layui-col-sm2 laui-col-width  ">
+						<div class="sebox-s">
+							<div class="simtpic">
+								<img class="" src="assets/user/img/2.png"/>
+								<div class="poster detele background1" style="background:red">删除</div>
+								<div class="poster prices" style="color:red">¥1154.00</div>
+								<div class="poster pr-sub background1" style="background:red">去结算</div>
+							</div>
+						</div>
+					</div>
+					<div class="layui-col-sm2 laui-col-width  ">
+						<div class="sebox-s">
+							<div class="simtpic">
+								<img class="" src="assets/user/img/3.png"/>
+								<div class="poster d-price " style="color:red;">¥170.00</div>
+								<div class="poster d-sub background1" style="background:red;">提交订单</div>
+							</div>
+						</div>
+					</div>
+					<input type="hidden" name="tabbar[color1]" class="color1" value="">
+					<input type="hidden" name="tabbar[color2]" class="color2" value="">
+				
+					<input type="hidden" name="tabbar[app_id]" value="{$model['app_id']??''}">
+				    <div class="layui-input-block">
+						<div class="layui-col-sm9 layui-col-smpush-3 layer-margin-top-lg">
+							<button type="submit" class="j-submit layui-btn ">提交
+							</button>
+						</div>
+				    </div> 
+
+				</div>
+					
+				</div>
+               
+				
+				
+			</form>
+        </div>
+    </div>
+</div>
+<script>
+    $(function () {
+
+        /**
+         * 表单验证提交
+         * @type {*}
+         */
+        $('#my-form').superForm();
+		var color1="{$model['color1']??'#ff495e'}";
+		var color2="{$model['color2']??'#555'}";
+
+		$.each($('.color'),function(i,val){
+		    var sexi1= $(this).find("div").find(".layui-sexi").data('color1');
+			var sexi2= $(this).find("div").find(".layui-sexi:eq(1)").data('color2');
+			if(color1==sexi1 && color2==sexi2){
+				 $(this).find("div").find(".enter").html('[选中]');
+			add();
+           
+			}
+		});
+		
+		$(".color").click(function(){
+			var html= $(this).find("div").html();
+			 color1= $(this).find("div").find(".layui-sexi").data('color1');
+			 color2= $(this).find("div").find(".layui-sexi:eq(1)").data('color2');
+			 
+				$(".color1").val(color1);
+				$(".color2").val(color2);	
+			 $(".enter").html('');
+			 $(this).find("div").find(".enter").html('[选中]');
+			add();
+        });
+     function add(){
+	    $('.background1').css('background-color',color1);
+		$('.background2').css('background-color',color2);
+		$('.border').css('border-color',color1);
+		$('.border').find('span').css('color',color1);
+		$('.border').css('color',color1);
+	 }
+	  
+    });
+</script>

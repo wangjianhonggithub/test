@@ -1,0 +1,36 @@
+<div class="layui-container">
+    <div class="layui-row">
+        <div class="layui-col-sm12 layui-col-md12 layui-col-lg12">
+            <div class="widget-head">
+                <div class="widget-title">功能配置</div>
+            </div>
+            <form id="myform" class="layui-form" method="post">
+                <div class="widget-body layui-col-lg12">
+                    {foreach($list as $val)}
+                        <div class="layui-form-item">
+                            <label class="layui-form-label form-require">{$val['name']}</label>
+                            <div class="layui-col-sm5 layer-midd-left">
+                                <input type="radio" name="{$val['key']}" value="1" title="开启" {if($val['isopen']==1)}checked{else}{/if}>　　 <input type="radio" name="{$val['key']}" value="2" title="关闭" {if($val['isopen']==2)}checked{else}{/if}>
+                            </div> 
+                            <div class="layui-form-mid layui-word-aux"></div>
+                        </div>
+                    {/foreach}
+
+                    <div class="layui-form-item">
+                        <button id="mysubmit" type="submit" class="layui-btn">提交</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+
+        $('#myform').submit(function () {
+            ajaxrun('myform');
+            return false;
+        });
+    });
+</script>

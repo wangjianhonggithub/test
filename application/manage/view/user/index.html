@@ -1,0 +1,141 @@
+<div class="layui-container">
+    <div class="layui-row">
+        <div class="layui-col-md12 layui-col-xs12">
+            <div class="widget-head">
+                <div class="widget-title">{if($islock == 2)}冻结{/if}会员列表</div>
+            </div>
+        </div>
+        <div class="layui-col-md12 layui-col-xs12 widget-body ">
+            <!-- <div class="layui-form-item layui-col-md1"><div class="layui-col-md1"><a class="layui-btn" href="{:url('courserun')}">新增</a></div></div> -->
+
+            <form class="layui-form layui-col-md11" method="post" action="">
+
+                <div class="layui-form-item">
+                    <div class="layui-inline layui-col-md4">
+                        <label class="layui-form-label">会员编号：</label>
+                        <div class="layui-input-inline" >
+                            <input name="uid" type="text" class="layui-input" placeholder="请输入会员编号" value="{$para['uid']}">
+                        </div>
+                    </div>
+
+                    <div class="layui-inline layui-col-md4">
+                        <label class="layui-form-label">昵称：</label>
+                        <div class="layui-input-inline" >
+                            <input name="nickname" type="text" class="layui-input" placeholder="请输入会员昵称" value="{$para['nickname']}">
+                        </div>
+                    </div>
+					<div class="layui-inline layui-col-md3">
+						<label class="layui-form-label">性别：</label>
+						<div class="layui-input-inline">
+							<select class="layui-inline " lay-search name="gender" data-layer-selected="{btnSize: 'sm', placeholder: '性别'}">
+								<option value="0" {if($para["gender"]==0)}selected{/if}>全部 </option> 
+								<option value="1" {if($para["gender"]==1)}selected{/if}>男 </option> 
+								<option value="2" {if($para["gender"]==2)}selected{/if}>女 </option>
+							</select> 
+						</div> 
+					</div>
+                </div>
+
+                <div class="layui-form-item">
+                    <div class="layui-input-block">
+                        <button class="layui-btn" lay-submit lay-filter="formDemo">查询</button>
+						{if($islock == 2)}
+							<a class="layui-btn layui-btn-primary" href="{:url('locklist')}">重置</a>
+						{else}
+							<a class="layui-btn layui-btn-primary" href="{:url('index')}">重置</a>
+						{/if}
+                    </div>
+                </div>
+            </form>
+            <div class="layui-col-md12">
+                <table class="layui-table">
+                    <thead>
+                        <tr>
+                            <th style="width:8%;">编号</th>
+                            <th>头像</th>
+                            <th>昵称</th>
+                            <th>性别</th>
+                            <th>地区</th>
+                            <th>课程包</th>
+                            <th>优惠券</th>
+                            <th>注册时间</th>
+                            <th>操作</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {if(empty($data['list']))}
+                            <tr>
+                                <td colspan="99" class="layer-text-center">暂无记录</td>
+                            </tr>
+                        {else}
+                            {foreach ($data['list'] as $value)}
+                                <tr>
+                                    <td>{$value['uid']}</td>
+									<td><a href="{$value['headimg']}" title="点击查看大图" target="_blank"><img src="{$value['headimg']}" width="60" height="60" alt=""></a></td>
+                                    <td>{$value['nickname']}</td>
+                                    <td>{$value['gender']}</td>
+                                    <td>{$value['country']} {$value['province']} {$value['city']}</td>
+                                    <td>{$value['packsnum']}</td>
+                                    <td>{$value['couponnum']}</td>
+                                    <td>{:date("Y-m-d H:i",$value['addstamp'])}</td>
+                                    <td>
+                                        <div class="tpl-table-black-operation">
+											{if($islock == 2)}
+											{else}
+												<a class="tpl-table-black-operation-primary" href="{:url('ordercourse/index',['uid' => $value['uid']])}">订单</a>
+												<a class="tpl-table-black-operation-primary" href="{:url('packslist',['uid' => $value['uid']])}">课程包</a>
+												<a class="tpl-table-black-operation-primary" href="{:url('couponlist',['uid' => $value['uid']])}">优惠券</a>
+                                                {if($res['basic']['values']['is_open'] == 1)}
+                                                <a class="tpl-table-black-operation-primary" href="{:url('detail', ['id' => $value['id']])}">查看</a>
+                                                {/if}
+
+
+											{/if}
+											<a href="javascript:;" class="value-delete tpl-table-black-operation-{if $value['islock'] == 1}warning{else/}primary{/if} islockcomm " data-id="{$value['id']}">{if $value['islock'] == 1}冻结{else/}解除冻结{/if}</a>
+											{if($islock == 2)}
+												<a href="javascript:;" class="value-delete tpl-table-black-operation-warning delcomm " data-id="{$value['id']}">删除会员</a>
+											{/if}
+                                        </div>
+                                    </td>
+                                </tr>
+                            {/foreach}
+                        {/if}
+                    </tbody>
+                </table>
+                <div class="layui-col-md12 layui-col-xs12">
+                    {if($data['list'])}{$data['pageshow']|raw}{/if}
+                    <div class="pagination-total">
+                        <div class="">总记录：{$data['count']} ／ 总页数：{$data['pagetotal']}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{if($islock == 2)}
+	<script>
+		$(function () {
+			// 删除
+			$('.delcomm').delete('id', "{:url('userdel')}", '用户数据删除后无法恢复,确认删除？');
+			$('.islockcomm').delete('id', "{:url('userlock')}", '解除用户冻结状态,确认操作？');
+		});
+	</script>
+{else}
+	<script>
+		$(function () {
+			$('.islockcomm').delete('id', "{:url('userlock')}", '用户冻结后将转到冻结列表,且用户无法在前台登录操作,冻结后需手动解封,确认操作？');
+		});
+	</script>
+{/if}
+<script>
+    $(function () {
+
+        layui.use('laydate', function () {
+            var laydate = layui.laydate;
+            //常规用法
+            laydate.render({
+                elem: '#datestamp'
+            });
+        });
+    });
+</script>

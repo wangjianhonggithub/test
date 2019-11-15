@@ -1,0 +1,192 @@
+<div class="layui-container">
+    <div class="layui-row">
+        <div class="layui-col-md12 layui-col-xs12">
+            <div class="widget-head">
+                <div class="widget-title">菜单权限列表</div>
+            </div>
+        </div>
+        <div class="layui-col-md12 layui-col-xs12 widget-body ">
+            <form class="layui-form" method="post" action="{:url('index')}">
+                <div class="layui-u-sm-12 layui-u-md-12 layui-col-lg12">
+                    <div class="layui-form-item ">
+                        <div class="layui-col-md1"><a class="layui-btn" href="{:url('menurun')}">新增</a></div>
+
+                        <!-- <div class="layui-col-md3">
+                            <label class="layui-form-label">微信昵称：</label>
+                            <div class="layui-input-inline">
+                                <input name="nickName" type="text" class="layui-input" placeholder="请输入微信昵称"
+                                    value="{$request->get('nickName ')}">
+                            </div>
+                        </div>
+                        <div class="layui-col-md3 laui-col-width">
+                            <button class="layui-btn" lay-submit lay-filter="formDemo">搜索</button>
+                        </div> -->
+                        
+                    </div>
+                </div>
+            </form>
+            <div class="layui-col-md12">
+                <table class="layui-table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>名称</th>
+                            <th>路径</th>
+                            <th>模块</th>
+                            <th style="width:10%;">排序</th>
+                            <th>展示</th>
+                            <th>更新时间</th>
+                            <th>操作</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {foreach ($lists as $value)}
+                            <tr>
+                                <td>{$value['id']}</td>
+                                <td onclick="showson({$value['id']},1)">
+                                    <i class="layui-icon">&#{$value['icon']};</i> {$value['name']}
+                                </td>
+                                <td>{$value['url']}</td>
+                                <td>{$value['model']}</td>
+                                <td>
+                                    <input class="layui-input" type="number" value="{$value.sort}" name="num" onblur="return changesort('{:url('changesort')}',this.value,'{$value.id}');">
+                                </td>
+                                <td>
+                                    <a href="javascript:;" class="layui-btn layui-btn-sm layui-btn-radius layui-btn-{if $value['ishow'] == 1}normal{else/}danger{/if} showmenu " data-id="{$value['id']}">{if $value['ishow'] == 1}展示{else/}隐藏{/if}</a>
+                                    <!-- <div class="layui-form"><input class="showmenu" type="checkbox" lay-filter="filter" lay-skin="switch" lay-text="展示|隐藏" {if $value['ishow'] == 1}checked{/if}></div> -->
+                                </td>
+                                <td>{$value['update_time']}</td>
+                                <td>
+                                    <div class="tpl-table-black-operation">
+                                        <a class="tpl-table-black-operation" href="{:url('menurun',['id' => $value['id']])}">编辑</a>
+                                        <a href="javascript:void(0);" class="value-delete tpl-table-black-operation-del delmenu" data-id="{$value['id']}">
+                                            <i class="mdi menu-icon mdi-pencil-lock"></i> 删除
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            {if($value['son'])}{foreach($value['son'] as $val1)}
+                                <tr class="son{$value['id']} ">
+                                    <td>{$val1['id']}</td>
+                                    <td onclick="showson({$val1['id']},2)">｜－{$val1['name']}</td>
+                                    <td>{$val1['url']}</td>
+                                    <td>{$val1['model']}</td>
+                                    <td>
+                                        <input class="layui-input" type="number" value="{$val1.sort}" name="num" onblur="return changesort('{:url('changesort')}',this.value,'{$val1.id}');">
+                                    </td>
+                                    <td>
+                                        <a href="javascript:;" class="layui-btn layui-btn-sm layui-btn-radius layui-btn-{if $val1['ishow'] == 1}normal{else/}danger{/if} showmenu " data-id="{$val1['id']}">{if $val1['ishow'] == 1}展示{else/}隐藏{/if}</a>
+                                    </td>
+                                    <td>{$val1['update_time']}</td>
+                                    <td>
+                                        <div class="tpl-table-black-operation">
+                                            <a class="tpl-table-black-operation" href="{:url('menurun',['id' => $val1['id']])}">编辑</a>
+                                            <a href="javascript:void(0);" class="value-delete tpl-table-black-operation-del delmenu"data-id="{$val1['id']}"><i class="mdi menu-icon mdi-pencil-lock"></i> 删除</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                {if($val1['son'])}{foreach($val1['son'] as $val2)}
+                                    <tr class="son{$val1['id']} son11{$value['id']} ">
+                                        <td>{$val2['id']}</td>
+                                        <td onclick="showson({$val2['id']},3)">　　｜－{$val2['name']}</td>
+                                        <td>{$val2['url']}</td>
+                                        <td>{$val2['model']}</td>
+                                        <td>
+                                            <input class="layui-input" type="number" value="{$val2.sort}" name="num" onblur="return changesort('{:url('changesort')}',this.value,'{$val2.id}');">
+                                        </td>
+                                        <td>
+                                            <a href="javascript:;" class="layui-btn layui-btn-sm layui-btn-radius layui-btn-{if $val2['ishow'] == 1}normal{else/}danger{/if} showmenu " data-id="{$val2['id']}">{if $val2['ishow'] == 1}展示{else/}隐藏{/if}</a>
+                                        </td>
+                                        <td>{$val2['update_time']}</td>
+                                        <td>
+                                            <div class="tpl-table-black-operation">
+                                                <a class="tpl-table-black-operation" href="{:url('menurun',['id' => $val2['id']])}">编辑</a>
+                                                <a href="javascript:void(0);" class="value-delete tpl-table-black-operation-del delmenu"data-id="{$val2['id']}"><i class="mdi menu-icon mdi-pencil-lock"></i> 删除</a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    {if($val2['son'])}{foreach($val2['son'] as $val3)}
+                                        <tr class="son{$val2['id']} son12{$value['id']} son22{$val1['id']} ">
+                                            <td>{$val3['id']}</td>
+                                            <td>　　　　｜－{$val3['name']}</td>
+                                            <td>{$val3['url']}</td>
+                                            <td>{$val3['model']}</td>
+                                            <td>
+                                                <input class="layui-input" type="number" value="{$val3.sort}" name="num" onblur="return changesort('{:url('changesort')}',this.value,'{$val3.id}');">
+                                            </td>
+                                            <td>
+                                                <a href="javascript:;" class="layui-btn layui-btn-sm layui-btn-radius layui-btn-{if $val3['ishow'] == 1}normal{else/}danger{/if} showmenu " data-id="{$val3['id']}">{if $val3['ishow'] == 1}展示{else/}隐藏{/if}</a>
+                                            </td>
+                                            <td>{$val3['update_time']}</td>
+                                            <td>
+                                                <div class="tpl-table-black-operation">
+                                                    <a class="tpl-table-black-operation" href="{:url('menurun',['id' => $val3['id']])}">编辑</a>
+                                                    <a href="javascript:void(0);" class="value-delete tpl-table-black-operation-del delmenu" data-id="{$val3['id']}"><i class="mdi menu-icon mdi-pencil-lock"></i> 删除</a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    {/foreach}{/if}
+                                {/foreach}{/if}
+                            {/foreach}{/if}
+                        {/foreach}
+                    </tbody>
+                </table>
+                <!-- <div class="layui-col-md12 layui-col-xs12">
+                    <div class="">{$page|raw} </div>
+                    <div class="pagination-total">
+                        <div class="">总记录：</div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(function () {
+        // 删除
+        $('.delmenu').delete('id', "{:url('delmenu')}", '删除后可能会导致程序不可用,确认删除？');
+        $('.showmenu').delete('id', "{:url('showmenu')}", '确认操作？');
+    });
+
+    // layui.use(['form', 'layedit', 'laydate', 'upload'], function () {
+    //     var form = layui.form();
+    //     form.on('switch(switch1)', function (data) {
+    //         alert(data);
+    //     });
+    // }); 
+
+    function showson(id, layer){
+        switch (layer) {
+            case 1:
+                if ($(".son" + id).is(":hidden")) {
+                    $(".son" + id).show(200);
+                    $(".son11" + id).show(200);
+                    $(".son12" + id).show(200);
+                } else {
+                    $(".son" + id).hide(200);
+                    $(".son11" + id).hide(200);
+                    $(".son12" + id).hide(200);
+                }
+                break;
+            case 2:
+                if ($(".son" + id).is(":hidden")) {
+                    $(".son" + id).show(200);
+                    $(".son22" + id).show(200);
+                } else {
+                    $(".son" + id).hide(200);
+                    $(".son22" + id).hide(200);
+                }
+                break;
+            case 3:
+                if ($(".son" + id).is(":hidden")) {
+                    $(".son" + id).show(200);
+                } else {
+                    $(".son" + id).hide(200);
+                }
+                break;
+            default:
+                return false;
+        } 
+    }
+</script>

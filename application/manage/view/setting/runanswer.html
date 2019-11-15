@@ -1,0 +1,70 @@
+<div class="layui-container">
+    <div class="layui-row">
+        <div class="layui-col-sm12 layui-col-md12 layui-col-lg12">
+            <div class="widget-head">
+                <div class="widget-title">{if($comm=='')}新增{else}编辑{/if}帮助消息</div>
+            </div>
+            <form id="myform" class="layui-form" method="post">
+
+
+
+                <div class="widget-body layui-col-lg12">
+
+                    <div class="layui-form-item">
+                        <label class="layui-form-label form-require">提问 </label>
+                        <div class="layui-col-sm5 layer-midd-left">
+                            <input type="text" class="layui-input" name="question" value="{$comm['question']}" placeholder="请输入帮助消息问题">
+                        </div>
+                        <div class="layui-form-mid layui-word-aux"></div>
+                    </div>
+
+
+                    <div class="layui-form-item">
+                        <label class="layui-form-label form-require">回答 </label>
+                        <div class="layui-col-sm6 layer-midd-left">
+                            <textarea name="answer" placeholder="请输入帮助消息回答" class="layui-textarea">{$comm['answer']}</textarea>
+                        </div>
+                        <div class="layui-form-mid layui-word-aux"></div>
+                    </div>
+
+                    <div class="layui-form-item">
+                        <label class="layui-form-label form-require">排序 </label>
+                        <div class="layui-col-sm5 layer-midd-left">
+                            <input type="text" class="layui-input" name="sort" value="{$comm['sort']}" placeholder="请输入排序">
+                        </div>
+                        <div class="layui-form-mid layui-word-aux">数组越小,排在最前面</div>
+                    </div>
+
+                    <div class="layui-form-item">
+                        <button id="mysubmit" type="submit" class="layui-btn">提交</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+
+
+
+        $('#myform').submit(function () {
+            var question = $("input[name='question']").val();
+            if(!question){     layer.msg('请填写问题信息', function () { }); return false;}
+
+            var answer = $("textarea[name='answer']").val();
+            if(!answer.trim()){    layer.msg('请填写答案信息', function () { }); return false;}
+
+            var sort = $("input[name='sort']").val();
+            if(!sort){    layer.msg('请填写排序信息', function () { }); return false;}
+
+
+            ajaxrun('myform');
+            return false;
+        });
+
+
+
+    });
+</script>

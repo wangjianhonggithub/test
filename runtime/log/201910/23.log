@@ -1,0 +1,1127 @@
+---------------------------------------------------------------
+[2019-10-23T01:42:52+08:00] 66.249.79.86 GET www.hotyiranjianshen.com/
+[运行时间：0.057642s] [吞吐率：17.35req/s] [内存消耗：1,659.69kb] [文件加载：63]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip,deflate,br',
+  'user-agent' => 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+  'from' => 'googlebot(at)googlebot.com',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-10-23T01:42:53+08:00] 66.249.79.86 GET www.hotyiranjianshen.com/index.php?s=/manage/index/index.html
+[运行时间：0.033403s] [吞吐率：29.94req/s] [内存消耗：1,739.70kb] [文件加载：65]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip,deflate,br',
+  'user-agent' => 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+  'from' => 'googlebot(at)googlebot.com',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-10-23T01:42:54+08:00] 66.249.79.86 GET www.hotyiranjianshen.com/index.php?s=/manage/login/login.html
+[运行时间：0.034692s] [吞吐率：28.83req/s] [内存消耗：1,688.59kb] [文件加载：64]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip,deflate,br',
+  'user-agent' => 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+  'from' => 'googlebot(at)googlebot.com',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=79akc3e0ier9iidevonbhdeb03',
+  'host' => 'www.hotyiranjianshen.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /home/wwwroot/hotyiranjianshen.com/application/manage/view/login/login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-23T01:58:11+08:00] 3.112.251.68 GET 122.114.0.88/
+[运行时间：0.035042s] [吞吐率：28.54req/s] [内存消耗：1,658.98kb] [文件加载：63]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 zgrab/0.x',
+  'host' => '122.114.0.88',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-10-23T01:59:21+08:00] 101.226.103.59 POST www.hotyiranjianshen.com/index.php/api/Wxnotify/callback
+[ wymall-info ] Array
+(
+    [describe] => 返回微信支付状态
+    [data] => Array
+        (
+            [return_code] => FAIL
+            [return_msg] => 订单不存在
+        )
+
+)
+
+---------------------------------------------------------------
+[2019-10-23T01:59:21+08:00] 101.226.103.59 POST www.hotyiranjianshen.com/index.php/api/Wxnotify/callback
+[运行时间：0.059520s] [吞吐率：16.80req/s] [内存消耗：3,019.09kb] [文件加载：77]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/xml',
+  'user-agent' => 'Mozilla/4.0',
+  'host' => 'www.hotyiranjianshen.com',
+  'content-length' => '811',
+  'pragma' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-23T03:55:20+08:00] 101.226.103.62 POST www.hotyiranjianshen.com/index.php/api/Wxnotify/callback
+[ wymall-info ] Array
+(
+    [describe] => 返回微信支付状态
+    [data] => Array
+        (
+            [return_code] => FAIL
+            [return_msg] => 订单不存在
+        )
+
+)
+
+---------------------------------------------------------------
+[2019-10-23T03:55:20+08:00] 101.226.103.62 POST www.hotyiranjianshen.com/index.php/api/Wxnotify/callback
+[运行时间：0.056703s] [吞吐率：17.64req/s] [内存消耗：3,019.09kb] [文件加载：77]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/xml',
+  'user-agent' => 'Mozilla/4.0',
+  'host' => 'www.hotyiranjianshen.com',
+  'content-length' => '813',
+  'pragma' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-23T04:10:25+08:00] 101.226.103.71 POST www.hotyiranjianshen.com/index.php/api/Wxnotify/callback
+[ wymall-info ] Array
+(
+    [describe] => 返回微信支付状态
+    [data] => Array
+        (
+            [return_code] => FAIL
+            [return_msg] => 订单不存在
+        )
+
+)
+
+---------------------------------------------------------------
+[2019-10-23T04:10:25+08:00] 101.226.103.71 POST www.hotyiranjianshen.com/index.php/api/Wxnotify/callback
+[运行时间：0.053382s] [吞吐率：18.73req/s] [内存消耗：3,019.09kb] [文件加载：77]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/xml',
+  'user-agent' => 'Mozilla/4.0',
+  'host' => 'www.hotyiranjianshen.com',
+  'content-length' => '811',
+  'pragma' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-23T04:55:10+08:00] 171.13.14.14 GET hotyiranjianshen.com/
+[运行时间：0.043135s] [吞吐率：23.18req/s] [内存消耗：1,660.57kb] [文件加载：63]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.0.2; en-us; Galaxy Nexus Build/ICL53F) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'hotyiranjianshen.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-10-23T04:55:10+08:00] 171.13.14.14 GET hotyiranjianshen.com/index.php?s=/manage/index/index.html
+[运行时间：0.034628s] [吞吐率：28.88req/s] [内存消耗：1,740.57kb] [文件加载：65]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.0.2; en-us; Galaxy Nexus Build/ICL53F) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'hotyiranjianshen.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-10-23T04:55:10+08:00] 171.13.14.14 GET hotyiranjianshen.com/index.php?s=/manage/login/login.html
+[运行时间：0.028885s] [吞吐率：34.62req/s] [内存消耗：1,689.40kb] [文件加载：64]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=essvk3j4aaaaod0vdt2nmm4f40',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.0.2; en-us; Galaxy Nexus Build/ICL53F) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'hotyiranjianshen.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /home/wwwroot/hotyiranjianshen.com/application/manage/view/login/login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-23T05:08:50+08:00] 18.223.185.78 GET hotyiranjianshen.com/
+[运行时间：0.039906s] [吞吐率：25.06req/s] [内存消耗：1,660.54kb] [文件加载：63]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'hotyiranjianshen.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-10-23T05:08:50+08:00] 18.223.185.78 GET hotyiranjianshen.com/index.php?s=/manage/index/index.html
+[运行时间：0.039520s] [吞吐率：25.30req/s] [内存消耗：1,740.54kb] [文件加载：65]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'hotyiranjianshen.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-10-23T05:08:51+08:00] 18.223.185.78 GET hotyiranjianshen.com/index.php?s=/manage/login/login.html
+[运行时间：0.034473s] [吞吐率：29.01req/s] [内存消耗：1,688.99kb] [文件加载：64]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ccavtun2jrts9hpi6jm67p0l41',
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'hotyiranjianshen.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /home/wwwroot/hotyiranjianshen.com/application/manage/view/login/login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-23T07:20:47+08:00] 36.110.147.248 GET www.hotyiranjianshen.com/
+[运行时间：0.032068s] [吞吐率：31.18req/s] [内存消耗：1,659.38kb] [文件加载：63]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip,deflate',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-10-23T07:20:47+08:00] 36.110.147.248 GET www.hotyiranjianshen.com/index.php?s=/manage/index/index.html
+[运行时间：0.037641s] [吞吐率：26.57req/s] [内存消耗：1,739.38kb] [文件加载：65]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip,deflate',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-10-23T07:20:57+08:00] 123.125.125.248 GET www.hotyiranjianshen.com/
+[运行时间：0.029481s] [吞吐率：33.92req/s] [内存消耗：1,659.38kb] [文件加载：63]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip,deflate',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-10-23T07:20:58+08:00] 123.125.125.248 GET www.hotyiranjianshen.com/index.php?s=/manage/index/index.html
+[运行时间：0.052900s] [吞吐率：18.90req/s] [内存消耗：1,739.38kb] [文件加载：65]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip,deflate',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-10-23T07:59:22+08:00] 101.226.103.60 POST www.hotyiranjianshen.com/index.php/api/Wxnotify/callback
+[ wymall-info ] Array
+(
+    [describe] => 返回微信支付状态
+    [data] => Array
+        (
+            [return_code] => FAIL
+            [return_msg] => 订单不存在
+        )
+
+)
+
+---------------------------------------------------------------
+[2019-10-23T07:59:22+08:00] 101.226.103.60 POST www.hotyiranjianshen.com/index.php/api/Wxnotify/callback
+[运行时间：0.060219s] [吞吐率：16.61req/s] [内存消耗：3,019.09kb] [文件加载：77]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/xml',
+  'user-agent' => 'Mozilla/4.0',
+  'host' => 'www.hotyiranjianshen.com',
+  'content-length' => '811',
+  'pragma' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-23T08:58:41+08:00] 114.253.46.11 GET www.hotyiranjianshen.com/
+[运行时间：0.043022s] [吞吐率：23.24req/s] [内存消耗：1,660.57kb] [文件加载：63]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-10-23T08:58:41+08:00] 114.253.46.11 GET www.hotyiranjianshen.com/index.php?s=/manage/index/index.html
+[运行时间：0.037155s] [吞吐率：26.91req/s] [内存消耗：1,740.57kb] [文件加载：65]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-10-23T08:58:42+08:00] 114.253.46.11 GET www.hotyiranjianshen.com/index.php?s=/manage/login/login.html
+[运行时间：0.034289s] [吞吐率：29.16req/s] [内存消耗：1,689.02kb] [文件加载：64]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=05hf64eiri99ah7gb5ijj7aoi1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /home/wwwroot/hotyiranjianshen.com/application/manage/view/login/login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-23T09:29:15+08:00] 116.236.146.26 GET www.hotyiranjianshen.com/
+[运行时间：0.032709s] [吞吐率：30.57req/s] [内存消耗：1,659.38kb] [文件加载：63]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'proxy-connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.1.4322)',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html, application/xhtml+xml, */*',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-10-23T09:29:15+08:00] 116.236.146.26 GET www.hotyiranjianshen.com/index.php?s=/manage/index/index.html
+[运行时间：0.031335s] [吞吐率：31.91req/s] [内存消耗：1,739.27kb] [文件加载：65]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.1.4322)',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html, application/xhtml+xml, */*',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-10-23T09:29:16+08:00] 116.236.146.26 GET www.hotyiranjianshen.com/index.php?s=/manage/login/login.html
+[运行时间：0.032232s] [吞吐率：31.03req/s] [内存消耗：1,687.82kb] [文件加载：64]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.1.4322)',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html, application/xhtml+xml, */*',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /home/wwwroot/hotyiranjianshen.com/application/manage/view/login/login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-23T09:55:21+08:00] 101.226.103.59 POST www.hotyiranjianshen.com/index.php/api/Wxnotify/callback
+[ wymall-info ] Array
+(
+    [describe] => 返回微信支付状态
+    [data] => Array
+        (
+            [return_code] => FAIL
+            [return_msg] => 订单不存在
+        )
+
+)
+
+---------------------------------------------------------------
+[2019-10-23T09:55:21+08:00] 101.226.103.59 POST www.hotyiranjianshen.com/index.php/api/Wxnotify/callback
+[运行时间：0.103975s] [吞吐率：9.62req/s] [内存消耗：3,019.09kb] [文件加载：77]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/xml',
+  'user-agent' => 'Mozilla/4.0',
+  'host' => 'www.hotyiranjianshen.com',
+  'content-length' => '813',
+  'pragma' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-23T10:10:27+08:00] 101.226.103.59 POST www.hotyiranjianshen.com/index.php/api/Wxnotify/callback
+[ wymall-info ] Array
+(
+    [describe] => 返回微信支付状态
+    [data] => Array
+        (
+            [return_code] => FAIL
+            [return_msg] => 订单不存在
+        )
+
+)
+
+---------------------------------------------------------------
+[2019-10-23T10:10:27+08:00] 101.226.103.59 POST www.hotyiranjianshen.com/index.php/api/Wxnotify/callback
+[运行时间：0.069160s] [吞吐率：14.46req/s] [内存消耗：3,019.09kb] [文件加载：77]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/xml',
+  'user-agent' => 'Mozilla/4.0',
+  'host' => 'www.hotyiranjianshen.com',
+  'content-length' => '811',
+  'pragma' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-23T13:58:04+08:00] 34.212.30.26 GET hotyiranjianshen.com/
+[运行时间：0.035246s] [吞吐率：28.37req/s] [内存消耗：1,658.88kb] [文件加载：63]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'Go-http-client/1.1',
+  'host' => 'hotyiranjianshen.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-10-23T13:59:24+08:00] 101.226.103.71 POST www.hotyiranjianshen.com/index.php/api/Wxnotify/callback
+[ wymall-info ] Array
+(
+    [describe] => 返回微信支付状态
+    [data] => Array
+        (
+            [return_code] => FAIL
+            [return_msg] => 订单不存在
+        )
+
+)
+
+---------------------------------------------------------------
+[2019-10-23T13:59:24+08:00] 101.226.103.71 POST www.hotyiranjianshen.com/index.php/api/Wxnotify/callback
+[运行时间：0.059656s] [吞吐率：16.76req/s] [内存消耗：3,019.09kb] [文件加载：77]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/xml',
+  'user-agent' => 'Mozilla/4.0',
+  'host' => 'www.hotyiranjianshen.com',
+  'content-length' => '811',
+  'pragma' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-23T14:25:39+08:00] 122.112.248.184 GET www.hotyiranjianshen.com/
+[运行时间：0.037163s] [吞吐率：26.91req/s] [内存消耗：1,660.20kb] [文件加载：63]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Close',
+  'host' => 'www.hotyiranjianshen.com',
+  'upgrade-insecure-requests' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN, zh; q=0.8, en-US; q=0.5, en; q=0.3',
+  'accept' => 'text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-10-23T14:25:40+08:00] 122.112.248.184 GET www.hotyiranjianshen.com/index.php?s=/manage/index/index.html
+[运行时间：0.033172s] [吞吐率：30.15req/s] [内存消耗：1,740.20kb] [文件加载：65]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Close',
+  'host' => 'www.hotyiranjianshen.com',
+  'upgrade-insecure-requests' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN, zh; q=0.8, en-US; q=0.5, en; q=0.3',
+  'accept' => 'text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-10-23T14:25:40+08:00] 122.112.248.184 GET www.hotyiranjianshen.com/index.php?s=/manage/login/login.html
+[运行时间：0.037064s] [吞吐率：26.98req/s] [内存消耗：1,689.02kb] [文件加载：64]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Close',
+  'cookie' => 'PHPSESSID=cumsufab4pnpkj5umistrnhlk6',
+  'host' => 'www.hotyiranjianshen.com',
+  'upgrade-insecure-requests' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN, zh; q=0.8, en-US; q=0.5, en; q=0.3',
+  'accept' => 'text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /home/wwwroot/hotyiranjianshen.com/application/manage/view/login/login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-23T15:06:38+08:00] 116.236.146.24 GET www.hotyiranjianshen.com/
+[运行时间：0.033561s] [吞吐率：29.80req/s] [内存消耗：1,659.31kb] [文件加载：63]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.1.4322),',
+  'accept' => 'text/html, application/xhtml+xml, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-10-23T15:06:38+08:00] 116.236.146.24 GET www.hotyiranjianshen.com/index.php?s=/manage/index/index.html
+[运行时间：0.034063s] [吞吐率：29.36req/s] [内存消耗：1,739.15kb] [文件加载：65]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.1.4322),',
+  'accept' => 'text/html, application/xhtml+xml, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-10-23T15:06:38+08:00] 116.236.146.24 GET www.hotyiranjianshen.com/index.php?s=/manage/login/login.html
+[运行时间：0.035925s] [吞吐率：27.84req/s] [内存消耗：1,687.76kb] [文件加载：64]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.1.4322),',
+  'accept' => 'text/html, application/xhtml+xml, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /home/wwwroot/hotyiranjianshen.com/application/manage/view/login/login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-23T15:16:15+08:00] 223.71.40.74 GET www.hotyiranjianshen.com/
+[运行时间：0.021171s] [吞吐率：47.23req/s] [内存消耗：1,659.41kb] [文件加载：63]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'Keep-Alive',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-10-23T15:16:16+08:00] 223.71.40.74 GET www.hotyiranjianshen.com/index.php?s=/manage/index/index.html
+[运行时间：0.021795s] [吞吐率：45.88req/s] [内存消耗：1,739.41kb] [文件加载：65]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'Keep-Alive',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-10-23T15:16:16+08:00] 223.71.40.74 GET www.hotyiranjianshen.com/index.php?s=/manage/login/login.html
+[运行时间：0.020629s] [吞吐率：48.48req/s] [内存消耗：1,687.93kb] [文件加载：64]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=i8fqf4mpite27f6inb247ovcs3',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'Keep-Alive',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /home/wwwroot/hotyiranjianshen.com/application/manage/view/login/login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-23T16:30:57+08:00] 120.52.147.43 GET www.hotyiranjianshen.com/
+[运行时间：0.031599s] [吞吐率：31.65req/s] [内存消耗：1,660.57kb] [文件加载：63]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-10-23T16:30:57+08:00] 120.52.147.43 GET www.hotyiranjianshen.com/index.php?s=/manage/index/index.html
+[运行时间：0.032386s] [吞吐率：30.88req/s] [内存消耗：1,740.57kb] [文件加载：65]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-10-23T16:30:57+08:00] 120.52.147.43 GET www.hotyiranjianshen.com/index.php?s=/manage/login/login.html
+[运行时间：0.030438s] [吞吐率：32.85req/s] [内存消耗：1,689.15kb] [文件加载：64]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=g8r9sqvg6ho14j4hie0gvv4624',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /home/wwwroot/hotyiranjianshen.com/application/manage/view/login/login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-23T16:43:17+08:00] 89.238.167.46 GET hotyiranjianshen.com/
+[运行时间：0.030295s] [吞吐率：33.01req/s] [内存消耗：1,660.02kb] [文件加载：63]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-US,en;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:59.0) Gecko/20100101 Firefox/59.0',
+  'connection' => 'Keep-Alive',
+  'host' => 'hotyiranjianshen.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-10-23T16:43:18+08:00] 89.238.167.46 GET hotyiranjianshen.com/index.php?s=/manage/index/index.html
+[运行时间：0.034998s] [吞吐率：28.57req/s] [内存消耗：1,740.58kb] [文件加载：65]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'origin' => 'http://hotyiranjianshen.com',
+  'referer' => 'http://hotyiranjianshen.com',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-US,en;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:59.0) Gecko/20100101 Firefox/59.0',
+  'connection' => 'Keep-Alive',
+  'host' => 'hotyiranjianshen.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-10-23T16:43:20+08:00] 89.238.167.46 GET hotyiranjianshen.com/index.php?s=/manage/login/login.html
+[运行时间：0.042973s] [吞吐率：23.27req/s] [内存消耗：1,689.03kb] [文件加载：64]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'origin' => 'http://hotyiranjianshen.com',
+  'referer' => 'http://hotyiranjianshen.com/index.php?s=/manage/index/index.html',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-US,en;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:59.0) Gecko/20100101 Firefox/59.0',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=h52elogbtpppco3s926afa9655',
+  'host' => 'hotyiranjianshen.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /home/wwwroot/hotyiranjianshen.com/application/manage/view/login/login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-23T17:22:45+08:00] 123.123.200.28 GET www.hotyiranjianshen.com/
+[运行时间：0.036959s] [吞吐率：27.06req/s] [内存消耗：1,660.60kb] [文件加载：63]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'purpose' => 'prefetch',
+  'connection' => 'keep-alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-10-23T17:22:45+08:00] 123.123.200.28 GET www.hotyiranjianshen.com/index.php?s=/manage/index/index.html
+[运行时间：0.038333s] [吞吐率：26.09req/s] [内存消耗：1,740.60kb] [文件加载：65]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'purpose' => 'prefetch',
+  'connection' => 'keep-alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-10-23T17:22:45+08:00] 123.123.200.28 GET www.hotyiranjianshen.com/index.php?s=/manage/login/login.html
+[运行时间：0.037157s] [吞吐率：26.91req/s] [内存消耗：1,689.05kb] [文件加载：64]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=bnmkitbqpnq16fr76ks3r6mta5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'purpose' => 'prefetch',
+  'connection' => 'keep-alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /home/wwwroot/hotyiranjianshen.com/application/manage/view/login/login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-23T19:08:42+08:00] 171.13.14.6 GET www.hotyiranjianshen.com/
+[运行时间：0.029042s] [吞吐率：34.43req/s] [内存消耗：1,660.60kb] [文件加载：63]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.0.2; en-us; Galaxy Nexus Build/ICL53F) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-10-23T19:08:42+08:00] 171.13.14.6 GET www.hotyiranjianshen.com/index.php?s=/manage/index/index.html
+[运行时间：0.025231s] [吞吐率：39.63req/s] [内存消耗：1,740.60kb] [文件加载：65]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.0.2; en-us; Galaxy Nexus Build/ICL53F) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-10-23T19:08:42+08:00] 171.13.14.6 GET www.hotyiranjianshen.com/index.php?s=/manage/login/login.html
+[运行时间：0.036003s] [吞吐率：27.78req/s] [内存消耗：1,689.43kb] [文件加载：64]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=nfgdrg5bn5lpnqk0g8kev96oa2',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.0.2; en-us; Galaxy Nexus Build/ICL53F) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /home/wwwroot/hotyiranjianshen.com/application/manage/view/login/login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-23T20:59:49+08:00] 65.154.226.220 GET www.hotyiranjianshen.com/
+[运行时间：0.034677s] [吞吐率：28.84req/s] [内存消耗：1,660.22kb] [文件加载：63]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-10-23T20:59:50+08:00] 65.154.226.220 GET www.hotyiranjianshen.com/index.php?s=/manage/index/index.html
+[运行时间：0.035757s] [吞吐率：27.97req/s] [内存消耗：1,740.22kb] [文件加载：65]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-10-23T20:59:50+08:00] 65.154.226.220 GET www.hotyiranjianshen.com/index.php?s=/manage/login/login.html
+[运行时间：0.021175s] [吞吐率：47.23req/s] [内存消耗：1,688.98kb] [文件加载：64]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=7cptm03eluq6f69e99nndgk7s0',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /home/wwwroot/hotyiranjianshen.com/application/manage/view/login/login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-23T23:17:40+08:00] 36.110.147.248 GET www.hotyiranjianshen.com/
+[运行时间：0.030407s] [吞吐率：32.89req/s] [内存消耗：1,659.38kb] [文件加载：63]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip,deflate',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-10-23T23:17:40+08:00] 36.110.147.248 GET www.hotyiranjianshen.com/index.php?s=/manage/index/index.html
+[运行时间：0.027493s] [吞吐率：36.37req/s] [内存消耗：1,739.38kb] [文件加载：65]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip,deflate',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-10-23T23:17:40+08:00] 36.110.147.248 GET www.hotyiranjianshen.com/index.php?s=/manage/login/login.html
+[运行时间：0.025482s] [吞吐率：39.24req/s] [内存消耗：1,688.09kb] [文件加载：64]
+[ info ] [ LANG ] /home/wwwroot/hotyiranjianshen.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip,deflate',
+  'cookie' => 'PHPSESSID=9i680jnn0msbfon3qvotgco097',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.hotyiranjianshen.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /home/wwwroot/hotyiranjianshen.com/application/manage/view/login/login.html [ array (
+) ]

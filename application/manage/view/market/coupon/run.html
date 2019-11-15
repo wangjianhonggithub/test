@@ -1,0 +1,168 @@
+<div class="layui-container">
+    <div class="layui-row">
+        <div class="layui-col-sm12 layui-col-md12 layui-col-lg12">
+			<div class="widget-head">
+				<div class="widget-title">{if($comm=='')}新增{else}编辑{/if}优惠券</div>
+			</div>
+			<form id="myform" class="layui-form" method="post">
+				<div class="widget-body layui-col-lg12"> 
+                    <div class="layui-form-item">
+                        <label class="layui-form-label form-require">使用范围 </label>
+                        <div class="layui-col-sm5 layer-midd-left">
+                            <select id="cid" name="cid" lay-search>
+                                <option {if $comm['cid']==0} selected {/if} value="">请选择</option>
+                                <option {if $comm['cid']==0} selected {/if} value="0">全部</option>
+                                {foreach($classlist as $value)}
+                                    <option {if $value['id']==$comm['cid']} selected {/if} value="{$value['id']}">{$value['name']}</option>
+                                {/foreach}
+                            </select>
+                        </div>
+                    </div>
+                   
+                    <div class="layui-form-item">
+                        <label class="layui-form-label form-require">优惠券名称 </label>
+                        <div class="layui-col-sm5 layer-midd-left">
+                            <input type="text" class="layui-input" name="name" value="{$comm['name']}" placeholder="请输入名称" required>
+                        </div>
+                        <div class="layui-form-mid layui-word-aux">{if($comm['sid'])}优惠券编号:{$comm['sid']}{/if}</div>
+                    </div>
+
+                    <!-- <div class="layui-form-item">
+                        <label class="layui-form-label form-require">排序 </label>
+                        <div class="layui-col-sm2 layer-midd-left">
+                            <input type="number" class="layui-input" name="sort" value="{$comm['sort']==''?99:$comm['sort']}" placeholder="请输入排序" required>
+                        </div>
+                        <label class="layui-form-label">状态　</label>
+                        <div>
+                            <input type="radio" name="ishow" value="1" title="展示" {if($comm['ishow']==1)}checked{else}{/if} {if($comm=='')}checked{/if}>　
+                            <input type="radio" name="ishow" value="2" title="隐藏" {if($comm['ishow']==2)}checked{else}{/if}>
+                        </div>
+                        <div class="layui-form-mid layui-word-aux"></div>
+                    </div> -->
+                    <div class="layui-form-item">
+                        <label class="layui-form-label form-require">满足金额 </label>
+                        <div class="layui-col-sm2 layer-midd-left">
+                            <input type="number" class="layui-input" id="manyuan" name="manyuan" value="{$comm['manyuan']}" placeholder="￥" required>
+                        </div>
+                        <label class="layui-form-label form-require">减免金额 </label>
+                        <div class="layui-col-sm2 layer-midd-left">
+                            <input type="number" class="layui-input" id="jianyuan" name="jianyuan" value="{$comm['jianyuan']}" placeholder="￥" required>
+                        </div>
+                        <div class="layui-form-mid layui-word-aux">
+                            减免金额会展示在优惠券列表显眼位置
+                        </div>
+                    </div>
+
+                    <div class="layui-form-item">
+                        <label class="layui-form-label form-require">生效方式 </label>
+                        <div class="layui-col-sm2 layer-midd-left">
+                        <label><input name="effect_type" lay-filter="effect_type" autocomplete="off" type="radio" value="1" title="时间段内有效" {if($comm['etype']==1)}checked{else}{/if}/></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <label><input name="effect_type" lay-filter="effect_type" autocomplete="off" type="radio" value="2" style="margin-right: 5px;" title="领用开始有效" {if($comm['etype']==2)}checked{else}{/if}/> </label>
+
+                        </div>
+                    </div>
+                    <div class="layui-form-item" id="is_multiple" {if($comm['etype']==1)}style="display: show"{else}style="display: none"{/if} >
+                        <label class="layui-form-label form-require">生效时间 </label>
+                        <div class="layui-col-sm2 layer-midd-left">
+                            <input type="text" class="layui-input" id="effectstamp" autocomplete="off" name="effectstamp"
+                                   value="{:$comm['effectstamp']==''?'':date('Y-m-d H:i:s',$comm['effectstamp'])}"
+                                   placeholder="请选择生效日期">
+                        </div>
+                        <label class="layui-form-label form-require">失效时间 </label>
+                        <div class="layui-col-sm2 layer-midd-left">
+                            <input type="text" class="layui-input" autocomplete="off" id="loseefficacystamp" name="loseefficacystamp" value="{:$comm['loseefficacystamp']==''?'':date('Y-m-d H:i:s',$comm['loseefficacystamp'])}" placeholder="请选择失效时间">
+                        </div>
+                    </div>
+
+                    <div class="layui-form-item" id="effect_day" {if($comm['etype']==2)}style="display: show"{else}style="display: none"{/if}>
+                        <label class="layui-form-label form-require">有效天数 </label>
+                        <div class="layui-col-sm2 layer-midd-left">
+                            <input type="number" class="layui-input" id="validays" name="validays" value="{$comm['validays']==''?'':$comm['validays']}" placeholder="请输入有效天数">
+                        </div>
+
+
+                    </div>
+
+                    <div class="layui-form-item">
+
+                        <label class="layui-form-label">是否注册赠送 </label>
+                        <div class="layui-col-sm2 layer-midd-left">
+                            <input type="radio" name="isreget" value="2" title="是" {if($comm['isreget']==2)}checked{else}{/if} >　 <input type="radio" name="isreget" value="1" title="否" {if($comm['isreget']==1)}checked{else}{/if} {if($comm=='')}checked{/if}>
+                        </div>
+
+                        <div class="layui-form-mid layui-word-aux">
+                            优惠券为用户领取或后台发放后计算有效天数
+                            <br>例如优惠券有效期为15天,用户一月一日领取
+                            <br>则优惠券有效期为 一月一日至一月十五日 (过期无效)
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label form-require">介绍 </label>
+                        <div class="layui-col-sm6 layer-midd-left">
+                            <textarea name="intro" required placeholder="请输入介绍" class="layui-textarea">{$comm['intro']}</textarea>
+                        </div>
+                        <div class="layui-form-mid layui-word-aux"></div>
+                    </div>
+                    
+					<div class="layui-form-item">
+						<button id="mysubmit" type="submit" class="layui-btn">提交</button>
+					</div>
+				</div>
+			</form>
+		</div>
+    </div>
+</div>
+
+<script>
+$(function () {
+
+    $('#myform').submit(function () {
+        var manyuan = $("input[name='manyuan']").val();
+        if(manyuan <= 0){     layer.msg('价格请输入正整数', function () { }); return false;}
+
+        var jianyuan = $("input[name='jianyuan']").val();
+        if(jianyuan <= 0){    layer.msg('价格请输入正整数', function () { }); return false;}
+        
+        var validays = $("input[name='validays']").val();
+        if(validays <= 0){    layer.msg('有效天数请输入正整数', function () { }); return false;}
+
+   
+        ajaxrun('myform');
+        return false;
+    });
+
+
+    layui.use(['form', 'element', 'laydate'],  function () {
+        var laydate = layui.laydate;
+        //常规用法
+        laydate.render({
+            elem: '#effectstamp',
+            type:'datetime', // 可选择：年、月、日、时、分、秒
+            format: 'yyyy-MM-dd HH:mm:ss' //指定时间格式
+        });
+
+        laydate.render({
+            elem: '#loseefficacystamp',
+            type:'datetime', // 可选择：年、月、日、时、分、秒
+            format: 'yyyy-MM-dd HH:mm:ss' //指定时间格式
+        });
+
+        var jQuery = layui.jquery
+            ,layer = layui.layer
+            ,form = layui.form
+            ,element = layui.element;
+
+        form.on("radio(effect_type)", function (data) {
+
+            var effect_type = data.value;
+            if (this.value == '1') {
+                $('#is_multiple').show()
+                $('#effect_day').hide()
+            } else if (this.value == '2') {
+                $('#is_multiple').hide()
+                $('#effect_day').show()
+            }
+        });
+    });
+});
+</script>

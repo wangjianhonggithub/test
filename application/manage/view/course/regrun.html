@@ -1,0 +1,100 @@
+<div class="layui-container">
+    <div class="layui-row">
+        <div class="layui-col-md12 layui-col-xs12">
+            <div class="widget-head">
+                <div class="widget-title">新增报名信息</div>
+            </div>
+        </div>
+        <div class="layui-col-md12 layui-col-xs12 widget-body ">
+            <!-- <div class="layui-form-item layui-col-md1"><div class="layui-col-md1"><a class="layui-btn" href="{:url('courserun')}">新增</a></div></div> -->
+
+            <form class="layui-form layui-col-md12" method="post" >
+                <div class="layui-form-item">
+                    <div class="layui-inline layui-col-md3">
+                        <label class="layui-form-label">课程名称：</label>
+                        <div class="layui-input-inline" >
+                            <input type="text" class="layui-input" value="{$coucomm['classname']}／{$coucomm['name']}" readonly>
+                        </div>
+                    </div>
+
+                    <div class="layui-inline layui-col-md3">
+                        <label class="layui-form-label">课程时间：</label>
+                        <div class="layui-input-inline" >
+                            <input type="text" class="layui-input" value="{:date('Y-m-d', $coucomm['datestamp'])}　{:substr($coucomm['stime'], 0, 5)}-{:substr($coucomm['etime'], 0, 5)}" readonly>
+                        </div>
+                    </div>
+                    <div class="layui-inline layui-col-md4">
+                        <label class="layui-form-label">总名额/已报名</label>
+                        <div class="layui-input-inline" >
+                            <input type="text" class="layui-input" value="{$coucomm['totnum']}/{$coucomm['nownum']}　最多容纳:{$coucomm['maxnum']}" readonly>
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+            <form id="myform" class="layui-form" method="post">
+                <div class="widget-body layui-col-lg12">
+
+                    <div class="layui-form-item">
+                        <label class="layui-form-label form-require">联系电话 </label>
+                        <div class="layui-col-sm4 layer-midd-left">
+                            <input type="text" class="layui-input" name="phone" value="{$comm['phone']}" placeholder="请输入联系电话" required>
+                        </div>
+                        <div class="layui-form-mid layui-word-aux"></div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label form-require">参课人数 </label>
+                        <div class="layui-col-sm4 layer-midd-left">
+                            <input type="number" class="layui-input" name="number" value="1" placeholder="请输入参课人数" required>
+                        </div>
+                        <div class="layui-form-mid layui-word-aux">请输入正整数</div>
+                    </div>
+                    
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">备注信息 </label>
+                        <div class="layui-col-sm4 layer-midd-left">
+                            <textarea name="content" placeholder="请输入备注信息"
+                                class="layui-textarea">{$comm['content']}</textarea>
+                        </div>
+                        <div class="layui-form-mid layui-word-aux"></div>
+                    </div>
+        
+                    <div class="layui-form-item">
+                        <button id="mysubmit" type="submit" class="j-submit layui-btn">提交</button>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div>
+<script>
+    var thiswin = parent.layer.getFrameIndex(window.name); //获取窗口索引
+</script>
+
+{if($sid == '')}
+    <script>
+        //关闭iframe
+        $(function () {
+            parent.layer.close(thiswin);
+        });
+    </script>
+{/if}
+<script>
+    $(function () {
+        $('.tpl-header').remove();
+        $('.left-sidebar').remove();
+        $('.tpl-content-wrapper ').css({ "margin-left": "0px", "margin-top": "0px" });
+
+        
+        $('#myform').submit(function () {
+            var number = $("input[name='number']").val();
+            if (number < 1) {
+                layer.msg('参课人数请输入正整数', function () { }); return false;
+            }
+            ajaxrun('myform');
+            return false;
+        });
+    });
+
+</script>

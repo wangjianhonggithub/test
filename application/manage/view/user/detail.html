@@ -1,0 +1,201 @@
+<div class="layui-container">
+    <div class="layui-row">
+        <div class="layui-col-sm12 layui-col-md12 layui-col-lg12">
+            <div class="widget-head">
+                <div class="widget-title">分销商信息</div>
+            </div>
+            <form id="myforms" class="layui-form" method="post">
+
+                <input type="hidden" name="user_id" value="{$comm['id']}">
+
+                <div class="widget-body layui-col-lg12">
+
+                    <div class="layui-form-item">
+                        <label class="layui-form-label  ">会员昵称 </label>
+                        <div class="layui-col-sm5 layer-midd-left">
+                            {$comm['nickname']}
+                        </div>
+                        <div class="layui-form-mid layui-word-aux"></div>
+                    </div>
+
+
+                    <div class="layui-form-item">
+                        <label class="layui-form-label  ">会员佣金 </label>
+                        <div class="layui-col-sm5 layer-midd-left">
+                           {$comm['commission']}
+                        </div>
+                        <div class="layui-form-mid layui-word-aux"></div>
+                    </div>
+
+                    <div class="layui-form-item">
+                        <label class="layui-form-label  ">手机号码 </label>
+                        <div class="layui-col-sm5 layer-midd-left">
+                            <input type="text" class="layui-input" name="phone" value="{$comm['phone']}" >
+                        </div>
+                        <div class="layui-form-mid layui-word-aux"></div>
+                    </div>
+
+                    <div class="layui-form-item">
+                        <label class="layui-form-label  ">性别 </label>
+                        <div class="layui-col-sm5 layer-midd-left">
+                            <input type="radio" class="layui-input" name="gender" value="0" {if($comm['gender']) == 0}checked{/if}>保密&nbsp;&nbsp;&nbsp;
+                            <input type="radio" class="layui-input" name="gender" value="1" {if($comm['gender']) == 1}checked{/if}>男&nbsp;&nbsp;&nbsp;
+                            <input type="radio" class="layui-input" name="gender" value="2" {if($comm['gender']) == 2}checked{/if}>女
+                        </div>
+                        <div class="layui-form-mid layui-word-aux"></div>
+                    </div>
+
+                    <div class="layui-form-item">
+                        <label class="layui-form-label  ">身份 </label>
+                        <div class="layui-col-sm5 layer-midd-left">
+                            <input type="radio" class="layui-input" name="is_grade" value="1" {if($comm['is_grade']) == 1}checked{/if}>会员&nbsp;&nbsp;&nbsp;
+                            <input type="radio" class="layui-input" name="is_grade" value="2" {if($comm['is_grade']) == 2}checked{/if}>分销商&nbsp;&nbsp;&nbsp;
+                        </div>
+                        <div class="layui-form-mid layui-word-aux">分销商拥有会员的所有功能</div>
+                    </div>
+
+                    <div class="layui-form-item">
+                        <label class="layui-form-label  ">分销功能 </label>
+                        <div class="layui-col-sm5 layer-midd-left">
+                            <input type="radio" class="layui-input" name="isallow" value="1" {if($comm['isallow']) == 1}checked{/if}>开启&nbsp;&nbsp;&nbsp;
+                            <input type="radio" class="layui-input" name="isallow" value="2" {if($comm['isallow']) == 2}checked{/if}>关闭&nbsp;&nbsp;&nbsp;
+                        </div>
+                        <div class="layui-form-mid layui-word-aux">如果关闭，分销商不允许使用分销功能</div>
+                    </div>
+
+                    <div class="layui-form-item">
+                        <label class="layui-form-label  ">分销等级 </label>
+                        <div class="layui-col-sm5 layer-midd-left">
+                            <select class="layui-inline " lay-search name="lid">
+                                {foreach $level as $v}
+                                <option value="{$v['id']}" {if($comm["lid"]==$v['id'])}selected{/if}>{$v['level_name']} </option>
+                                {/foreach}
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="layui-form-item">
+                        <label class="layui-form-label  ">更改上级 </label>
+                        <div class="layui-col-sm5 layer-midd-left">
+                            <input type="text" class="layui-input" name="parent_phone" value="{$comm['parent_phone']}" placeholder="请输入上级手机号码搜索" >
+                        </div>
+
+                        <div class="layui-form-mid layui-word-aux tpl-table-black-operation">
+                            <a href="javascript:void();"
+                               class="item-check tpl-table-black-operation-primary""
+                               data-id="{$item['id']}">
+                                <i class="layer-icon-pencil"></i> 检测
+                            </a>
+                            <a href="javascript:void();"
+                               class="item-confirm tpl-table-black-operation-primary""
+                               data-id="{$item['id']}">
+                                <i class="layer-icon-pencil"></i> 确认更改
+                            </a>
+                        </div>
+                    </div>
+
+
+
+                    <div class="layui-form-item">
+                        <button id="mysubmits" type="submit" class="layui-btn">确认提交</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+
+
+        $('.item-check').click(function(){
+            var user_id = $("input[name='user_id']").val();
+            var parent_phone = $("input[name='parent_phone']").val();
+            if(!parent_phone){     layer.msg('手机号码不能为空', function () { }); return false;}
+            $.ajax({
+                type: 'GET',
+                url: "{:url('distribution/check_phone')}",
+                data: {
+                    parent_phone:parent_phone,
+                    id:user_id,
+                },
+                dataType: 'json',
+                success: function(data){
+                    if (data.code == 0) {
+                        layer.msg(data.meg, function(){
+                            //关闭后的操作
+                        });
+                        return false;
+                    }else{
+                        layer.msg(data.meg, function(){
+                            //关闭后的操作
+                        });
+
+                    }
+                },
+            });
+        })
+
+        $('.item-confirm').click(function(){
+            var user_id = $("input[name='user_id']").val();
+            var parent_phone = $("input[name='parent_phone']").val();
+            if(!parent_phone){     layer.msg('手机号码不能为空', function () { }); return false;}
+            $.ajax({
+                type: 'GET',
+                url: "{:url('distribution/confirm_phone')}",
+                data: {
+                    parent_phone:parent_phone,
+                    id:user_id,
+                },
+                dataType: 'json',
+                success: function(data){
+                    if (data.code == 0) {
+                        layer.msg(data.meg, function(){
+                            //关闭后的操作
+                        });
+                        return false;
+                    }else{
+                        layer.msg(data.meg, function(){
+                            //关闭后的操作
+                        });
+                        setTimeout(function(){
+                            window.location.reload();
+                        },1500);
+                    }
+                },
+            });
+        });
+
+
+        $('#mysubmits').click(function(){
+            var formData = new FormData($('#myforms')[0]);
+            $.ajax({
+                type: 'POST',
+                url:"{:url('user/detail')}",
+                data:formData,
+                contentType: false,
+                processData: false,
+                dataType: 'json',
+                success: function(data){
+                    if (data.code == 1) {
+                        layer.msg(data.meg, function(){
+                            //关闭后的操作
+                        });
+                        setTimeout(function(){
+
+                        },1500);
+                    }else{
+                        layer.msg(data.meg, function(){
+                            //关闭后的操作
+                        });
+                        return false;
+                    }
+                },
+            });
+        })
+
+
+
+    });
+</script>
